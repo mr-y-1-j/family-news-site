@@ -69,7 +69,7 @@ def generate_ai_commentary(news_text):
     if not GEMINI_API_KEY:
         return "⚠️ APIキーが設定されていません。Secretsを確認してください。"
 
-    model = genai.GenerativeModel("gemini-1.5-flash") # 最新モデル指定
+    model = genai.GenerativeModel("gemini-pro") # 安定版モデル
     
     prompt = f"""
     あなたは「投資家の夫」と「家族」のために情報を整理する優秀なAI編集長です。
