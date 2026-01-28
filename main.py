@@ -6,201 +6,173 @@ import requests
 import json
 import time
 
-# --- 設定 ---
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
+# --- 設定：APIキー（前後の空白を自動削除） ---
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "").strip()
 
+# --- 設定：ニュースソース（広島はNHKも予備で追加） ---
 RSS_URLS = {
-    "hiroshima": "https://news.yahoo.co.jp/rss/l/34.xml", # 広島
+    "hiroshima_yahoo": "https://news.yahoo.co.jp/rss/l/34.xml",
+    "hiroshima_nhk": "https://www.nhk.or.jp/rss/news/pref/hiroshima.xml", # 予備
     "economy": "https://news.yahoo.co.jp/rss/topics/business.xml",
     "tech": "https://news.yahoo.co.jp/rss/topics/it.xml",
     "domestic": "https://news.yahoo.co.jp/rss/topics/domestic.xml",
 }
 
-# --- 関数：RSS取得（ブロック回避版） ---
-def fetch_rss_feed(url):
-    try:
-        # 魔法の呪文：ブラウザのふりをしてアクセスする（Yahoo等のブロック回避）
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-        }
-        response = requests.get(url, headers=headers, timeout=10)
-        
-        # 取得したデータを解析
-        feed = feedparser.parse(response.content)
-        return feed
-    except Exception as e:
-        print(f"RSS取得エラー ({url}): {e}")
-        return None
+# --- 関数：強力なRSS取得 ---
+def fetch_rss_feed_robust(url):
+    # 複数のUser-Agentを試す（ブロック回避）
+    user_agents = [
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+        "RSSReader/1.0"
+    ]
+    
+    for ua in user_agents:
+        try:
+            response = requests.get(url, headers={"User-Agent": ua}, timeout=10)
+            if response.status_code == 200:
+                feed = feedparser.parse(response.content)
+                if feed.entries:
+                    return feed
+        except:
+            continue
+    return None
 
 # --- 関数：ニュースデータ整理 ---
 def get_news_data():
     ai_input = ""
     html_outputs = {}
     
-    for category, url in RSS_URLS.items():
-        feed = fetch_rss_feed(url)
-        
+    # 広島ニュース（YahooがだめならNHKを試す）
+    feed = fetch_rss_feed_robust(RSS_URLS["hiroshima_yahoo"])
+    if not feed or not feed.entries:
+        feed = fetch_rss_feed_robust(RSS_URLS["hiroshima_nhk"])
+    
+    # 広島のHTML生成
+    html_list = "<ul>\n"
+    if feed and feed.entries:
+        ai_input += "\n【広島のニュース】\n"
+        for i, entry in enumerate(feed.entries):
+            if i >= 5: break
+            ai_input += f"- {entry.title}\n"
+            html_list += f'<li><a href="{entry.link}" target="_blank">{entry.title}</a></li>\n'
+    else:
+        html_list += "<li>⚠️ ニュースが取得できませんでした（アクセス制限の可能性）</li>"
+    html_list += "</ul>\n"
+    html_outputs["hiroshima"] = html_list
+
+    # その他のカテゴリ
+    for cat in ["economy", "tech", "domestic"]:
+        feed = fetch_rss_feed_robust(RSS_URLS[cat])
         html_list = "<ul>\n"
-        ai_input += f"\n【{category}】\n"
-        
+        ai_input += f"\n【{cat}】\n"
         if feed and feed.entries:
             for i, entry in enumerate(feed.entries):
-                if i >= 8: break
+                if i >= 5: break
                 ai_input += f"- {entry.title}\n"
                 html_list += f'<li><a href="{entry.link}" target="_blank">{entry.title}</a></li>\n'
-        else:
-            html_list += "<li>ニュースの取得に失敗しました</li>"
-            
         html_list += "</ul>\n"
-        html_outputs[category] = html_list
+        html_outputs[cat] = html_list
         
     return ai_input, html_outputs
 
-# --- 関数：AI編集長（直接API通信版） ---
-def call_gemini_api(text):
+# --- 関数：AI編集長（デバッグ機能付き） ---
+def call_gemini_api_debug(text):
     if not GEMINI_API_KEY:
-        return "⚠️ APIキーが設定されていません"
+        return "⚠️ **エラー**: GitHub Secretsに `GEMINI_API_KEY` が設定されていません。"
 
-    # 1.5-flash を直接指名（これが一番速くて確実）
+    # エンドポイント：v1beta の gemini-1.5-flash を使用
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
     
     today = datetime.date.today().strftime('%m月%d日')
-
+    
     prompt = f"""
-    あなたは「家族みんなで見るニュースサイト」の編集長です。
-    以下の情報を元に、Markdown形式でコンテンツを作成してください。
-
-    【ニュースソース】
+    あなたは子供を持つ親向けのニュースサイト編集長です。Markdown形式で出力してください。
+    
+    【ソース】
     {text}
 
-    【作成ルール】
-    1. **トップピック (大人用)**: 
-       経済・テック・国内ニュースから「最も重要な1つ」を選び、3行以内で解説。
-    
-    2. **今日の豆知識 (大人用)**:
-       Wikipediaにあるような「{today}に関する歴史的な出来事」または「面白い雑学」を1つ紹介。
-
-    3. **キッズコーナー (子供用)**:
-       5歳の子供向けに、以下の4つを書いてください。
-       ※必ず**ひらがなとカタカナ**を中心に、やさしい言葉で書いてください。
-       
-       - **あさのクイズ**: 科学や生き物の簡単なクイズを1問（答えも書く）。
-       - **せかいの国**: ランダムに1つの国を選んで、どんな国か1行で紹介。
-         その後に `[🌏 地図を見る](https://www.google.com/maps/search/?api=1&query=国名)` というリンクを付ける。
-       - **うちゅうのお話**: 宇宙に関する面白い話を1行で。
-       - **きょうの名画**: 有名な絵画を1つ選び、ひらがなで紹介。
-         その後に `[🎨 絵を見る](https://www.google.com/search?tbm=isch&q=画家名+作品名)` という画像検索リンクを自動生成して付ける。
-
-    【出力フォーマット】
-    ## 🌎 今日のトップピック
-    **[ニュースタイトル]**
-    > [解説]
-
-    ## 🎓 今日の豆知識 ({today})
-    > [豆知識本文]
-
-    ## 📛 キッズコーナー（こどもよう）
-    ### 🦁 あさのクイズ
-    Q. [クイズ本文]
-    **こたえ**: [答え]
-
-    ### ✈️ せかい・うちゅう・アート
-    * **せかい**: [国紹介] [リンク]
-    * **うちゅう**: [宇宙の話]
-    * **アート**: [絵画紹介] [リンク]
+    【出力項目】
+    1. ## 🌎 今日のトップニュース
+       大人向けに1つ選び、3行で解説。
+    2. ## 🎓 今日の豆知識 ({today})
+       今日の日付に関する雑学を1つ。
+    3. ## 📛 キッズコーナー
+       - **🦁 あさのクイズ**: 5歳向けクイズ1問と答え。
+       - **✈️ せかい**: 国を1つ紹介し `[🌏 地図](https://www.google.com/maps?q=国名)` のリンクをつける。
+       - **🎨 アート**: 名画を1つ紹介し `[🖼️ 絵を見る](https://www.google.com/search?tbm=isch&q=作品名)` のリンクをつける。
     """
 
-    # リクエストデータ作成
-    payload = {
-        "contents": [{
-            "parts": [{"text": prompt}]
-        }]
-    }
+    payload = {"contents": [{"parts": [{"text": prompt}]}]}
 
     try:
         response = requests.post(url, json=payload, headers={'Content-Type': 'application/json'})
         result = response.json()
         
-        # レスポンスからテキストを抽出
+        # 成功判定
         if "candidates" in result:
             return result["candidates"][0]["content"]["parts"][0]["text"]
-        else:
-            print(f"Geminiエラー詳細: {result}")
-            return "AI生成に失敗しました（クオータ制限またはフィルタ）"
-            
+        
+        # 失敗した場合：エラー内容をそのまま画面に出す（これがデバッグに重要）
+        error_msg = json.dumps(result, indent=2, ensure_ascii=False)
+        return f"""
+        ## 🙇‍♂️ AI生成エラー
+        Googleから以下のエラーが返ってきました。この内容を確認してください。
+        
+        ```json
+        {error_msg}
+        ```
+        
+        **よくある原因と対策:**
+        * `429 RESOURCE_EXHAUSTED`: 無料枠の使いすぎです。数分待てば直ります。
+        * `400 INVALID_ARGUMENT`: APIキーが無効です。コピーミスがないか確認してください。
+        * `404 NOT_FOUND`: モデル名が間違っています（現在は gemini-1.5-flash を使用）。
+        """
+
     except Exception as e:
-        return f"通信エラー: {str(e)}"
+        return f"## ⚠️ 通信エラー\n\n`{str(e)}`"
 
-# --- 関数：天気・市場 ---
-def get_misc_data():
-    try:
-        # 市場
-        n = yf.Ticker("^N225").history(period="1d")['Close'].iloc[-1]
-        u = yf.Ticker("USDJPY=X").history(period="1d")['Close'].iloc[-1]
-        market = f"日経: {n:,.0f}円 / ドル: {u:.2f}円"
-    except: market = "Market取得中"
+# --- メイン処理 ---
+print("🚀 開始...")
+market_info = "Market Data Loading..."
+try:
+    n = yf.Ticker("^N225").history(period="1d")['Close'].iloc[-1]
+    u = yf.Ticker("USDJPY=X").history(period="1d")['Close'].iloc[-1]
+    market_info = f"日経: {n:,.0f}円 / 💵 {u:.2f}円"
+except: pass
 
-    try:
-        # 広島天気
-        d = requests.get("https://www.jma.go.jp/bosai/forecast/data/forecast/340000.json").json()
-        w = d[0]['timeSeries'][0]['areas'][0]['weathers'][0]
-        icon = "☀️" if "晴" in w else "☁️" if "曇" in w else "☔"
-        weather = f"{icon} {w.split()[0]}"
-    except: weather = "天気不明"
-    
-    return market, weather
+weather_info = "天気不明"
+try:
+    d = requests.get("https://www.jma.go.jp/bosai/forecast/data/forecast/340000.json").json()
+    w = d[0]['timeSeries'][0]['areas'][0]['weathers'][0]
+    weather_info = f"{w.split()[0]}"
+except: pass
 
-# ==========================================
-# メイン処理
-# ==========================================
-print("🚀 サイト生成開始...")
-
-market_str, weather_str = get_misc_data()
 news_text, news_htmls = get_news_data()
+ai_content = call_gemini_api_debug(news_text)
 
-print("🤖 AI執筆中 (Direct API)...")
-ai_content = call_gemini_api(news_text)
+# Markdown組み立て
+dt = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=9), 'JST'))
+date_str = dt.strftime('%Y/%m/%d')
 
-# HTML組み立て
-t_delta = datetime.timedelta(hours=9)
-now = datetime.datetime.now(datetime.timezone(t_delta, 'JST'))
-date_str = now.strftime('%Y年%m月%d日 (%a)')
+md = f"""# 📰 {date_str} Family News
 
-final_md = f"""# 📰 {date_str} Family News
-
-> **広島の天気**: {weather_str}
-> **Market**: 📈 {market_str}
+> **広島**: {weather_info} | **市場**: {market_info}
 
 {ai_content}
 
 <br>
 
 ## 📂 ニュース詳細
-<details>
-<summary>🍁 広島のニュース</summary>
-{news_htmls['hiroshima']}
-</details>
-
-<details>
-<summary>💰 経済・ビジネス</summary>
-{news_htmls['economy']}
-</details>
-
-<details>
-<summary>💻 テクノロジー</summary>
-{news_htmls['tech']}
-</details>
-
-<details>
-<summary>🚨 国内・社会</summary>
-{news_htmls['domestic']}
-</details>
+<details><summary>🍁 広島のニュース</summary>{news_htmls['hiroshima']}</details>
+<details><summary>💰 経済・ビジネス</summary>{news_htmls['economy']}</details>
+<details><summary>💻 テクノロジー</summary>{news_htmls['tech']}</details>
+<details><summary>🚨 国内・社会</summary>{news_htmls['domestic']}</details>
 
 ---
-*Powered by Gemini 1.5 Flash & GitHub Actions*
+*Updated: {dt.strftime('%H:%M')}*
 """
 
 with open("index.md", "w", encoding="utf-8") as f:
-    f.write(final_md)
-
-print("✅ 更新完了")
+    f.write(md)
+print("✅ 完了")
