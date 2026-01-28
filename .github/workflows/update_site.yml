@@ -26,6 +26,8 @@ jobs:
           pip install requests feedparser yfinance google-generativeai
 
       - name: ニュースサイト生成スクリプトを実行
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python main.py
 
       - name: 変更をコミットして保存
