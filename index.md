@@ -1,9 +1,9 @@
 # 📰 2026年01月29日 (Thu) AI Morning News
 
 > **広島の天気**: ☀️ くもり
-> **Market**: 📈 日経平均: 53,359円 / 💵 ドル円: 153.36円
+> **Market**: 📈 日経平均: 53,359円 / 💵 ドル円: 153.27円
 
-AI生成エラー: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+AI生成エラー: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
 
 <br>
 
