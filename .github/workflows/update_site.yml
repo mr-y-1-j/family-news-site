@@ -1,0 +1,40 @@
+name: Update News Site
+
+# トリガー：手動実行（テスト用）と、毎朝7時の定期実行
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 22 * * *' # 日本時間 07:00
+
+# 権限設定（重要）：これがないと保存（push）でエラーになります
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: リポジトリを取得
+        uses: actions/checkout@v4
+
+      - name: Pythonをセットアップ
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: ニュースサイト生成スクリプトを実行
+        run: python main.py
+
+      - name: 変更をコミットして保存
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.md
+          
+          # 変更がある場合のみコミットする
+          if git diff --staged --quiet; then
+            echo "変更なし"
+          else
+            git commit -m "Update news site: $(date +'%Y-%m-%d')"
+            git push
+          fi
