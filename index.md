@@ -1,13 +1,9 @@
 # 📰 2026年01月29日 (Thu) Family News
 
 > **広島の天気**: ☀️ くもり
-> **Market**: 📈 日経: 53,359円 / 💵 ドル: 153.15円
+> **Market**: 📈 日経: 53,359円 / ドル: 153.02円
 
-
-    ## 🙇‍♂️ AI編集長はお休み中です
-    現在、AIサーバーへの接続が混み合っているか、調整中です。
-    下のニュースリストから直接記事をご覧ください。
-    
+AI生成に失敗しました（クオータ制限またはフィルタ）
 
 <br>
 
@@ -15,7 +11,7 @@
 <details>
 <summary>🍁 広島のニュース</summary>
 <ul>
-</ul>
+<li>ニュースの取得に失敗しました</li></ul>
 
 </details>
 
@@ -65,4 +61,4 @@
 </details>
 
 ---
-*Powered by Gemini & GitHub Actions*
+*Powered by Gemini 1.5 Flash & GitHub Actions*
