@@ -3,85 +3,82 @@ import os
 import yfinance as yf
 import feedparser
 import requests
-import google.generativeai as genai
+import json
 import time
 
-# --- 設定：Gemini API ---
+# --- 設定 ---
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
-if GEMINI_API_KEY:
-    genai.configure(api_key=GEMINI_API_KEY)
 
-# --- 設定：ニュースソース ---
 RSS_URLS = {
+    "hiroshima": "https://news.yahoo.co.jp/rss/l/34.xml", # 広島
     "economy": "https://news.yahoo.co.jp/rss/topics/business.xml",
     "tech": "https://news.yahoo.co.jp/rss/topics/it.xml",
     "domestic": "https://news.yahoo.co.jp/rss/topics/domestic.xml",
-    "hiroshima": "https://news.yahoo.co.jp/rss/l/34.xml",
 }
 
-# --- 関数群 ---
-def get_market_data():
+# --- 関数：RSS取得（ブロック回避版） ---
+def fetch_rss_feed(url):
     try:
-        nikkei = yf.Ticker("^N225").history(period="1d")['Close'].iloc[-1]
-        usd = yf.Ticker("USDJPY=X").history(period="1d")['Close'].iloc[-1]
-        return f"日経: {nikkei:,.0f}円", f"ドル: {usd:.2f}円"
-    except:
-        return "Market取得中", "USD取得中"
+        # 魔法の呪文：ブラウザのふりをしてアクセスする（Yahoo等のブロック回避）
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+        }
+        response = requests.get(url, headers=headers, timeout=10)
+        
+        # 取得したデータを解析
+        feed = feedparser.parse(response.content)
+        return feed
+    except Exception as e:
+        print(f"RSS取得エラー ({url}): {e}")
+        return None
 
-def get_weather_hiroshima():
-    try:
-        url = "https://www.jma.go.jp/bosai/forecast/data/forecast/340000.json"
-        data = requests.get(url).json()
-        weather = data[0]['timeSeries'][0]['areas'][0]['weathers'][0]
-        icon = "☀️" if "晴" in weather else "☁️" if "曇" in weather else "☔"
-        return f"{icon} {weather.split()[0]}"
-    except:
-        return "天気不明"
-
-def fetch_news_data():
-    ai_input_text = ""
+# --- 関数：ニュースデータ整理 ---
+def get_news_data():
+    ai_input = ""
     html_outputs = {}
     
     for category, url in RSS_URLS.items():
-        feed = feedparser.parse(url)
-        ai_input_text += f"\n【{category}ニュース】\n"
+        feed = fetch_rss_feed(url)
+        
         html_list = "<ul>\n"
-        for i, entry in enumerate(feed.entries):
-            if i >= 8: break
-            ai_input_text += f"- {entry.title}\n"
-            html_list += f'<li><a href="{entry.link}" target="_blank">{entry.title}</a></li>\n'
+        ai_input += f"\n【{category}】\n"
+        
+        if feed and feed.entries:
+            for i, entry in enumerate(feed.entries):
+                if i >= 8: break
+                ai_input += f"- {entry.title}\n"
+                html_list += f'<li><a href="{entry.link}" target="_blank">{entry.title}</a></li>\n'
+        else:
+            html_list += "<li>ニュースの取得に失敗しました</li>"
+            
         html_list += "</ul>\n"
         html_outputs[category] = html_list
         
-    return ai_input_text, html_outputs
+    return ai_input, html_outputs
 
-# --- AI編集長（総当たりモード） ---
-def generate_ai_content(news_text):
-    if not GEMINI_API_KEY: return "⚠️ APIキーが設定されていません"
+# --- 関数：AI編集長（直接API通信版） ---
+def call_gemini_api(text):
+    if not GEMINI_API_KEY:
+        return "⚠️ APIキーが設定されていません"
 
-    # 試行するモデル名のリスト（上から順に試す）
-    candidate_models = [
-        "gemini-1.5-flash",
-        "gemini-1.5-flash-latest",
-        "gemini-pro",
-        "gemini-1.0-pro"
-    ]
+    # 1.5-flash を直接指名（これが一番速くて確実）
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
     
-    today_date = datetime.date.today().strftime('%m月%d日')
+    today = datetime.date.today().strftime('%m月%d日')
 
     prompt = f"""
     あなたは「家族みんなで見るニュースサイト」の編集長です。
     以下の情報を元に、Markdown形式でコンテンツを作成してください。
 
     【ニュースソース】
-    {news_text}
+    {text}
 
     【作成ルール】
     1. **トップピック (大人用)**: 
        経済・テック・国内ニュースから「最も重要な1つ」を選び、3行以内で解説。
     
     2. **今日の豆知識 (大人用)**:
-       Wikipediaにあるような「{today_date}に関する歴史的な出来事」または「面白い雑学」を1つ紹介。
+       Wikipediaにあるような「{today}に関する歴史的な出来事」または「面白い雑学」を1つ紹介。
 
     3. **キッズコーナー (子供用)**:
        5歳の子供向けに、以下の4つを書いてください。
@@ -99,7 +96,7 @@ def generate_ai_content(news_text):
     **[ニュースタイトル]**
     > [解説]
 
-    ## 🎓 今日の豆知識 ({today_date})
+    ## 🎓 今日の豆知識 ({today})
     > [豆知識本文]
 
     ## 📛 キッズコーナー（こどもよう）
@@ -113,36 +110,56 @@ def generate_ai_content(news_text):
     * **アート**: [絵画紹介] [リンク]
     """
 
-    # 総当たり実行ループ
-    for model_name in candidate_models:
-        try:
-            print(f"🤖 試行中: {model_name} ...")
-            model = genai.GenerativeModel(model_name)
-            response = model.generate_content(prompt)
-            print(f"✅ 成功: {model_name} で生成しました")
-            return response.text
-        except Exception as e:
-            print(f"❌ 失敗: {model_name} - {str(e)}")
-            time.sleep(1) # 少し待って次へ
+    # リクエストデータ作成
+    payload = {
+        "contents": [{
+            "parts": [{"text": prompt}]
+        }]
+    }
+
+    try:
+        response = requests.post(url, json=payload, headers={'Content-Type': 'application/json'})
+        result = response.json()
+        
+        # レスポンスからテキストを抽出
+        if "candidates" in result:
+            return result["candidates"][0]["content"]["parts"][0]["text"]
+        else:
+            print(f"Geminiエラー詳細: {result}")
+            return "AI生成に失敗しました（クオータ制限またはフィルタ）"
+            
+    except Exception as e:
+        return f"通信エラー: {str(e)}"
+
+# --- 関数：天気・市場 ---
+def get_misc_data():
+    try:
+        # 市場
+        n = yf.Ticker("^N225").history(period="1d")['Close'].iloc[-1]
+        u = yf.Ticker("USDJPY=X").history(period="1d")['Close'].iloc[-1]
+        market = f"日経: {n:,.0f}円 / ドル: {u:.2f}円"
+    except: market = "Market取得中"
+
+    try:
+        # 広島天気
+        d = requests.get("https://www.jma.go.jp/bosai/forecast/data/forecast/340000.json").json()
+        w = d[0]['timeSeries'][0]['areas'][0]['weathers'][0]
+        icon = "☀️" if "晴" in w else "☁️" if "曇" in w else "☔"
+        weather = f"{icon} {w.split()[0]}"
+    except: weather = "天気不明"
     
-    # 全滅した場合のフォールバック（サイト更新を止めないため）
-    return """
-    ## 🙇‍♂️ AI編集長はお休み中です
-    現在、AIサーバーへの接続が混み合っているか、調整中です。
-    下のニュースリストから直接記事をご覧ください。
-    """
+    return market, weather
 
 # ==========================================
 # メイン処理
 # ==========================================
 print("🚀 サイト生成開始...")
 
-market, usd = get_market_data()
-weather = get_weather_hiroshima()
-news_text, news_htmls = fetch_news_data()
+market_str, weather_str = get_misc_data()
+news_text, news_htmls = get_news_data()
 
-# AI執筆（総当たり）
-ai_content = generate_ai_content(news_text)
+print("🤖 AI執筆中 (Direct API)...")
+ai_content = call_gemini_api(news_text)
 
 # HTML組み立て
 t_delta = datetime.timedelta(hours=9)
@@ -151,8 +168,8 @@ date_str = now.strftime('%Y年%m月%d日 (%a)')
 
 final_md = f"""# 📰 {date_str} Family News
 
-> **広島の天気**: {weather}
-> **Market**: 📈 {market} / 💵 {usd}
+> **広島の天気**: {weather_str}
+> **Market**: 📈 {market_str}
 
 {ai_content}
 
@@ -161,7 +178,7 @@ final_md = f"""# 📰 {date_str} Family News
 ## 📂 ニュース詳細
 <details>
 <summary>🍁 広島のニュース</summary>
-{news_htmls.get('hiroshima', '取得失敗')}
+{news_htmls['hiroshima']}
 </details>
 
 <details>
@@ -180,7 +197,7 @@ final_md = f"""# 📰 {date_str} Family News
 </details>
 
 ---
-*Powered by Gemini & GitHub Actions*
+*Powered by Gemini 1.5 Flash & GitHub Actions*
 """
 
 with open("index.md", "w", encoding="utf-8") as f:
