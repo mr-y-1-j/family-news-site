@@ -42,13 +42,15 @@ def get_weather_hiroshima():
         return "天気情報: 取得失敗"
 
 # --- 関数：RSSからニュースリストを作成 ---
-def get_rss_news(url, limit=5):
+# --- 関数：RSSからニュースリストを作成 (HTMLタグ版) ---
+def get_rss_news(url, limit=7):
     feed = feedparser.parse(url)
-    text = ""
+    text = "<ul>\n" # リスト開始
     for i, entry in enumerate(feed.entries):
         if i >= limit: break
-        # タイトルとリンクをMarkdownのリストにする
-        text += f"* [{entry.title}]({entry.link})\n"
+        # HTMLのリストタグ <li> とリンクタグ <a> を使う
+        text += f'<li><a href="{entry.link}" target="_blank">{entry.title}</a></li>\n'
+    text += "</ul>\n" # リスト終了
     return text
 
 # ==========================================
