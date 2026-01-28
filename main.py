@@ -4,13 +4,13 @@ import yfinance as yf
 import feedparser
 import requests
 import google.generativeai as genai
+import random
 
 # --- 設定：Gemini API ---
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 
 # モデル自動選択ロジック
-target_model_name = "gemini-pro" # デフォルト（万が一の場合）
-
+target_model_name = "gemini-pro" 
 if GEMINI_API_KEY:
     genai.configure(api_key=GEMINI_API_KEY)
     try:
@@ -20,53 +20,36 @@ if GEMINI_API_KEY:
             if 'generateContent' in m.supported_generation_methods:
                 available_models.append(m.name)
         
-        print(f"📋 検出されたモデル一覧: {available_models}")
-
-        # 優先順位ロジック: 1.5 Flash (安定・高速) > 1.0 Pro > その他
-        # "models/" という接頭辞が付いている場合があるので部分一致で探す
+        # 優先順位: 1.5 Flash > 1.0 Pro
         best_model = None
         for m in available_models:
-            if "gemini-1.5-flash" in m and "001" in m: # 安定版の001を優先
-                best_model = m
-                break
-        
-        if not best_model:
-            for m in available_models:
-                if "gemini-1.5-flash" in m: # バージョン問わずFlash
-                    best_model = m
-                    break
-
+            if "gemini-1.5-flash" in m: best_model = m; break
         if not best_model:
              for m in available_models:
-                if "gemini-1.0-pro" in m: # 1.0 Pro
-                    best_model = m
-                    break
+                if "gemini-1.0-pro" in m: best_model = m; break
         
         if best_model:
-            # "models/" がついているとエラーになる場合があるので削除してセット
             target_model_name = best_model.replace("models/", "")
-            print(f"✅ 最適なモデルを選択しました: {target_model_name}")
-        else:
-            print("⚠️ 最適なモデルが見つかりません。デフォルトの gemini-pro を試行します。")
-
+            print(f"✅ モデル選択: {target_model_name}")
     except Exception as e:
-        print(f"⚠️ モデル一覧の取得に失敗しました: {e}\nデフォルト設定で続行します。")
+        print(f"⚠️ モデル選択エラー: {e}")
 
-# --- 設定：ニュースソース ---
+# --- 設定：ニュースソース（広島を追加） ---
 RSS_URLS = {
     "economy": "https://news.yahoo.co.jp/rss/topics/business.xml",
     "tech": "https://news.yahoo.co.jp/rss/topics/it.xml",
     "domestic": "https://news.yahoo.co.jp/rss/topics/domestic.xml",
+    "hiroshima": "https://news.yahoo.co.jp/rss/l/34.xml", # Yahoo!ニュース（広島）
 }
 
 # --- 関数群 ---
 def get_market_data():
     try:
         nikkei = yf.Ticker("^N225").history(period="1d")['Close'].iloc[-1]
-        usd_jpy = yf.Ticker("USDJPY=X").history(period="1d")['Close'].iloc[-1]
-        return f"日経平均: {nikkei:,.0f}円", f"ドル円: {usd_jpy:.2f}円"
+        usd = yf.Ticker("USDJPY=X").history(period="1d")['Close'].iloc[-1]
+        return f"日経: {nikkei:,.0f}円", f"ドル: {usd:.2f}円"
     except:
-        return "Market: 取得失敗", "USD/JPY: 取得失敗"
+        return "Market取得中", "USD取得中"
 
 def get_weather_hiroshima():
     try:
@@ -95,89 +78,117 @@ def fetch_news_data():
         
     return ai_input_text, html_outputs
 
-def generate_ai_commentary(news_text, model_name):
-    if not GEMINI_API_KEY:
-        return "⚠️ APIキー設定なし"
+# --- AI編集長への指示（ここを強化） ---
+def generate_ai_content(news_text, model_name):
+    if not GEMINI_API_KEY: return "⚠️ APIキーなし"
 
     try:
-        # 自動選択されたモデル名を使用
         model = genai.GenerativeModel(model_name)
         
-        prompt = f"""
-        あなたは「投資家の夫」と「家族」のために情報を整理する優秀なAI編集長です。
-        以下のニュースリストを分析し、指定のフォーマットでMarkdown原稿を作成してください。
+        # 今日の日付から豆知識を出すために日付取得
+        today = datetime.date.today().strftime('%m月%d日')
 
-        【ニュースリスト】
+        prompt = f"""
+        あなたは「家族みんなで見るニュースサイト」の編集長です。
+        以下の情報を元に、Markdown形式でコンテンツを作成してください。
+
+        【ニュースソース】
         {news_text}
 
-        【指示】
-        1. **トップピック**: 経済・テックの中から「将来への影響が最も大きいニュース」を1つ選び、3行以内で投資家視点の解説をしてください。
-        2. **国内フラッシュ**: 国内ニュースの中から「生活に関わる話題」を3つ選び、それぞれ1行で小学生でもわかるように要約してください。
-        3. マークダウン形式のみを出力してください。
+        【作成ルール】
+        1. **トップピック (大人用)**: 
+           経済・テック・国内ニュースから「最も重要な1つ」を選び、3行以内で解説。
+        
+        2. **今日の豆知識 (大人用)**:
+           Wikipediaにあるような「{today}に関する歴史的な出来事」または「面白い雑学」を1つ紹介。
+
+        3. **キッズコーナー (子供用)**:
+           5歳の子供向けに、以下の4つを書いてください。
+           ※必ず**ひらがなとカタカナ**を中心に、やさしい言葉で書いてください。
+           
+           - **あさのクイズ**: 科学や生き物の簡単なクイズを1問（答えも書く）。
+           - **せかいの国**: ランダムに1つの国を選んで、どんな国か1行で紹介。
+             その後に `[🌏 地図を見る](https://www.google.com/maps/search/国名)` というリンクを付ける。
+           - **うちゅうのお話**: 宇宙に関する面白い話を1行で。
+           - **きょうの名画**: 有名な絵画を1つ選び、ひらがなで紹介。
+             その後に `[🎨 絵を見る](https://www.google.com/search?tbm=isch&q=画家名+作品名)` という画像検索リンクを自動生成して付ける。
 
         【出力フォーマット】
-        ## 🌎 今日のトップピック (AI厳選)
-        **[選んだニュースのタイトル]**
-        > [ここに解説文]
+        ## 🌎 今日のトップピック
+        **[ニュースタイトル]**
+        > [解説]
 
-        ## 🇯🇵 国内フラッシュ
-        * **[タイトル]**: [1行要約]
-        * **[タイトル]**: [1行要約]
-        * **[タイトル]**: [1行要約]
+        ## 🎓 今日の豆知識 ({today})
+        > [豆知識本文]
+
+        ## 📛 キッズコーナー（こどもよう）
+        ### 🦁 あさのクイズ
+        Q. [クイズ本文]
+        **こたえ**: [答え]
+
+        ### ✈️ せかい・うちゅう・アート
+        * **せかい**: [国紹介] [リンク]
+        * **うちゅう**: [宇宙の話]
+        * **アート**: [絵画紹介] [リンク]
         """
         
         response = model.generate_content(prompt)
         return response.text
     except Exception as e:
-        return f"AI生成エラー: {str(e)} (Model: {model_name})"
+        return f"AI生成エラー: {str(e)}"
 
 # ==========================================
 # メイン処理
 # ==========================================
-print("🚀 ニュースサイト生成を開始します...")
+print("🚀 サイト生成開始...")
 
-market_str, usd_str = get_market_data()
-weather_str = get_weather_hiroshima()
-news_text_for_ai, news_htmls = fetch_news_data()
+market, usd = get_market_data()
+weather = get_weather_hiroshima()
+news_text, news_htmls = fetch_news_data()
 
-print(f"🤖 AI執筆開始 (Model: {target_model_name})...")
-ai_content = generate_ai_commentary(news_text_for_ai, target_model_name)
+print(f"🤖 AI執筆中 ({target_model_name})...")
+ai_content = generate_ai_content(news_text, target_model_name)
 
+# HTML組み立て
 t_delta = datetime.timedelta(hours=9)
-JST = datetime.timezone(t_delta, 'JST')
-now = datetime.datetime.now(JST)
+now = datetime.datetime.now(datetime.timezone(t_delta, 'JST'))
 date_str = now.strftime('%Y年%m月%d日 (%a)')
 
-final_md = f"""# 📰 {date_str} AI Morning News
+final_md = f"""# 📰 {date_str} Family News
 
-> **広島の天気**: {weather_str}
-> **Market**: 📈 {market_str} / 💵 {usd_str}
+> **広島の天気**: {weather}
+> **Market**: 📈 {market} / 💵 {usd}
 
 {ai_content}
 
 <br>
 
-## 📂 ニュースソース (詳細)
+## 📂 ニュース詳細
 <details>
-<summary>経済・ビジネス</summary>
+<summary>🍁 広島のニュース</summary>
+{news_htmls.get('hiroshima', '取得失敗')}
+</details>
+
+<details>
+<summary>💰 経済・ビジネス</summary>
 {news_htmls['economy']}
 </details>
 
 <details>
-<summary>テクノロジー</summary>
+<summary>💻 テクノロジー</summary>
 {news_htmls['tech']}
 </details>
 
 <details>
-<summary>国内・社会</summary>
+<summary>🚨 国内・社会</summary>
 {news_htmls['domestic']}
 </details>
 
 ---
-*Powered by Gemini ({target_model_name}) & GitHub Actions*
+*Powered by Gemini & GitHub Actions*
 """
 
 with open("index.md", "w", encoding="utf-8") as f:
     f.write(final_md)
 
-print("✅ index.md を更新しました！")
+print("✅ 更新完了")
