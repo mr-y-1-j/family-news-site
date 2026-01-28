@@ -6,10 +6,51 @@ import requests
 import google.generativeai as genai
 
 # --- 設定：Gemini API ---
-# GitHub Secretsからキーを読み込む
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
+
+# モデル自動選択ロジック
+target_model_name = "gemini-pro" # デフォルト（万が一の場合）
+
 if GEMINI_API_KEY:
     genai.configure(api_key=GEMINI_API_KEY)
+    try:
+        print("🔍 利用可能なモデルをスキャン中...")
+        available_models = []
+        for m in genai.list_models():
+            if 'generateContent' in m.supported_generation_methods:
+                available_models.append(m.name)
+        
+        print(f"📋 検出されたモデル一覧: {available_models}")
+
+        # 優先順位ロジック: 1.5 Flash (安定・高速) > 1.0 Pro > その他
+        # "models/" という接頭辞が付いている場合があるので部分一致で探す
+        best_model = None
+        for m in available_models:
+            if "gemini-1.5-flash" in m and "001" in m: # 安定版の001を優先
+                best_model = m
+                break
+        
+        if not best_model:
+            for m in available_models:
+                if "gemini-1.5-flash" in m: # バージョン問わずFlash
+                    best_model = m
+                    break
+
+        if not best_model:
+             for m in available_models:
+                if "gemini-1.0-pro" in m: # 1.0 Pro
+                    best_model = m
+                    break
+        
+        if best_model:
+            # "models/" がついているとエラーになる場合があるので削除してセット
+            target_model_name = best_model.replace("models/", "")
+            print(f"✅ 最適なモデルを選択しました: {target_model_name}")
+        else:
+            print("⚠️ 最適なモデルが見つかりません。デフォルトの gemini-pro を試行します。")
+
+    except Exception as e:
+        print(f"⚠️ モデル一覧の取得に失敗しました: {e}\nデフォルト設定で続行します。")
 
 # --- 設定：ニュースソース ---
 RSS_URLS = {
@@ -18,7 +59,7 @@ RSS_URLS = {
     "domestic": "https://news.yahoo.co.jp/rss/topics/domestic.xml",
 }
 
-# --- 関数 1：市場データ取得 ---
+# --- 関数群 ---
 def get_market_data():
     try:
         nikkei = yf.Ticker("^N225").history(period="1d")['Close'].iloc[-1]
@@ -27,94 +68,81 @@ def get_market_data():
     except:
         return "Market: 取得失敗", "USD/JPY: 取得失敗"
 
-# --- 関数 2：天気取得 ---
 def get_weather_hiroshima():
     try:
         url = "https://www.jma.go.jp/bosai/forecast/data/forecast/340000.json"
         data = requests.get(url).json()
         weather = data[0]['timeSeries'][0]['areas'][0]['weathers'][0]
-        # 絵文字変換
         icon = "☀️" if "晴" in weather else "☁️" if "曇" in weather else "☔"
-        return f"{icon} {weather.split()[0]}" # 最初の天気だけ取る
+        return f"{icon} {weather.split()[0]}"
     except:
         return "天気不明"
 
-# --- 関数 3：ニュース取得（AI用テキスト & 表示用HTML） ---
 def fetch_news_data():
-    ai_input_text = ""  # AIに読ませる用
-    html_outputs = {}   # サイト表示用
+    ai_input_text = ""
+    html_outputs = {}
     
     for category, url in RSS_URLS.items():
         feed = feedparser.parse(url)
-        
-        # AI用のテキストを作成（カテゴリごとにタイトルを羅列）
         ai_input_text += f"\n【{category}ニュース】\n"
-        
-        # HTMLリストを作成
         html_list = "<ul>\n"
         for i, entry in enumerate(feed.entries):
-            if i >= 8: break # 各カテゴリ8件まで
-            # AI用
+            if i >= 8: break
             ai_input_text += f"- {entry.title}\n"
-            # HTML用
             html_list += f'<li><a href="{entry.link}" target="_blank">{entry.title}</a></li>\n'
         html_list += "</ul>\n"
-        
         html_outputs[category] = html_list
         
     return ai_input_text, html_outputs
 
-# --- 関数 4：Geminiに原稿を書かせる（ここが心臓部） ---
-def generate_ai_commentary(news_text):
+def generate_ai_commentary(news_text, model_name):
     if not GEMINI_API_KEY:
-        return "⚠️ APIキーが設定されていません。Secretsを確認してください。"
+        return "⚠️ APIキー設定なし"
 
-    model = genai.GenerativeModel("gemini-pro") # 安定版モデル
-    
-    prompt = f"""
-    あなたは「投資家の夫」と「家族」のために情報を整理する優秀なAI編集長です。
-    以下のニュースリストを分析し、指定のフォーマットでMarkdown原稿を作成してください。
-
-    【ニュースリスト】
-    {news_text}
-
-    【指示】
-    1. **トップピック**: 経済・テックの中から「将来への影響が最も大きいニュース」を1つ選び、3行以内で投資家視点の解説をしてください。
-    2. **国内フラッシュ**: 国内ニュースの中から「生活に関わる話題」を3つ選び、それぞれ1行で小学生でもわかるように要約してください。
-    3. 冒頭の挨拶や「はい、作りました」などの返事は不要です。中身だけ出力してください。
-
-    【出力フォーマット】
-    ## 🌎 今日のトップピック (AI厳選)
-    **[選んだニュースのタイトル]**
-    > [ここに解説文。なぜ重要か？どうなるか？]
-
-    ## 🇯🇵 国内フラッシュ
-    * **[タイトル]**: [1行要約]
-    * **[タイトル]**: [1行要約]
-    * **[タイトル]**: [1行要約]
-    """
-    
     try:
+        # 自動選択されたモデル名を使用
+        model = genai.GenerativeModel(model_name)
+        
+        prompt = f"""
+        あなたは「投資家の夫」と「家族」のために情報を整理する優秀なAI編集長です。
+        以下のニュースリストを分析し、指定のフォーマットでMarkdown原稿を作成してください。
+
+        【ニュースリスト】
+        {news_text}
+
+        【指示】
+        1. **トップピック**: 経済・テックの中から「将来への影響が最も大きいニュース」を1つ選び、3行以内で投資家視点の解説をしてください。
+        2. **国内フラッシュ**: 国内ニュースの中から「生活に関わる話題」を3つ選び、それぞれ1行で小学生でもわかるように要約してください。
+        3. マークダウン形式のみを出力してください。
+
+        【出力フォーマット】
+        ## 🌎 今日のトップピック (AI厳選)
+        **[選んだニュースのタイトル]**
+        > [ここに解説文]
+
+        ## 🇯🇵 国内フラッシュ
+        * **[タイトル]**: [1行要約]
+        * **[タイトル]**: [1行要約]
+        * **[タイトル]**: [1行要約]
+        """
+        
         response = model.generate_content(prompt)
         return response.text
     except Exception as e:
-        return f"AI生成エラー: {str(e)}"
+        return f"AI生成エラー: {str(e)} (Model: {model_name})"
 
 # ==========================================
 # メイン処理
 # ==========================================
 print("🚀 ニュースサイト生成を開始します...")
 
-# 1. 各種データ収集
 market_str, usd_str = get_market_data()
 weather_str = get_weather_hiroshima()
 news_text_for_ai, news_htmls = fetch_news_data()
 
-# 2. AIによる原稿生成
-print("🤖 Geminiが記事を執筆中...")
-ai_content = generate_ai_commentary(news_text_for_ai)
+print(f"🤖 AI執筆開始 (Model: {target_model_name})...")
+ai_content = generate_ai_commentary(news_text_for_ai, target_model_name)
 
-# 3. 最終的なMarkdownの組み立て
 t_delta = datetime.timedelta(hours=9)
 JST = datetime.timezone(t_delta, 'JST')
 now = datetime.datetime.now(JST)
@@ -146,10 +174,9 @@ final_md = f"""# 📰 {date_str} AI Morning News
 </details>
 
 ---
-*Powered by Gemini 2.0 Flash & GitHub Actions*
+*Powered by Gemini ({target_model_name}) & GitHub Actions*
 """
 
-# 4. ファイル書き出し
 with open("index.md", "w", encoding="utf-8") as f:
     f.write(final_md)
 
