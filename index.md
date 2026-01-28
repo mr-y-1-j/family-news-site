@@ -1,9 +1,13 @@
 # 📰 2026年01月29日 (Thu) Family News
 
 > **広島の天気**: ☀️ くもり
-> **Market**: 📈 日経: 53,359円 / 💵 ドル: 153.21円
+> **Market**: 📈 日経: 53,359円 / 💵 ドル: 153.15円
 
-AI生成エラー: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+
+    ## 🙇‍♂️ AI編集長はお休み中です
+    現在、AIサーバーへの接続が混み合っているか、調整中です。
+    下のニュースリストから直接記事をご覧ください。
+    
 
 <br>
 
