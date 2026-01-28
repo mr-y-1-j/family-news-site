@@ -1,15 +1,22 @@
-# 📰 2026年01月29日 (Thu) AI Morning News
+# 📰 2026年01月29日 (Thu) Family News
 
 > **広島の天気**: ☀️ くもり
-> **Market**: 📈 日経平均: 53,359円 / 💵 ドル円: 153.27円
+> **Market**: 📈 日経: 53,359円 / 💵 ドル: 153.21円
 
 AI生成エラー: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
 
 <br>
 
-## 📂 ニュースソース (詳細)
+## 📂 ニュース詳細
 <details>
-<summary>経済・ビジネス</summary>
+<summary>🍁 広島のニュース</summary>
+<ul>
+</ul>
+
+</details>
+
+<details>
+<summary>💰 経済・ビジネス</summary>
 <ul>
 <li><a href="https://news.yahoo.co.jp/pickup/6567857?source=rss" target="_blank">一時1ドル154円台 円売り広がる</a></li>
 <li><a href="https://news.yahoo.co.jp/pickup/6567846?source=rss" target="_blank">米FRB 政策金利の据え置きを決定</a></li>
@@ -24,7 +31,7 @@ AI生成エラー: 404 models/gemini-pro is not found for API version v1beta, or
 </details>
 
 <details>
-<summary>テクノロジー</summary>
+<summary>💻 テクノロジー</summary>
 <ul>
 <li><a href="https://news.yahoo.co.jp/pickup/6567849?source=rss" target="_blank">紛失防止タグを悪用 被害の実態</a></li>
 <li><a href="https://news.yahoo.co.jp/pickup/6567810?source=rss" target="_blank">電子書店 コミック無料施策に疲弊</a></li>
@@ -39,7 +46,7 @@ AI生成エラー: 404 models/gemini-pro is not found for API version v1beta, or
 </details>
 
 <details>
-<summary>国内・社会</summary>
+<summary>🚨 国内・社会</summary>
 <ul>
 <li><a href="https://news.yahoo.co.jp/pickup/6567850?source=rss" target="_blank">日本海側は再び大雪に 積雪急増も</a></li>
 <li><a href="https://news.yahoo.co.jp/pickup/6567822?source=rss" target="_blank">首相パー券 旧統一関連が過去購入</a></li>
@@ -54,4 +61,4 @@ AI生成エラー: 404 models/gemini-pro is not found for API version v1beta, or
 </details>
 
 ---
-*Powered by Gemini 2.0 Flash & GitHub Actions*
+*Powered by Gemini & GitHub Actions*
