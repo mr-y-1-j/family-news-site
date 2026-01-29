@@ -1,70 +1,46 @@
 # 📰 2026/01/29 Family News
 
 > **広島**: くもり
-> **市場**: 日経: 53,359円  |  ドル円: 153.09円
+> **市場**: 日経: 53,562円  |  ドル円: 152.93円
 
 AIがチョイスしたニュースをお届けします
 
-## 今日のトップニュース
+### 今日のトップニュース
+1.  広島カープ羽月隆太郎容疑者が薬物使用の容疑で逮捕され、自宅など関係先から薬物と摂取器具が押収されました。新井監督は「大変重く受け止めている」とコメントし、球団とともに謝罪談話を出しています。
+2.  外国為替市場で一時1ドル154円台まで円売りが進み、円安が加速しています。一方、米連邦準備制度理事会（FRB）は政策金利の据え置きを決定しました。
+3.  米アマゾンが全世界で約1.6万人を削減すると発表しました。また、23年の歴史を持つ「@niftyニュース」がサービス終了となることが明らかになりました。
 
--   **米FRB、政策金利の据え置きを決定**
-    アメリカの中央銀行にあたるFRBが、主要な政策金利を現在の水準に据え置くことを決めました。これは、インフレの動向を見極めながら、今後の金融政策を慎重に進める姿勢を示しています。
+### 今話題のホットワード
+羽月隆太郎, ゾンビたばこ, 円安, FRB, アマゾン人員削減
 
--   **米アマゾン、全世界で1.6万人を削減**
-    IT大手のアマゾンが、クラウドサービス部門や広告部門を中心に、全世界で約1万6000人の人員削減を行うと発表しました。これは、経済状況の変化に対応するための戦略的な動きと見られています。
+### 今日の豆知識 (01月29日)
+1月29日は「人口調査記念日」です。これは1872年（明治5年）のこの日に、日本で初めて全国的な戸籍調査が行われたことに由来しています。この調査は、現在の国勢調査の原点ともいえる重要な出来事でした。
 
--   **自民党が単独過半数うかがうと読売新聞が報道**
-    衆院選の序盤情勢に関する読売新聞の報道によると、自民党が単独で過半数を占める勢いであることが伝えられました。今後の選挙戦の行方に注目が集まります。
-
-## 今話題のホットワード
-
-#円安進行, #FRB金利据え置き, #首都高談合, #紛失防止タグ悪用, #アマゾン人員削減
-
-## 今日の豆知識 (01月29日)
-
-1月29日は「愛妻の日」とされています。これは日本独自の記念日で、「い(1)つ(2)もふく(29)ふく」と読む語呂合わせから、全国の企業や団体によって制定されました。パートナーへの感謝を改めて伝える良い機会となるでしょう。
-
-## キッズコーナー (子供用)
-
-みんな、こんにちは！きょうもたのしいニュースをおとどけするね！😊
-
-### 🦁 あさのクイズ
-
-おなかがすいたら「もくもく」ってけむりがでる、ふしぎなやまがあるのはどこかな？🤔
-A: かざん🌋
-B: おやつやま🍭
-C: ゆめやま💤
-
-こたえは、A: かざん🌋 だよ！ すごいね！👏
-
-### 🈳 きょうのかんじ
-
-みんな、このかんじしってるかな？
-
-# **日**
-
-これはね、「ひ」とか「にち」ってよむんだよ。
-おそらでキラキラかがやく「たいよう」🌞のことや、きょうの「ひ」とか、おやすみの「にちようび」✨の「ひ」だよ！
-
-### ✈️ せかい
-
-きょうは、オーストラリア🇦🇺というくにをしょうかいするね！
-オーストラリアには、もこもこのかわいい「コアラ」🐨や、ぴょんぴょんはねる「カンガルー」😾がいるんだよ！ とってもひろいしぜんがいっぱいなんだ！
-
-[🌏 ちず](https://www.google.com/maps/search/?api=1&query=オーストラリア) をみてみてね！
-
-### 🎨 アート
-
-きょうしょうかいするえは、とってもゆうめいな「モナ・リザ」だよ！
-このえをかいたひとは、レオナルド・ダ・ヴィンチさんっていうんだ。モナ・リザは、いつもにこにこわらってるようにもみえるし、すこしさみしそうにもみえる、ふしぎなえなんだよ！
-
-[🖼️ えをみる](https://www.google.com/search?tbm=isch&q=モナ・リザ) をクリックしてみてね！
+<div style="background-color: #fef9e7; padding: 15px; border-radius: 10px; border: 2px solid #f1c40f;">
+  <h2 style="color: #e67e22;">📛 キッズコーナー（こどもよう）</h2>
+  <h3 style="color: #2e86c1;">🦁 あさのクイズ</h3>
+  <p>Q. なつに よくたべる、つめたいデザートだよ。ミルクやフルーツでできている、なんでしょう？</p>
+  <p><strong>こたえ: アイスクリーム</strong></p>
+  <h3 style="color: #27ae60;">🈳 きょうのかんじ</h3>
+  <p><span style="font-size: 24px;"><strong>水</strong></span> (みず)</p>
+  <p>みずは、みんなが のんだり、おふろにはいったりするときにつかう たいせつなものだね。かわや うみにも、たくさん あるよ。</p>
+  <h3 style="color: #8e44ad;">✈️ せかい・アート</h3>
+  <ul>
+    <li><b>せかい</b>: エジプト <a href="https://www.google.com/maps/search/?api=1&query=エジプト" target="_blank">🌏 ちずをみる</a></li>
+    <li><b>アート</b>: ピラミッド <a href="https://www.google.com/search?tbm=isch&q=ピラミッド+エジプト" target="_blank">🖼️ えをみる</a></li>
+  </ul>
+</div>
 
 <br>
 
 ## 📂 ニュース詳細
-<details><summary>🍁 広島のニュース (NHK)</summary><ul>
-<li>⚠️ ニュースの取得に失敗しました</li></ul>
+<details><summary>🍁 広島のニュース (Google)</summary><ul>
+<li><a href="https://news.google.com/rss/articles/CBMiVEFVX3lxTE1RZy1uTUswajZOWHFZU2tuejU4UnR1S3hfX3Y0eExLTEJpMUpSZVp1Nnh2azRBdk5maEkxRFdhaTRPWGJ0QWFDMWEtbGRvdWlLaDl1cA?oc=5" target="_blank">羽月隆太郎容疑者の逮捕、広島・新井監督「大変重く受け止めております」「チームの一員として自覚を欠いた行動」 球団とともに謝罪談話 - 中日新聞Web</a></li>
+<li><a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE5MR2tpdEtzNVZnNml0N0FFQUx3SldzeXhheHE5cEdnSjY1WW1pMWRqVVB1ZDNEaXd5SmxRTmxHZC1jbUlYaDVub3BQLXdxT1pEbGFQV094cHJGQzVTT25rdnpobVI2WHh5VEczenp6OURCdTJ0NXMwVTNwZ3ZTblk?oc=5" target="_blank">カープ 羽月隆太郎容疑者 自宅など関係先捜索で薬物と摂取器具を押収『ゾンビたばこ』使用容疑で逮捕（テレビ新広島） - Yahoo!ニュース</a></li>
+<li><a href="https://news.google.com/rss/articles/CBMihAFBVV95cUxPdG1SQVhmZDFfeXNqWlBSNXBfWi1WenZRRXpXcXB5RzVHaUxmTGtfRkFFQjg1YUZ1TnlkUHB5Sk0zSjgtYU5pU2pBOUZzOUI2aU52ZDdWOWpBdDQ1WFdmZWMzbmktckZnZUxoMjhvZFg5dHluZEJFZEJZWDMzNTNrVGZJVXXSAYoBQVVfeXFMT2w5eEhfeHhYb2doOVNMcDV4dkd3LXRZM1REQ0tUUERKbEpla2lXT3NoczBTU2ltdl9maFNpVGJoYjFRb0YxTkRLSnh5TU9iakNnOWhHckVFQXotbVJnMlNudW1OME5RZjRKVkI3aDNic0xNR016c2ZWZlZfVC1xMHplTXVBN2wxQnVR?oc=5" target="_blank">【広島】羽月隆太郎容疑者、医薬品医療機器法違反の容疑で送検　報道陣約３０人が見守る中、護送 - ｄメニューニュース</a></li>
+<li><a href="https://news.google.com/rss/articles/CBMiekFVX3lxTFBQWk1ETS1VZXAtTmtBUzkyR3h6Rm1jd3FaTUYxV0R5dzU2WW9aZm9ZR3FZNEYzbTVvMlBYT1lXQ0xlVUJsY0FFQ2M3NFFaZlF5ME1XYWZCQVZjSkZKSld2NUdrSnVUXzFOX1dDNkV1MHFTN2tiZUl3bENB0gF_QVVfeXFMTk5fTzFQb1FFaTEzdGxfWVEyUTRFWTFIRFlNcmV1UlJfSjJ1cjRzSEEtcE96VHF6ZXlGWDEyanJHQ2w3SF9YaG1fVG4zODVpTkdtdFNHM0xfMzRBSUZkYzNaNnV6X3ZlTDV0X0VBSFZqVmFiSWxHUEpHNGx3Zlk0OA?oc=5" target="_blank">広島・ハーン　圧投１年目と同じ体重で合同自主トレ合流「非常にいい１年になるんじゃないかな」 - ｄメニューニュース</a></li>
+<li><a href="https://news.google.com/rss/articles/CBMiR0FVX3lxTE5xU0hrZU5HT1NPcmxGX0lweWtldWEyQUVrZXc0N3hXal9STWo0cjlwcVNhYVhGRzNCVFBfU010aGJ2eUdNY2Fv?oc=5" target="_blank">広島・ハーン 圧投１年目と同じ体重で合同自主トレ合流「非常にいい１年になるんじゃないかな」 - スポーツブル</a></li>
+</ul>
 </details>
 <details><summary>💰 経済・ビジネス</summary><ul>
 <li><a href="https://news.yahoo.co.jp/pickup/6567857?source=rss" target="_blank">一時1ドル154円台 円売り広がる</a></li>
@@ -83,7 +59,7 @@ C: ゆめやま💤
 </ul>
 </details>
 <details><summary>🚨 国内・社会</summary><ul>
-<li><a href="https://news.yahoo.co.jp/pickup/6567850?source=rss" target="_blank">日本海側は再び大雪に 積雪急増も</a></li>
+<li><a href="https://news.yahoo.co.jp/pickup/6567868?source=rss" target="_blank">東京23区でも積雪見込み 路面注意</a></li>
 <li><a href="https://news.yahoo.co.jp/pickup/6567866?source=rss" target="_blank">衆院選序盤情勢 中道なぜ伸び悩み</a></li>
 <li><a href="https://news.yahoo.co.jp/pickup/6567862?source=rss" target="_blank">衆院選 SNS上の関心は「消費税」</a></li>
 <li><a href="https://news.yahoo.co.jp/pickup/6567853?source=rss" target="_blank">自民が単独過半数うかがう 読売</a></li>
@@ -92,4 +68,4 @@ C: ゆめやま💤
 </details>
 
 ---
-*Updated: 09:10*
+*Updated: 09:41*
