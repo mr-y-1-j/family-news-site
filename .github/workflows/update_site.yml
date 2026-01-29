@@ -28,6 +28,7 @@ jobs:
       - name: ニュースサイト生成スクリプトを実行
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GAS_WEBHOOK_URL: ${{ secrets.GAS_WEBHOOK_URL }} # 追加　GAS用
         run: python main.py
 
       - name: 変更をコミットして保存
