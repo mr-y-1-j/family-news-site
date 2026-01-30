@@ -5,10 +5,11 @@ import feedparser
 import requests
 import json
 import re
+import random
 
 # --- 設定 ---
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "").strip()
-GAS_WEBHOOK_URL = os.environ.get("GAS_WEBHOOK_URL", "").strip() # 追加
+GAS_WEBHOOK_URL = os.environ.get("GAS_WEBHOOK_URL", "").strip()
 
 # --- 設定：ニュースソース ---
 RSS_URLS = {
@@ -21,7 +22,7 @@ RSS_URLS = {
 
 # --- 関数：RSS取得 ---
 def fetch_rss(url):
-    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/91.0.4472.124 Safari/537.36"}
+    headers = {"User-Agent": "Mozilla/5.0"}
     try:
         response = requests.get(url, headers=headers, timeout=10)
         feed = feedparser.parse(response.content)
@@ -45,24 +46,73 @@ def get_news_data():
     # 各ニュース
     for cat in ["hiroshima", "economy", "tech", "domestic"]:
         feed = fetch_rss(RSS_URLS[cat])
-        html_list = "<ul>\n"
+        html_list = '<ul style="list-style-type: none; padding: 0;">\n'
         if feed and feed.entries:
             ai_input += f"\n【{cat}】\n"
             for i, e in enumerate(feed.entries):
                 if i >= 5: break
                 ai_input += f"- {e.title}\n"
-                html_list += f'<li><a href="{e.link}" target="_blank">{e.title}</a></li>\n'
+                # 少しデザインを良くする
+                html_list += f'<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="{e.link}" target="_blank" style="text-decoration: none; color: #0366d6;">{e.title}</a></li>\n'
         html_list += "</ul>\n"
         html_outputs[cat] = html_list
         
     return ai_input, html_outputs
+
+# --- 関数：動物画像取得 (Kids用) ---
+def get_animal_image():
+    # 犬か猫をランダムで選ぶ
+    is_dog = random.choice([True, False])
+    url = ""
+    title = ""
+    
+    try:
+        if is_dog:
+            resp = requests.get("https://dog.ceo/api/breeds/image/random", timeout=5).json()
+            if resp.get("status") == "success":
+                url = resp["message"]
+                title = "🐶 今日のわんこ"
+        else:
+            resp = requests.get("https://api.thecatapi.com/v1/images/search", timeout=5).json()
+            if resp:
+                url = resp[0]["url"]
+                title = "🐱 今日のにゃんこ"
+                
+        if url:
+            return f"""
+            <div style="text-align: center; margin: 20px 0;">
+                <h3 style="color: #555;">{title}</h3>
+                <img src="{url}" style="max-height: 300px; max-width: 100%; border-radius: 15px; border: 3px solid #eee;">
+            </div>
+            """
+    except: pass
+    return ""
+
+# --- 関数：NASA APOD取得 ---
+def get_nasa_apod():
+    url = "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY"
+    try:
+        resp = requests.get(url, timeout=10)
+        if resp.status_code == 200:
+            data = resp.json()
+            if "media_type" in data and data["media_type"] == "image":
+                return f"""
+                <div style="background: linear-gradient(to right, #000428, #004e92); color: white; padding: 15px; border-radius: 10px; margin-top: 20px; text-align: center;">
+                  <h4 style="margin: 0 0 10px 0; color: #ffd700;">🔭 NASA Space Photo</h4>
+                  <a href="{data['url']}" target="_blank">
+                    <img src="{data['url']}" alt="{data.get('title')}" style="max-height: 250px; max-width: 100%; border-radius: 5px;">
+                  </a>
+                  <p style="font-size: 0.8em; opacity: 0.8;">{data.get('title')}</p>
+                </div>
+                """
+    except: pass
+    return ""
 
 # --- 関数：AI編集長 ---
 def call_gemini_smart(text):
     if not GEMINI_API_KEY: return "⚠️ エラー: APIキーなし"
 
     try:
-        # モデル自動検出
         list_url = f"https://generativelanguage.googleapis.com/v1beta/models?key={GEMINI_API_KEY}"
         models_resp = requests.get(list_url).json()
         available_models = [m['name'] for m in models_resp.get('models', []) if 'generateContent' in m.get('supportedGenerationMethods', [])]
@@ -71,32 +121,27 @@ def call_gemini_smart(text):
         for m in available_models:
             if "flash" in m and "1.5" in m: valid_model_name = m; break
         if not valid_model_name and available_models: valid_model_name = available_models[0]
-        if not valid_model_name: return "⚠️ モデル不明"
-
-        # 生成
+        
         url = f"https://generativelanguage.googleapis.com/v1beta/{valid_model_name}:generateContent?key={GEMINI_API_KEY}"
         today = datetime.date.today().strftime('%m月%d日')
         
+        # プロンプト調整：クイズの答えを隠す、面白豆知識
         prompt = f"""
-        あなたはAI編集者です。ソース:{text}
+        あなたは家族新聞のAI編集長です。ソース:{text}
         
-        【ルール】
-        1. 挨拶: 「AIがチョイスしたニュースをお届けします」のみ。
-        2. 今日のトップニュース: 3つ選びリスト形式。
-        3. ホットワード: 5つカンマ区切り。
-        4. 豆知識 ({today}): 1つ。
-        5. キッズコーナー: 以下のHTMLテンプレートを使用。漢字禁止。リンクはtarget="_blank"。
-           <div style="background-color: #fef9e7; padding: 15px; border-radius: 10px; border: 2px solid #f1c40f;">
-             <h2 style="color: #e67e22;">📛 キッズコーナー</h2>
-             <h3 style="color: #2e86c1;">🦁 あさのクイズ</h3>
-             <p>Q. [クイズ]</p><p><strong>こたえ: [答え]</strong></p>
-             <h3 style="color: #27ae60;">🈳 きょうのかんじ</h3>
-             <p><span style="font-size: 24px;"><strong>[漢字]</strong></span> ([よみ])</p><p>[いみ]</p>
-             <h3 style="color: #8e44ad;">✈️ せかい・アート</h3>
-             <ul>
-               <li><b>せかい</b>: [国] <a href="https://www.google.com/maps/search/?api=1&query=国名" target="_blank">🌏 ちず</a></li>
-               <li><b>アート</b>: [絵] <a href="https://www.google.com/search?tbm=isch&q=[ワード]" target="_blank">🖼️ え</a></li>
-             </ul>
+        【出力構成】
+        1. 挨拶: 「AI編集長です！{today}のニュースをお届けします」
+        2. 今日の3大ニュース: 3つ箇条書き。
+        3. 豆知識: 「今日は何の日」または面白い雑学を1つ。
+        4. クイズ (HTML出力):
+           以下の形式で出力してください。答えはDetailsタグで隠すこと。
+           <div style="background-color: #e8f8f5; padding: 15px; border-radius: 10px; border: 1px solid #1abc9c; margin-bottom: 10px;">
+             <h3 style="color: #16a085; margin-top:0;">🦁 キッズ・クイズ</h3>
+             <p style="font-size: 1.1em;">Q. [ここにクイズ問題]</p>
+             <details>
+               <summary style="cursor: pointer; color: #2980b9; font-weight: bold;">答えを見る！</summary>
+               <p style="color: #c0392b; font-weight: bold; font-size: 1.2em; margin-top: 5px;">A. [ここに答え]</p>
+             </details>
            </div>
         """
         
@@ -106,56 +151,59 @@ def call_gemini_smart(text):
         
         if "candidates" in result:
             return result["candidates"][0]["content"]["parts"][0]["text"]
-        return f"AIエラー: {json.dumps(result)}"
+        return "AI生成に失敗しました。"
 
     except Exception as e: return f"通信エラー: {str(e)}"
 
-# --- 関数：GASへ通知 ---
-def notify_gas(ai_text, date_str):
-    if not GAS_WEBHOOK_URL:
-        print("⚠️ GAS_WEBHOOK_URLが未設定のため、通知をスキップします")
-        return
+# --- ゲーム：おみくじスクリプト (JavaScript) ---
+def get_omikuji_script():
+    return """
+    <div style="background-color: #fff0f5; padding: 20px; border-radius: 15px; text-align: center; border: 2px solid #ff69b4; margin: 20px 0;">
+      <h2 style="color: #d63384;">🔮 今日の運試し</h2>
+      <div id="omikuji-box" style="font-size: 50px; margin: 10px;">📦</div>
+      <button onclick="drawOmikuji()" style="background-color: #ff69b4; color: white; border: none; padding: 10px 20px; font-size: 18px; border-radius: 20px; cursor: pointer;">おみくじを引く！</button>
+      <div id="omikuji-result" style="font-size: 24px; font-weight: bold; margin-top: 15px; color: #333; min-height: 40px;"></div>
+    </div>
 
-    # AIのテキストから「今日のトップニュース」の部分だけ簡易的に抜き出す
-    # (正規表現で "トップニュース" の次行から空行までを取得するイメージ)
-    summary = "サイトをご確認ください"
-    try:
-        # "トップニュース" という言葉が含まれる行を探し、そこから数行を抜き出す
-        match = re.search(r'(トップニュース.*?)(?=\n\n|\n#)', ai_text, re.DOTALL)
-        if match:
-            # マークダウンの記号(*とか)を少し綺麗にする
-            summary = match.group(1).replace('**', '').strip()
-    except:
-        pass
-
-    # GitHub PagesのURL (リポジトリ名から自動推測または手動設定)
-    # ここでは固定値としてあなたのURL形式をセットします
-    repo = os.environ.get("GITHUB_REPOSITORY", "your-repo") # "User/Repo"
-    user_name = repo.split("/")[0]
-    repo_name = repo.split("/")[1]
-    site_url = f"https://{user_name}.github.io/{repo_name}/"
-
-    payload = {
-        "date": date_str,
-        "summary": summary,
-        "url": site_url
+    <script>
+    function drawOmikuji() {
+        const results = [
+            "🌸 大吉！ 今日は最高の一日！", 
+            "✨ 吉！ いいことあるかも！", 
+            "👍 中吉！ 普通が一番！", 
+            "🍩 小吉！ おやつを食べよう！", 
+            "💪 末吉！ 筋トレしよう！"
+        ];
+        const emojis = ["🎉", "🌟", "🍀", "🍫", "🔥"];
+        const randomIndex = Math.floor(Math.random() * results.length);
+        
+        const box = document.getElementById("omikuji-box");
+        const resultDiv = document.getElementById("omikuji-result");
+        
+        // 簡易アニメーション
+        let count = 0;
+        const interval = setInterval(() => {
+            box.innerHTML = emojis[count % emojis.length];
+            count++;
+            if (count > 10) {
+                clearInterval(interval);
+                box.innerHTML = emojis[randomIndex];
+                resultDiv.innerHTML = results[randomIndex];
+            }
+        }, 100);
     }
-    
-    try:
-        requests.post(GAS_WEBHOOK_URL, json=payload)
-        print("✅ GASへ通知を送りました")
-    except Exception as e:
-        print(f"⚠️ GAS通知エラー: {e}")
+    </script>
+    """
 
 # --- メイン処理 ---
 print("🚀 開始...")
 
 # 市場・天気
-market_info = "Loading..."
+market_info = ""
 try:
     n = yf.Ticker("^N225").history(period="1d")['Close'].iloc[-1]
     u = yf.Ticker("USDJPY=X").history(period="1d")['Close'].iloc[-1]
-    market_info = f"日経: {n:,.0f}円  |  ドル円: {u:.2f}円"
+    market_info = f"日経: {n:,.0f}円 | USD: {u:.2f}円"
 except: pass
 
 weather_info = "天気不明"
@@ -167,32 +215,65 @@ except: pass
 
 news_text, news_htmls = get_news_data()
 ai_content = call_gemini_smart(news_text)
+nasa_html = get_nasa_apod()
+animal_html = get_animal_image()
+omikuji_html = get_omikuji_script()
 
-# Markdown
+# 日付
 dt = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=9), 'JST'))
 date_str = dt.strftime('%Y/%m/%d')
-md = f"""# 📰 {date_str} Family News
 
-> **広島**: {weather_info} | **市場**: {market_info}
+# Youtube埋め込み (ANNニュースのライブ配信、または最新ニュースリスト)
+# ※ライブ配信URLは変わることがあるので、チャンネルのプレイリスト埋め込みが安定
+youtube_html = """
+<div style="margin: 20px 0;">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/videoseries?list=PLKeSkfHhKSzLQqP7Rz5z25kMs726xU5p-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 10px;"></iframe>
+</div>
+"""
+
+# Markdown生成
+md = f"""# 🏡 Family Portal {dt.strftime('%m/%d')}
+
+<div style="display: flex; gap: 10px; font-weight: bold; background: #f0f0f0; padding: 10px; border-radius: 5px;">
+  <span>⛅ 広島: {weather_info}</span>
+  <span>📈 {market_info}</span>
+</div>
+
+{youtube_html}
 
 {ai_content}
 
+{omikuji_html}
+
+{animal_html}
+{nasa_html}
+
 <br>
 
-## 📂 ニュース詳細
+## 📰 詳しく見る
 <details><summary>🍁 広島のニュース</summary>{news_htmls['hiroshima']}</details>
 <details><summary>💰 経済・ビジネス</summary>{news_htmls['economy']}</details>
 <details><summary>💻 テクノロジー</summary>{news_htmls['tech']}</details>
 <details><summary>🚨 国内・社会</summary>{news_htmls['domestic']}</details>
 
 ---
-*Updated: {dt.strftime('%H:%M')}*
+<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: {dt.strftime('%H:%M')}</p>
 """
 
 with open("index.md", "w", encoding="utf-8") as f:
     f.write(md)
 
-# 最後にGAS通知を実行
-notify_gas(ai_content, date_str)
+# GAS通知 (中身はシンプルに)
+if GAS_WEBHOOK_URL:
+    try:
+        repo = os.environ.get("GITHUB_REPOSITORY", "your-repo")
+        user_name = repo.split("/")[0] if "/" in repo else "user"
+        repo_name = repo.split("/")[1] if "/" in repo else "repo"
+        requests.post(GAS_WEBHOOK_URL, json={
+            "date": date_str,
+            "summary": "ニュースとクイズが更新されました",
+            "url": f"https://{user_name}.github.io/{repo_name}/"
+        })
+    except: pass
 
 print("✅ 完了")
