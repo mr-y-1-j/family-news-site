@@ -6,6 +6,7 @@ import requests
 import json
 import re
 import random
+import math
 
 # --- 設定 ---
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "").strip()
@@ -52,60 +53,110 @@ def get_news_data():
             for i, e in enumerate(feed.entries):
                 if i >= 5: break
                 ai_input += f"- {e.title}\n"
-                # 少しデザインを良くする
                 html_list += f'<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="{e.link}" target="_blank" style="text-decoration: none; color: #0366d6;">{e.title}</a></li>\n'
         html_list += "</ul>\n"
         html_outputs[cat] = html_list
         
     return ai_input, html_outputs
 
-# --- 関数：動物画像取得 (Kids用) ---
-def get_animal_image():
-    # 犬か猫をランダムで選ぶ
-    is_dog = random.choice([True, False])
-    url = ""
-    title = ""
+# --- 関数：時計クイズSVG生成 (Kids用) ---
+def get_clock_quiz():
+    # ランダムな時刻を生成 (5分刻みにして読みやすくする)
+    h = random.randint(1, 12)
+    m = random.randint(0, 11) * 5
+    
+    # 針の角度計算
+    # 短針: (時間 + 分/60) * 30度
+    h_angle = (h % 12 + m / 60.0) * 30
+    # 長針: 分 * 6度
+    m_angle = m * 6
+
+    # SVG描画
+    svg = f"""
+    <svg width="200" height="200" viewBox="0 0 100 100" style="background:white; border-radius:50%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+      <circle cx="50" cy="50" r="45" stroke="#333" stroke-width="3" fill="#fff" />
+      {''.join([f'<line x1="50" y1="10" x2="50" y2="15" transform="rotate({i*30} 50 50)" stroke="#333" stroke-width="2" />' for i in range(12)])}
+      <text x="50" y="23" font-size="10" text-anchor="middle" font-weight="bold">12</text>
+      <text x="80" y="54" font-size="10" text-anchor="middle" font-weight="bold">3</text>
+      <text x="50" y="85" font-size="10" text-anchor="middle" font-weight="bold">6</text>
+      <text x="20" y="54" font-size="10" text-anchor="middle" font-weight="bold">9</text>
+      
+      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate({h_angle} 50 50)" />
+      <line x1="50" y1="50" x2="50" y2="15" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" transform="rotate({m_angle} 50 50)" />
+      <circle cx="50" cy="50" r="3" fill="#333" />
+    </svg>
+    """
+    
+    html = f"""
+    <div style="background-color: #e8f6f3; padding: 20px; border-radius: 15px; text-align: center; border: 2px solid #1abc9c; margin-top: 20px;">
+      <h3 style="color: #16a085; margin-top: 0;">⏰ いまなんじ？</h3>
+      {svg}
+      <br><br>
+      <details>
+        <summary style="cursor: pointer; background: #1abc9c; color: white; padding: 8px 15px; border-radius: 20px; display: inline-block;">こたえをみる</summary>
+        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">{h}じ {m}ふん</p>
+      </details>
+    </div>
+    """
+    return html
+
+# --- 関数：名画スライドショー (Art Institute of Chicago API) ---
+def get_art_slideshow():
+    # 印象派などの美しい絵画を検索
+    api_url = "https://api.artic.edu/api/v1/artworks/search?q=impressionism&fields=id,title,image_id,artist_display&limit=5"
+    html_parts = ""
     
     try:
-        if is_dog:
-            resp = requests.get("https://dog.ceo/api/breeds/image/random", timeout=5).json()
-            if resp.get("status") == "success":
-                url = resp["message"]
-                title = "🐶 今日のわんこ"
-        else:
-            resp = requests.get("https://api.thecatapi.com/v1/images/search", timeout=5).json()
-            if resp:
-                url = resp[0]["url"]
-                title = "🐱 今日のにゃんこ"
-                
-        if url:
-            return f"""
-            <div style="text-align: center; margin: 20px 0;">
-                <h3 style="color: #555;">{title}</h3>
-                <img src="{url}" style="max-height: 300px; max-width: 100%; border-radius: 15px; border: 3px solid #eee;">
+        resp = requests.get(api_url, timeout=10)
+        data = resp.json()
+        config_url = data.get('config', {}).get('iiif_url', 'https://www.artic.edu/iiif/2')
+        
+        slides = []
+        for item in data.get('data', []):
+            img_id = item.get('image_id')
+            if img_id:
+                # IIIF形式の画像URLを作成
+                full_url = f"{config_url}/{img_id}/full/600,/0/default.jpg"
+                title = item.get('title', 'Unknown')
+                artist = item.get('artist_display', 'Unknown')
+                slides.append(f"""
+                <div class="mySlides" style="display:none; text-align: center;">
+                    <img src="{full_url}" style="width:100%; max-height:400px; object-fit: contain; border-radius: 5px;">
+                    <p style="font-size: 0.9em; margin: 5px 0;"><b>{title}</b><br><span style="color:#666; font-size:0.8em;">{artist}</span></p>
+                </div>
+                """)
+        
+        if slides:
+            # 1枚目だけ display:block に書き換える (JS読み込み前のチラつき防止)
+            slides[0] = slides[0].replace('display:none', 'display:block')
+            
+            html_parts = f"""
+            <div style="background-color: #fdfefe; padding: 15px; border-radius: 10px; border: 1px solid #ddd; margin-top: 20px;">
+                <h3 style="margin-top:0; color: #555;">🖼️ 今日の名画ギャラリー</h3>
+                {''.join(slides)}
+                <script>
+                var slideIndex = 0;
+                carousel();
+                function carousel() {{
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    for (i = 0; i < x.length; i++) {{
+                        x[i].style.display = "none";  
+                    }}
+                    slideIndex++;
+                    if (slideIndex > x.length) {{slideIndex = 1}}    
+                    x[slideIndex-1].style.display = "block";  
+                    setTimeout(carousel, 5000); // 5秒ごとに切り替え
+                }}
+                </script>
+                <p style="text-align: right; font-size: 0.7em; color: #aaa;">Powered by Art Institute of Chicago</p>
             </div>
             """
-    except: pass
-    return ""
+            return html_parts
 
-# --- 関数：NASA APOD取得 ---
-def get_nasa_apod():
-    url = "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY"
-    try:
-        resp = requests.get(url, timeout=10)
-        if resp.status_code == 200:
-            data = resp.json()
-            if "media_type" in data and data["media_type"] == "image":
-                return f"""
-                <div style="background: linear-gradient(to right, #000428, #004e92); color: white; padding: 15px; border-radius: 10px; margin-top: 20px; text-align: center;">
-                  <h4 style="margin: 0 0 10px 0; color: #ffd700;">🔭 NASA Space Photo</h4>
-                  <a href="{data['url']}" target="_blank">
-                    <img src="{data['url']}" alt="{data.get('title')}" style="max-height: 250px; max-width: 100%; border-radius: 5px;">
-                  </a>
-                  <p style="font-size: 0.8em; opacity: 0.8;">{data.get('title')}</p>
-                </div>
-                """
-    except: pass
+    except Exception as e:
+        print(f"Art API Error: {e}")
+        
     return ""
 
 # --- 関数：AI編集長 ---
@@ -125,7 +176,7 @@ def call_gemini_smart(text):
         url = f"https://generativelanguage.googleapis.com/v1beta/{valid_model_name}:generateContent?key={GEMINI_API_KEY}"
         today = datetime.date.today().strftime('%m月%d日')
         
-        # プロンプト調整：クイズの答えを隠す、面白豆知識
+        # プロンプト：クイズは別関数にしたので、ここではニュース解説と豆知識に集中
         prompt = f"""
         あなたは家族新聞のAI編集長です。ソース:{text}
         
@@ -133,16 +184,6 @@ def call_gemini_smart(text):
         1. 挨拶: 「AI編集長です！{today}のニュースをお届けします」
         2. 今日の3大ニュース: 3つ箇条書き。
         3. 豆知識: 「今日は何の日」または面白い雑学を1つ。
-        4. クイズ (HTML出力):
-           以下の形式で出力してください。答えはDetailsタグで隠すこと。
-           <div style="background-color: #e8f8f5; padding: 15px; border-radius: 10px; border: 1px solid #1abc9c; margin-bottom: 10px;">
-             <h3 style="color: #16a085; margin-top:0;">🦁 キッズ・クイズ</h3>
-             <p style="font-size: 1.1em;">Q. [ここにクイズ問題]</p>
-             <details>
-               <summary style="cursor: pointer; color: #2980b9; font-weight: bold;">答えを見る！</summary>
-               <p style="color: #c0392b; font-weight: bold; font-size: 1.2em; margin-top: 5px;">A. [ここに答え]</p>
-             </details>
-           </div>
         """
         
         payload = {"contents": [{"parts": [{"text": prompt}]}]}
@@ -155,7 +196,7 @@ def call_gemini_smart(text):
 
     except Exception as e: return f"通信エラー: {str(e)}"
 
-# --- ゲーム：おみくじスクリプト (JavaScript) ---
+# --- ゲーム：おみくじスクリプト ---
 def get_omikuji_script():
     return """
     <div style="background-color: #fff0f5; padding: 20px; border-radius: 15px; text-align: center; border: 2px solid #ff69b4; margin: 20px 0;">
@@ -164,32 +205,17 @@ def get_omikuji_script():
       <button onclick="drawOmikuji()" style="background-color: #ff69b4; color: white; border: none; padding: 10px 20px; font-size: 18px; border-radius: 20px; cursor: pointer;">おみくじを引く！</button>
       <div id="omikuji-result" style="font-size: 24px; font-weight: bold; margin-top: 15px; color: #333; min-height: 40px;"></div>
     </div>
-
     <script>
     function drawOmikuji() {
-        const results = [
-            "🌸 大吉！ 今日は最高の一日！", 
-            "✨ 吉！ いいことあるかも！", 
-            "👍 中吉！ 普通が一番！", 
-            "🍩 小吉！ おやつを食べよう！", 
-            "💪 末吉！ 筋トレしよう！"
-        ];
+        const results = ["🌸 大吉！", "✨ 吉！", "👍 中吉！", "🍩 小吉！", "💪 末吉！"];
         const emojis = ["🎉", "🌟", "🍀", "🍫", "🔥"];
         const randomIndex = Math.floor(Math.random() * results.length);
-        
         const box = document.getElementById("omikuji-box");
         const resultDiv = document.getElementById("omikuji-result");
-        
-        // 簡易アニメーション
         let count = 0;
         const interval = setInterval(() => {
-            box.innerHTML = emojis[count % emojis.length];
-            count++;
-            if (count > 10) {
-                clearInterval(interval);
-                box.innerHTML = emojis[randomIndex];
-                resultDiv.innerHTML = results[randomIndex];
-            }
+            box.innerHTML = emojis[count % emojis.length]; count++;
+            if (count > 10) { clearInterval(interval); box.innerHTML = emojis[randomIndex]; resultDiv.innerHTML = results[randomIndex]; }
         }, 100);
     }
     </script>
@@ -215,23 +241,24 @@ except: pass
 
 news_text, news_htmls = get_news_data()
 ai_content = call_gemini_smart(news_text)
-nasa_html = get_nasa_apod()
-animal_html = get_animal_image()
+
+# 各パーツ生成
 omikuji_html = get_omikuji_script()
+clock_html = get_clock_quiz()  # 時計クイズ
+art_html = get_art_slideshow() # 名画スライドショー
 
 # 日付
 dt = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=9), 'JST'))
 date_str = dt.strftime('%Y/%m/%d')
 
-# Youtube埋め込み (ANNニュースのライブ配信、または最新ニュースリスト)
-# ※ライブ配信URLは変わることがあるので、チャンネルのプレイリスト埋め込みが安定
+# Youtube
 youtube_html = """
 <div style="margin: 20px 0;">
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/videoseries?list=PLKeSkfHhKSzLQqP7Rz5z25kMs726xU5p-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 10px;"></iframe>
 </div>
 """
 
-# Markdown生成
+# Markdown生成 (配置調整：上部はニュース、下部はキッズ＆アート)
 md = f"""# 🏡 Family Portal {dt.strftime('%m/%d')}
 
 <div style="display: flex; gap: 10px; font-weight: bold; background: #f0f0f0; padding: 10px; border-radius: 5px;">
@@ -245,8 +272,11 @@ md = f"""# 🏡 Family Portal {dt.strftime('%m/%d')}
 
 {omikuji_html}
 
-{animal_html}
-{nasa_html}
+<h2 style="border-bottom: 2px solid #ddd;">🎨 アート & キッズ</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 15px;">
+  <div>{clock_html}</div>
+  <div>{art_html}</div>
+</div>
 
 <br>
 
@@ -263,7 +293,7 @@ md = f"""# 🏡 Family Portal {dt.strftime('%m/%d')}
 with open("index.md", "w", encoding="utf-8") as f:
     f.write(md)
 
-# GAS通知 (中身はシンプルに)
+# GAS通知
 if GAS_WEBHOOK_URL:
     try:
         repo = os.environ.get("GITHUB_REPOSITORY", "your-repo")
@@ -271,7 +301,7 @@ if GAS_WEBHOOK_URL:
         repo_name = repo.split("/")[1] if "/" in repo else "repo"
         requests.post(GAS_WEBHOOK_URL, json={
             "date": date_str,
-            "summary": "ニュースとクイズが更新されました",
+            "summary": "ニュース・時計クイズ・名画を更新しました",
             "url": f"https://{user_name}.github.io/{repo_name}/"
         })
     except: pass
