@@ -1,8 +1,8 @@
-# 🏡 Family Portal 01/31
+# 🏡 Family Portal 02/01
 
 <div style="display: flex; gap: 10px; font-weight: bold; background: #f0f0f0; padding: 10px; border-radius: 5px;">
   <span>⛅ 広島: くもり</span>
-  <span>📈 日経: 53,323円 | USD: 154.73円</span>
+  <span>📈 日経: 53,323円 | USD: 154.78円</span>
 </div>
 
 
@@ -11,18 +11,24 @@
 </div>
 
 
-AI編集長です！01月30日のニュースをお届けします。
+AI編集長です！01月31日のニュースをお届けします。
 
-1.  **今日の3大ニュース**
-    *   **崇徳高校、33年ぶりセンバツ切符！**
-        広島の崇徳高校が春の選抜高校野球大会への出場を決めました。33年ぶりの春切符は、広島勢としては最長のブランク。50年ぶりの頂点を目指し、選手たちは意気込んでいます！
-    *   **固定住宅ローン、大手5行が利上げへ**
-        生活に直結する経済ニュースです。大手銀行5行が、住宅ローンの主要な金利タイプである固定期間選択型の金利を来月引き上げることを発表しました。家計への影響が注目されます。
-    *   **売れ残り食品を半額で！エコなアプリ登場**
-        食の無駄を減らす新しい取り組みです。お店で売れ残ってしまいそうな食べ物を、半額で購入できるアプリのサービスが始まりました。フードロス削減に貢献しながら、お得にお買い物ができます。
+---
 
-2.  **豆知識**
-    今日は「3分間電話の日」です。1970年の今日、公衆電話の市内通話料金が3分10円になったことに由来します。昔は時間を気にしながら電話をかけるのが当たり前だったんですよ！
+### 今日の3大ニュース
+
+*   **【広島】カープ羽月選手逮捕で球団に衝撃、再発防止へ注意喚起**
+    広島カープの羽月隆太郎容疑者が逮捕されたことを受け、球団本部長がミーティングで「選手生命失うよ」と注意喚起を行いました。警察はマツダスタジアムと大野練習場を家宅捜索するなど、波紋が広がっています。
+*   **AI悪用したフェイク動画が選挙で加速、情報リテラシーの重要性高まる**
+    AI技術の発達により、政治に関する「偽番組」やフェイク動画の投稿が問題視されています。衆院選を控え、AIを使った誤情報拡散が加速する可能性が指摘されており、情報を見極める力がますます重要になっています。
+*   **台湾LCCが今春の日本便を大量欠航、旅行計画に影響も**
+    台湾のLCCが今春の日本便を大量に欠航すると発表しました。旅行を計画している方は、利用する航空会社の最新情報を確認し、変更やキャンセルに関する対応を早めに行う必要がありそうです。
+
+---
+
+### 豆知識
+
+今日は1月31日。「愛妻家の日」です！「あい（I）さい（31）」の語呂合わせで、日頃の感謝を伝える日とされています。
 
 
     <div style="background-color: #fff0f5; padding: 20px; border-radius: 15px; text-align: center; border: 2px solid #ff69b4; margin: 20px 0;">
@@ -61,15 +67,15 @@ AI編集長です！01月30日のニュースをお届けします。
       <text x="50" y="85" font-size="10" text-anchor="middle" font-weight="bold">6</text>
       <text x="20" y="54" font-size="10" text-anchor="middle" font-weight="bold">9</text>
       
-      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(75.0 50 50)" />
-      <line x1="50" y1="50" x2="50" y2="15" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" transform="rotate(180 50 50)" />
+      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(67.5 50 50)" />
+      <line x1="50" y1="50" x2="50" y2="15" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" transform="rotate(90 50 50)" />
       <circle cx="50" cy="50" r="3" fill="#333" />
     </svg>
     
       <br><br>
       <details>
         <summary style="cursor: pointer; background: #1abc9c; color: white; padding: 8px 15px; border-radius: 20px; display: inline-block;">こたえをみる</summary>
-        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">2じ 30ふん</p>
+        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">2じ 15ふん</p>
       </details>
     </div>
     </div>
@@ -127,37 +133,37 @@ American, 1850–1913</span></p>
 
 ## 📰 詳しく見る
 <details><summary>🍁 広島のニュース</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE5vTDBMRVZiVHVjR3FkaWFyN1piQ0pyNm5OaWw0bjRPMklxSXpDd1dOUmxwQTZaemxnZzNrXzIwZC1WWWtQaUlhT2lsZ1NQOXVwSmlxbkVPMVBRd9IBXEFVX3lxTE4xb0lYV05udXFBUVFGODdlbTBydVB0ZVBoVmVKZk83SGhJczFWd1hpbW42YlpFeUJNaHdTcFpZZVJRc3JreWJicTJEX2lkRHlEVHlrRmg2THV5aEtx?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島はつかいち大橋4車線化、新橋の開通は3月29日　 - 中国新聞デジタル</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE5WQUpVSnlDTGRPaE5saFBVZFAydkdtM2xBM0g0bnMyd2ZoN0xiOERpOHpjUTBMYkRpYnlUWHhoTjVpQkRHZTB6cnUwY05EMEVESlBrOV9kUHFWdw?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島の金輪島で「キャンプの火が燃え移った」と通報 - 中国新聞デジタル</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE84NmM0NW15ZG0xRVFMc0p1T09SNm1BSHRycXRNVlpOTVNhaFNWUnBrUS1GMFNJelBzR3pfb1V2TjY3ZXdXeXcxbmJKWTctNlpPc1lrYjIzczl4YnJKUTBqMG44bnNnR0F2RjJzRTJYVVotN0VoU0xSTlJWdlRtaEE?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">生活雑貨のロフト、広島パルコに4月出店（中国新聞デジタル） - Yahoo!ニュース</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE52Tk0xT0FlS1NGUHFKVV9qSVRjOVdBNU9raktrRDN6VzFid3VIcHo3UTRCcDdfbjBENlRSNVVOS0Y4dlY0SU1TdUptMkc3aG9yT2JZaEY2UFhEYU14VV9kNVhJTUpWTzJGVTJiTEtJbFlOYlJLTnV3YVJNMzkycDg?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【センバツ】崇徳が広島勢最長３３年ぶりの春切符 ５０年ぶりの頂点へ徳丸凜空「２度目の全国制覇を目標にやっていきたい」 - Yahoo!ニュース</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE5PcTJUMVlRR2pKNHFtSWRIOTBWQW51T1dTYlJFZENuUU1CLUphYkEwbDY3VUhBNnlzc05qZC0yWkc4blNqZFBuTVV0RXplUVp6U1A3R2laVjNUNm9fcnlTa3RmZFZ3WUtwSnd2UXlrOVhDSHZ4MEE3YWpjSjNyZzA?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【続報】カープ羽月隆太郎容疑者逮捕の事件、広島県警がマツダスタジアムを家宅捜索、大野練習場も（中国新聞デジタル） - Yahoo!ニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE9mN293cVBodW1TTFlsVmlpMEtTcGVoQUtWam9JeVdyczZ0bWxseHJ5SnBPOVhGc0RMLXZiQXRYRlRGRGZvYWtDNDBGN0pkZk1ITUZ2UHYzcHJ2enQtWUNCQWN4d2VwSWVxMllfU1Bzd3M4ak1SVnRhU1JxUW03c3c?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【広島】羽月隆太郎容疑者逮捕を受け「選手生命失うよ」鈴木清明球団本部長がミーティングで注意喚起（スポーツ報知） - Yahoo!ニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE8yd3pYeFFjYzdFaGh0bGtzSThxWkRFeTN1UGpGRGdaWGZmSXJJY2o2TVV4WlhDWG4zbGxXVGhSQ3RGVzd1VDAyOG83RXpIcTRqc1VoMVEzdWFpdw?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">カープ羽月隆太郎容疑者の逮捕でマツダスタジアムと大野練習場を家宅捜索 広島県警 - 中国新聞デジタル</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMib0FVX3lxTFBHTDFyMVZfdUZmRURQdDV6Y3RBN2tMME5teUNDem9jYVhhN2dzTkUtdFo0RDVobnpEazI1bUxFQ0Rxb2U3blIyN20ySjNFQlEyYmxVRDA3TzZuXzdyOXZoVGYxb0tVS1UtNFVGYkd3c9IBdEFVX3lxTFBELTVPSnVtd1E4anNtRjFjYzlxdExTNWV1SHB5b2tDSnhDdjFvVVQxVnU3cXZXcXZTN2VmZDZYTGZlT1ZDX19xNGpBT2dGWjhBc3RocmJoZ2dONEdzOHFZY2FaRjJPTkVOZGVFRjZvU3RCZ0Z3?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">「優勝に向かって競争し合いながらがんばりたい」広島カープの選手が日南入り　1日からキャンプスタート - ｄメニューニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE5pdnV4YzhudzNsaGtMMFNLNHdxckR2MlEzT2U1a3VVc2J5aWFpcEtYRkFtU2daMXZLNlhQLUd1eG4tUmFLOW5LZ054a3FyNXBfa05hbXRGMkF5UQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【火事・更新】広島市中区でアパート全焼、40代男性が意識不明＜動画あり＞ - 中国新聞デジタル</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0yT3NpZG5pWUdxSi1xNjdqSEctQW1NY2VqNF8yM1hoV2ZSMVR1MDVCWUNNdGJnUmI2bTVGcTBjMWdIM0VfNVBOWjE5dHFXS3VkQUFVN2oxM291Z29rd1NaX3VodlUyUUU?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">「『火事だ すぐ逃げろ』と外を見ると炎が赤々と…」広島市中区の２階建てアパートが全焼 男性1人が意識不明の重体 消防車15台ヘリ１台が出動 | RCC NEWS | 広島ニュース | RCC中国放送 (1ページ) - TBS NEWS DIG</a></li>
 </ul>
 </details>
 <details><summary>💰 経済・ビジネス</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568079?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">急速な円高 為替介入は「なし」</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568074?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">SLIM BEAUTY HOUSEを業務停止</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568061?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">フジTV社長 新卒採用の影響言及</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568064?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">固定住宅ローン 大手5行が利上げ</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568077?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">初代Switchが確立 勝利の方程式</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568149?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">NY金融市場 次期FRB議長に警戒感</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568129?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">台湾LCC 今春の日本便を大量欠航</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568161?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">25年美容業の倒産が最多 背景は</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568135?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">「金麦」発泡酒からビールへ 今後</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568214?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">働いても働いても 非正規の貧困</a></li>
 </ul>
 </details>
 <details><summary>💻 テクノロジー</summary><ul style="list-style-type: none; padding: 0;">
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568199?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">衆院選X分析「旧統一教会」急増</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568166?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">モスクで早朝大音量と誤情報 拡散</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568137?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">AI使い政治「偽番組」投稿者考え</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568107?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">選挙のフェイク動画 AI発達で加速</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568003?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">YouTube使った選挙戦 向き合い方</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6567938?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">小中高生の自殺 AIは救いになるか</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6567912?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">ネット選挙運動 X機能に落とし穴</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568015?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">売れ残り食べ物アプリで半額 開始</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568123?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">自動運転の安全基準 国連原案判明</a></li>
 </ul>
 </details>
 <details><summary>🚨 国内・社会</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568088?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">各党の公約「安全保障」に温度差</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568056?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">衆院選 あなたと政党の相性を診断</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568096?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">外国人労働者 257万人で過去最多</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568097?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">毎日新聞記者 旧統一関連イベ参加</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568053?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">児童虐待の相談件数 初めて減少</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568211?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">首相 円安で「外為特会ほくほく」</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568139?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">衆院選 序盤から都市部に幹部投入</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568156?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">積雪の上で演説 厳冬とも戦う陣営</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568187?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">受験シーズンに選挙 学校ぴりぴり</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568191?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">日英 次期戦闘機の共同開発加速</a></li>
 </ul>
 </details>
 
 ---
-<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 07:58</p>
+<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 07:51</p>
