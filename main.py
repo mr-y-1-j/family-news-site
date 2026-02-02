@@ -196,30 +196,31 @@ def call_gemini_smart(text):
 
     except Exception as e: return f"通信エラー: {str(e)}"
 
-# --- ゲーム：おみくじスクリプト ---
+# --- ゲーム：おみくじスクリプト（修正版） ---
 def get_omikuji_script():
+    # 注意: ここはインデントを付けず、左端に詰めて書くこと！
     return """
-    <div style="background-color: #fff0f5; padding: 20px; border-radius: 15px; text-align: center; border: 2px solid #ff69b4; margin: 20px 0;">
-      <h2 style="color: #d63384;">🔮 今日の運試し</h2>
-      <div id="omikuji-box" style="font-size: 50px; margin: 10px;">📦</div>
-      <button onclick="drawOmikuji()" style="background-color: #ff69b4; color: white; border: none; padding: 10px 20px; font-size: 18px; border-radius: 20px; cursor: pointer;">おみくじを引く！</button>
-      <div id="omikuji-result" style="font-size: 24px; font-weight: bold; margin-top: 15px; color: #333; min-height: 40px;"></div>
-    </div>
-    <script>
-    function drawOmikuji() {
-        const results = ["🌸 大吉！", "✨ 吉！", "👍 中吉！", "🍩 小吉！", "💪 末吉！"];
-        const emojis = ["🎉", "🌟", "🍀", "🍫", "🔥"];
-        const randomIndex = Math.floor(Math.random() * results.length);
-        const box = document.getElementById("omikuji-box");
-        const resultDiv = document.getElementById("omikuji-result");
-        let count = 0;
-        const interval = setInterval(() => {
-            box.innerHTML = emojis[count % emojis.length]; count++;
-            if (count > 10) { clearInterval(interval); box.innerHTML = emojis[randomIndex]; resultDiv.innerHTML = results[randomIndex]; }
-        }, 100);
-    }
-    </script>
-    """
+<div style="background-color: #fff0f5; padding: 20px; border-radius: 15px; text-align: center; border: 2px solid #ff69b4; margin: 20px 0;">
+  <h2 style="color: #d63384;">🔮 今日の運試し</h2>
+  <div id="omikuji-box" style="font-size: 50px; margin: 10px;">📦</div>
+  <button onclick="drawOmikuji()" style="background-color: #ff69b4; color: white; border: none; padding: 10px 20px; font-size: 18px; border-radius: 20px; cursor: pointer;">おみくじを引く！</button>
+  <div id="omikuji-result" style="font-size: 24px; font-weight: bold; margin-top: 15px; color: #333; min-height: 40px;"></div>
+</div>
+<script>
+function drawOmikuji() {
+    const results = ["🌸 大吉！", "✨ 吉！", "👍 中吉！", "🍩 小吉！", "💪 末吉！"];
+    const emojis = ["🎉", "🌟", "🍀", "🍫", "🔥"];
+    const randomIndex = Math.floor(Math.random() * results.length);
+    const box = document.getElementById("omikuji-box");
+    const resultDiv = document.getElementById("omikuji-result");
+    let count = 0;
+    const interval = setInterval(() => {
+        box.innerHTML = emojis[count % emojis.length]; count++;
+        if (count > 10) { clearInterval(interval); box.innerHTML = emojis[randomIndex]; resultDiv.innerHTML = results[randomIndex]; }
+    }, 100);
+}
+</script>
+"""
 
 # --- メイン処理 ---
 print("🚀 開始...")
