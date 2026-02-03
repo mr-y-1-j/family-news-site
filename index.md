@@ -1,8 +1,8 @@
-# 🏡 Family Portal 02/02
+# 🏡 Family Portal 02/04
 
 <div style="display: flex; gap: 10px; font-weight: bold; background: #f0f0f0; padding: 10px; border-radius: 5px;">
-  <span>⛅ 広島: くもり</span>
-  <span>📈 日経: 53,323円 | USD: 154.73円</span>
+  <span>⛅ 広島: 晴れ</span>
+  <span>📈 日経: 54,721円 | USD: 155.71円</span>
 </div>
 
 
@@ -11,43 +11,40 @@
 </div>
 
 
-AI編集長です！02月01日のニュースをお届けします！
+AI編集長です！02月03日のニュースをお届けします。
 
 ### 今日の3大ニュース
 
-*   **東広島市長選、高垣広徳氏が3選**: 地元の東広島市長選挙では、現職の高垣広徳氏が激戦を制し、見事3期目の当選を果たしました。安定した市政運営が期待されます。
-*   **広島カープ・羽月隆太郎容疑者が逮捕、球団が注意喚起**: 広島カープの羽月隆太郎容疑者が「ゾンビたばこ」と呼ばれる吸引器の使用で逮捕されました。これを受け、鈴木清明球団本部長は選手たちに「選手生命を失うよ」と強く注意喚起し、再発防止を徹底する構えです。
-*   **AIによる偽情報が政治に影響、懸念が拡大**: AI技術の進化に伴い、政見放送の改ざんや政治に関する「偽番組」が作られ、インターネット上に投稿される事態が指摘されています。識者からは、衆議院選挙でもSNSでの誤情報が急増していることなど、情報操作への強い懸念が示されています。
+*   **広島県の転出超過が5年連続で全国最多に。** 働く場の確保や魅力的な地域づくりが喫緊の課題となっています。
+*   **新首相の選出に向けた動きが本格化。** 減税や社会保険料の引き下げ、消費税のあり方など、国民生活に直結する経済政策の議論が活発です。
+*   **スペインで16歳未満のSNS利用が禁止される見通し。** 子どもたちのデジタル利用について、国際的な議論が深まっています。
 
 ### 豆知識
 
-今日は何の日？
-
-今日は「**テレビ放送記念日**」です！
-1953年のこの日、NHKが東京で日本初のテレビ本放送を開始しました。当時はまだ高価で普及には時間がかかりましたが、日本の情報伝達と娯楽に革命をもたらした大切な日です。
+今日は何の日？ 2月3日は「節分」です。季節の変わり目には邪気が入りやすいと考えられ、豆まきや恵方巻きを食べて無病息災を願います。今年の恵方は「東北東」ですよ！
 
 
-    <div style="background-color: #fff0f5; padding: 20px; border-radius: 15px; text-align: center; border: 2px solid #ff69b4; margin: 20px 0;">
-      <h2 style="color: #d63384;">🔮 今日の運試し</h2>
-      <div id="omikuji-box" style="font-size: 50px; margin: 10px;">📦</div>
-      <button onclick="drawOmikuji()" style="background-color: #ff69b4; color: white; border: none; padding: 10px 20px; font-size: 18px; border-radius: 20px; cursor: pointer;">おみくじを引く！</button>
-      <div id="omikuji-result" style="font-size: 24px; font-weight: bold; margin-top: 15px; color: #333; min-height: 40px;"></div>
-    </div>
-    <script>
-    function drawOmikuji() {
-        const results = ["🌸 大吉！", "✨ 吉！", "👍 中吉！", "🍩 小吉！", "💪 末吉！"];
-        const emojis = ["🎉", "🌟", "🍀", "🍫", "🔥"];
-        const randomIndex = Math.floor(Math.random() * results.length);
-        const box = document.getElementById("omikuji-box");
-        const resultDiv = document.getElementById("omikuji-result");
-        let count = 0;
-        const interval = setInterval(() => {
-            box.innerHTML = emojis[count % emojis.length]; count++;
-            if (count > 10) { clearInterval(interval); box.innerHTML = emojis[randomIndex]; resultDiv.innerHTML = results[randomIndex]; }
-        }, 100);
-    }
-    </script>
-    
+<div style="background-color: #fff0f5; padding: 20px; border-radius: 15px; text-align: center; border: 2px solid #ff69b4; margin: 20px 0;">
+  <h2 style="color: #d63384;">🔮 今日の運試し</h2>
+  <div id="omikuji-box" style="font-size: 50px; margin: 10px;">📦</div>
+  <button onclick="drawOmikuji()" style="background-color: #ff69b4; color: white; border: none; padding: 10px 20px; font-size: 18px; border-radius: 20px; cursor: pointer;">おみくじを引く！</button>
+  <div id="omikuji-result" style="font-size: 24px; font-weight: bold; margin-top: 15px; color: #333; min-height: 40px;"></div>
+</div>
+<script>
+function drawOmikuji() {
+    const results = ["🌸 大吉！", "✨ 吉！", "👍 中吉！", "🍩 小吉！", "💪 末吉！"];
+    const emojis = ["🎉", "🌟", "🍀", "🍫", "🔥"];
+    const randomIndex = Math.floor(Math.random() * results.length);
+    const box = document.getElementById("omikuji-box");
+    const resultDiv = document.getElementById("omikuji-result");
+    let count = 0;
+    const interval = setInterval(() => {
+        box.innerHTML = emojis[count % emojis.length]; count++;
+        if (count > 10) { clearInterval(interval); box.innerHTML = emojis[randomIndex]; resultDiv.innerHTML = results[randomIndex]; }
+    }, 100);
+}
+</script>
+
 
 <h2 style="border-bottom: 2px solid #ddd;">🎨 アート & キッズ</h2>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 15px;">
@@ -63,15 +60,15 @@ AI編集長です！02月01日のニュースをお届けします！
       <text x="50" y="85" font-size="10" text-anchor="middle" font-weight="bold">6</text>
       <text x="20" y="54" font-size="10" text-anchor="middle" font-weight="bold">9</text>
       
-      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(75.0 50 50)" />
-      <line x1="50" y1="50" x2="50" y2="15" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" transform="rotate(180 50 50)" />
+      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(202.5 50 50)" />
+      <line x1="50" y1="50" x2="50" y2="15" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" transform="rotate(270 50 50)" />
       <circle cx="50" cy="50" r="3" fill="#333" />
     </svg>
     
       <br><br>
       <details>
         <summary style="cursor: pointer; background: #1abc9c; color: white; padding: 8px 15px; border-radius: 20px; display: inline-block;">こたえをみる</summary>
-        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">2じ 30ふん</p>
+        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">6じ 45ふん</p>
       </details>
     </div>
     </div>
@@ -129,37 +126,37 @@ American, 1850–1913</span></p>
 
 ## 📰 詳しく見る
 <details><summary>🍁 広島のニュース</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE95Ty1WQXl0Y044cEFRUHRqblp2VXJnaV9PM0w1TnFJTUhxcXdYQXVpRWFBU2xvX1dqUy0taXlYOWhFUFRFRGFHVmdnRzYyYWVUTjMtR3VmWVV5UdIBXEFVX3lxTFBkbk5faU96enZabDN5ZE80cXdsREEtWVJveXdwbEVOay0tUEZzR2JUbmlHY0VIaGJvRmhBd1pkaUk2bkt5U2FVX3dKQkZZQmZQQ1c0SDlRcnp2Zk1p?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">東広島市長選、高垣広徳氏が3選 - 中国新聞デジタル</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5PNXA3OWsta1hCUkJGdGxldXNvNlNHeklWcVZjWkphSW5aeG9INkVNZlk3OTFxVm80VFk5bUhMbldsUlc1U3REc2dzYU9wU2xQaXB3R3Y3RVAtaWlpR0c3OUlRV0FXdTg?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【東広島市長選挙】無所属・現職の高垣広徳氏（72）が3選 | RCC NEWS | 広島ニュース | RCC中国放送 (1ページ) - TBS NEWS DIG</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWEFVX3lxTE1adUpnOUpHVTMtQXRxckY0RTAxUWhjU1hKODI1d0pnWXhwNW5SNmFfUHo1Qko0Q3p4OTN0TTBNYlZKVy1pRTAxLWVNTE8tTGtVcWE3aGpCSFo?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島 東広島市長選挙 １日夜開票へ - NHKニュース</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiS0FVX3lxTE1Dc1dUb0IweVFKT2dzVk05c1pndVhGQ01XRVM5YVdVc01UTFJlWkFsVW1lMExMUGNVNUFiTHFwRnlhLWxvbkhIdTVROA?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【友人が証言】“ゾンビたばこ”で逮捕 広島カープ・羽月隆太郎容疑者に何があったのか「2軍落ちで音信不通」「吸引器を常に持ち歩いていた」 - 文春オンライン</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE9mN293cVBodW1TTFlsVmlpMEtTcGVoQUtWam9JeVdyczZ0bWxseHJ5SnBPOVhGc0RMLXZiQXRYRlRGRGZvYWtDNDBGN0pkZk1ITUZ2UHYzcHJ2enQtWUNCQWN4d2VwSWVxMllfU1Bzd3M4ak1SVnRhU1JxUW03c3c?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【広島】羽月隆太郎容疑者逮捕を受け「選手生命失うよ」鈴木清明球団本部長がミーティングで注意喚起（スポーツ報知） - Yahoo!ニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTFB1SWJoOVVrWFZmTXFvM0tYVjdSN196V1RYUHJSMEp6dHFtNlVLcXpCb3hnaHFQeTNac0gwWE9pdXB3RGc3bFFIaVlnS0MwNkhZbTVsUnBnLW9PZ9IBXEFVX3lxTE9fa21fMVpUWk5ORmlzREV4ajVEWmp2RFh0VEliUnllSElpWjl2TTR6X3BlMEFZcVBrWFNiWl8xTXh3aHhzeGk1bTNNRHNhaG4wNHFSU0NvN0w5dTJw?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島市のプレミアム商品券、なぜ現金給付じゃない?　他の政令市と比べ検証 - 中国新聞デジタル</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE0xUVZJYnpSSi1SODNTRXJJejlkRTZUemoyaTVRUDk2NEQtd0FiTXFtZnhsLXRmTkFjQzZybE9UWlJnTVNpZlFMTFg3dERwWkJ2TlN4dzd4ZW9QQQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">こだま～読者のエッセー「夫婦漫才」 会社員・尾崎直美（52）＝広島県東広島市 - 中国新聞デジタル</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE8zV0RQdERjNnUwXzVsVDF0eFNzRkxocDFWSmF1RjJDMHFOZXd5RU9iZVRtREV2RHc3N3JSUTFUelAtMWo2R0k0MERlVFVWWFlPbU1oYmQyZ1RhQdIBXEFVX3lxTFBfQzlYbC1Ra0FiUmowUjFaZHdqelFmWTlSRjRHWmF2dGFqX3NjS1NWbHBYNjRjaU80UENoTnpLN2hXYVB4OXN1RHNqUVN1Ml9mS0g4ZC1ORW91elZW?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島県の転出超過、5年連続全国最多　総務省の2025年人口移動報告 - 中国新聞デジタル</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE5NR3g3XzdHNWZXeU9SZzdnOTczbFNjcGJGcWI5WmFDWFJKSTdQSlBhRVZJS0l5eHZqcUswMlhkVEFodnJMZWxkaWltSHhSSW10MEh1SHA2c056N3dQTXNEUWJkTzFjVTdmMjBrQQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島の転出超過9千人、5年連続で全国最多 「働く場」改革正念場 - 日本経済新聞</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Banplbml1WlRMUThfcHpEZ0RFRFZ4UTE4TzNuUk50MXpaajlpWnlWSzQxVUxFRkVoYmtYT19GWDhuNHpUUVEyUjJ2MnBpeGx4WlJuUHFJd2Q3QdIBXEFVX3lxTE81RGxDM1ZoZnA2QU5oLURPTWNtNGROTHcxMThIdWFZTFI1WHIyeV9JeXBzMDVtTzlDRExtNFYyVlJkaDhMV0pzay1sZ3hUTFR0TldYSGFhNlJSVG9G?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【地域の視点から】広島県の転出超過　政策総動員で歯止めを - 中国新聞デジタル</a></li>
 </ul>
 </details>
 <details><summary>💰 経済・ビジネス</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568286?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">「食料品の消費税0」飲食店の困惑</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568245?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">中小企業は「賃上げ疲れ」背景は</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568233?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">不正繰り返す保険業界 構造的欠陥</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568261?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">「恵方巻」約16億円食品ロス 試算</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568243?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">「千葉の廃墟モール」失敗の要因</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568596?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">日商会頭が減税に苦言 各党に疑問</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568558?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">旧村上系 フジHDのTOB方針撤回</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568562?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">三菱電機G 早期退職に4700人応募</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568579?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">特殊浴場のビル各地で売却 驚きも</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568540?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">「ちゃん系」ラーメン 急速ブーム</a></li>
 </ul>
 </details>
 <details><summary>💻 テクノロジー</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568330?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">アップル AI人材流出止まらず</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568231?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">政見放送をAIで改ざん 識者の指摘</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568199?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">衆院選X分析「旧統一教会」急増</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568166?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">モスクで早朝大音量と誤情報 拡散</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568137?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">AI使い政治「偽番組」投稿者考え</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568601?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">Switchなぜ最も売れた任天堂機に</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568599?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">スペイン 16歳未満のSNS禁止へ</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568573?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">消費税12%? 根拠不明の投稿拡散</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568545?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">演説のライブ配信 投げ銭に問題は</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568543?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">任天堂販売台数 初代Switchが1位</a></li>
 </ul>
 </details>
 <details><summary>🚨 国内・社会</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568329?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">高市内閣の支持率69.9% JNN調査</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568314?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">自維300議席超うかがう 朝日調査</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568301?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">ラストサンデー 各党幹部が訴え</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568297?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">落合信彦さん死去 陽一氏が公表</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568277?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">受験期直撃の選挙活動 陣営ため息</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568583?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">新首相は18日選出で調整 特別国会</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568604?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">消費税「現状維持」自民候補の2割</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568590?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">働きながら育児 政治に望むこと</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568563?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">働けど生活苦 家がない56歳のSOS</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568569?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">社会保険料の引き下げ 可能なのか</a></li>
 </ul>
 </details>
 
 ---
-<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 07:55</p>
+<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 08:01</p>
