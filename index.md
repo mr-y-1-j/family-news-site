@@ -1,8 +1,8 @@
-# 🏡 Family Portal 02/08
+# 🏡 Family Portal 02/09
 
 <div style="display: flex; gap: 10px; font-weight: bold; background: #f0f0f0; padding: 10px; border-radius: 5px;">
   <span>⛅ 広島: くもり</span>
-  <span>📈 日経: 54,254円 | USD: 156.78円</span>
+  <span>📈 日経: 54,254円 | USD: 157.04円</span>
 </div>
 
 
@@ -11,15 +11,21 @@
 </div>
 
 
-AI編集長です！02月07日のニュースをお届けします。
+AI編集長です！02月08日のニュースをお届けします！
 
-**今日の3大ニュース**
-*   **広島の平和の象徴、原爆資料館の入館者数が3年連続で最多記録を更新しました。** 多くの人々が平和への思いを新たにしています。
-*   **東京都心で3cmの積雪が観測され、交通機関への影響や路面凍結に警戒が呼びかけられています。** 各地で冬の厳しさが続いています。
-*   **衆議院選挙の投開票を明日に控え、各党党首が最後の訴えを行いました。** 明日の結果が今後の日本の方向性を左右しそうです。
+### 今日の3大ニュース
 
-**豆知識**
-今日は「**新雪の日**」。北海道旭川市で始まった「新雪まつり」に由来しています。東京都心の積雪も、明日には「新雪」に変わっているかもしれませんね。足元には気をつけてお過ごしください！
+*   **衆議院選挙、自民党が3分の2超の議席獲得！**
+    今回の衆院選では、自民党が単独で316議席（全体の3分の2超）を獲得し、安定多数を確保しました。広島1区では岸田文雄元首相が、広島4区では自民党比例前職の新谷正義さんが当選確実となるなど、全国的に自民党が強い結果となりました。今後の政治の動きに注目が集まります。
+*   **広島市、アストラム延伸の効果を再検証へ！**
+    アストラムラインの延伸計画について、広島市が採算性への懸念の声を踏まえ、効果の再検証に乗り出します。関連費用として5千万円が2026年度当初予算案に計上されるとのこと。地域の交通インフラの未来に関わる重要な動きです。
+*   **物価上昇に「ブレーキ」の兆しか？**
+    家計を圧迫していた物価上昇の勢いに、ようやく「ブレーキ」がかかる兆しが見えてきました。これは、私たちの暮らしにとって嬉しいニュースとなりそうです。今後の物価の動向に期待が高まります。
+
+### 豆知識
+
+今日は何の日？
+2月8日は「**針供養（はりくよう）の日**」です。折れたり古くなったりして使えなくなった針を供養し、感謝する日とされています。針を豆腐やこんにゃくなどに刺して供養する風習が、日本各地に残っていますよ。
 
 
 <div style="background-color: #fff0f5; padding: 20px; border-radius: 15px; text-align: center; border: 2px solid #ff69b4; margin: 20px 0;">
@@ -58,15 +64,15 @@ function drawOmikuji() {
       <text x="50" y="85" font-size="10" text-anchor="middle" font-weight="bold">6</text>
       <text x="20" y="54" font-size="10" text-anchor="middle" font-weight="bold">9</text>
       
-      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(45.0 50 50)" />
-      <line x1="50" y1="50" x2="50" y2="15" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" transform="rotate(180 50 50)" />
+      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(55.00000000000001 50 50)" />
+      <line x1="50" y1="50" x2="50" y2="15" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" transform="rotate(300 50 50)" />
       <circle cx="50" cy="50" r="3" fill="#333" />
     </svg>
     
       <br><br>
       <details>
         <summary style="cursor: pointer; background: #1abc9c; color: white; padding: 8px 15px; border-radius: 20px; display: inline-block;">こたえをみる</summary>
-        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">1じ 30ふん</p>
+        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">1じ 50ふん</p>
       </details>
     </div>
     </div>
@@ -124,37 +130,37 @@ American, 1850–1913</span></p>
 
 ## 📰 詳しく見る
 <details><summary>🍁 広島のニュース</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE1hOXI2ZHhFT1phUDhzclQtdFItbXRTWGhSd3lMSF91WG9Ha2ZKME05YThBUDZ6OHJteG4xTXcyRjgyaHd2bGpqeWY1ZnRGUDdfWEJRajhoNmozQdIBXEFVX3lxTE5hMkR0T0VKV1dYVnNxUnJaeHpFdTVKMmM1WUg3YWppeFpiZUV6eTZ4VWNvYzRzZGNwM2pMR2ppVEpkYkoyOTBmUFRJRXZfWDBhZ1YxVTlGRVZqdkxp?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">産廃業者の許可取り消し　広島県 - 中国新聞デジタル</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE8zdTlHeVBpYm5OdjBYU21qbnVqWmp5d05DRkc2R2hPdXFCaUJNSS1XRzBNNWlpdzNyT1ZRTEFseDlhUGk3NDhiNlhHTDJiNExxOGl5allsdlhObTlGd1FMV0hhLU5kMlFF?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">原爆資料館入館 3年連続で最多 広島 ／広島 - 毎日新聞</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE4yRHdoS21NdGZmWTZuRmNvWHpCeHJEYXg4Y21OWUM4OFR3a3R5YTBPTGpmeHRNSnE0UnFJb0NGVHRNamdKcHFJREtLaXVlMXR6NTR4M3YwR2NKQjZ6TFZaclNQLTBicVJPb2owNzA0S2FHWWJwNUJrYzE0bVo2VTQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">キッカケは師匠からの「破門」…「ゾンビたばこ」で逮捕の羽月隆太郎容疑者が「広島で孤立していた」（FRIDAY） - Yahoo!ニュース</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiY0FVX3lxTE1wcThZNlNZNFMxOEtOVi1QckFfYVFQbUFRUWR4bkI2VE9MNlBCUy1lYi1xZndjZVZ0ZlVLZ2MyZVBvNXBmb0RrR2hYbE9WaEg4Q0lUXy1qTUZsaExTQlZ3eEE0cw?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">カープ羽月隆太郎容疑者、使用認める ゾンビたばこ、逮捕時は否認―広島県警 - 時事ドットコム</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE1sTEEyTFBXQ2dPZlJWR0xlei1EVjlPUVZnc2ZPWUh4V1ZVV29WOWtXZ0x5YUdvRlZMTWdSblpReE5ObC1fM2o3TTBzOFIyNFlPR29jSGZnaG9qRWI0dzJFMloyY3U1TUNqbV9CRlM0UUppVEU1ejNSbG5yOGxrLXM?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島・鈴木清明球団本部長「報道で知った」羽月隆太郎容疑者が薬物使用を認める供述（スポニチアネックス） - Yahoo!ニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE95MkFMZzhXLUc3QTRtbWJOWHJCajZ5R2gtZmkxYnE5Qk41enlpNXZqWXJxSEtYS0ZYMmJzSHl4Y1RrbVE2RUR3UXI3TGdsS2FjVUl0WWRxT25rZ9IBXEFVX3lxTE5ybkd5XzEweDZsZHBvX3NJQ2Z5NkxnZEZXNHh1d1JmNlotYWUtd1VzcVc4ZjJ2Sk9QekRwb2o4XzR3YTZiX1k0N20wcXIxYzlyRktxQkgyZlp2WHph?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">アストラム延伸、広島市が効果を再検証へ　採算性に懸念の声踏まえ、関連費５千万円を2026年度当初予算案に計上 - 中国新聞デジタル</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiS0FVX3lxTE04NnR1bkI3T3BuMGFwQjM1LWlMRjNBYWVYWndWdUpCblR2UVVJS21ETG5RbEpDU0w0ZXJZalBRUGMxMVlhRXVPMDlMNA?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">雪で広島―松江の高速バスが終日運休 米子・出雲市も - 47NEWS</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE91MkV2aWZKZ3lVOEUwc3YyWWsyTzBienZSOFhicmp4S3VtWEsyVUY2bk54U0lqdndOVFhkd2o2ZmU1eUFJNndXaE1UbFU5TTBfNmVwblR5ZGhkd9IBXEFVX3lxTE9FQUpUTFFGdnl2STZQNjVJTjZEeGZvYWZ4NC1lOUlHRGpleUdCUHFLekFndWNtMkQ4Nnk2ZGRidk1fSmJyVndaYThaMWRLYkRydUMtNFMwa1pobnZR?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島空港発着便の欠航情報（2月9日午前5時40分現在） - 中国新聞デジタル</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTFA5enRua0NhOVVucUR2X1UtejRVMDlyZml6UzFOT3NpMjVjeXRSX0RVd1EybUtfOEVzZHNYakJzbUpxWDZSWWpaSGJTcjRPcE03ZTA5WDUxaWF4eGZHQU5KaGdMendOWFMwOXZrS3Y1Nkw?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">衆議院選挙:広島１区、自民党の岸田文雄元首相が当選確実 - 読売新聞オンライン</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTFBpVDZiWi1ULVY5Sm83YzFqVUJzX3E0dXAxV19hc1pPVThPcXNoT1dFbm9seW12WWxQSGVtWHlYTWg0ejNXQUZKRnNSeDFJanBSYmN2aHJqSnc5UdIBXEFVX3lxTFBtNmVwa3RTZmV5WGlHS043SzdnSlhuYldGOG5xXzlOTktrMFJhUXVYX0FyQ2xKdmNZOVp3aFFpNjdyQ0x0RXRTN1lIRmpGd2pxZFl2X21iNzl1RTRH?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【速報】衆院選広島４区、自民比例前職の新谷正義さん当選確実 - 中国新聞デジタル</a></li>
 </ul>
 </details>
 <details><summary>💰 経済・ビジネス</summary><ul style="list-style-type: none; padding: 0;">
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569178?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">高市トレード再始動へ 株高期待</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569151?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">物価上昇「ブレーキ」の兆しか</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569032?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">対米投融資 第1弾は3案件で調整</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569045?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">五輪ウエア 有名ブランドぞろいに</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569036?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">ニデックTOB巡り 新たに男を逮捕</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569037?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">20年越し念願 東横INNが高知上陸</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569026?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">テーマパーク 価格変動チケ広がる</a></li>
 </ul>
 </details>
 <details><summary>💻 テクノロジー</summary><ul style="list-style-type: none; padding: 0;">
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569203?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">衆院選 Xで注目された発言を分析</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569116?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">アイホンのFAQに「iPhone」 なぜ</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569064?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">独の声優ら ネトフリ吹き替え拒否</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569025?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">外国人巡るデマ急拡散 衆院解散後</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569005?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">ドワンゴ広告ゲーが人気 計3億DL</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568942?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">海外で導入 スマホ規制の効果は</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568926?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">Apple 直営店でiPhone17販売中止</a></li>
 </ul>
 </details>
 <details><summary>🚨 国内・社会</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569073?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">東京都心で積雪3cm 交通障害警戒</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6568996?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">道路に雪捨ては違法? 警察に聞く</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569069?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">各党党首が最後の訴え 8日投開票</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569056?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">大雪 接戦区で当落左右する可能性</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569014?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">自民が単独過半数上回る勢い JNN</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569241?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">自民党 3分の2超える316議席獲得</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569238?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">比例候補不足 自民13議席を他党へ</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569233?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">高市首相 連立拡大にも意欲示す</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569235?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">なぜ自民党を選んだのか 私の理由</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569240?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">中道「新党効果」不発 党内に激震</a></li>
 </ul>
 </details>
 
 ---
-<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 07:14</p>
+<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 07:15</p>
