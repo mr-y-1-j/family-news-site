@@ -1,8 +1,8 @@
-# 🏡 Family Portal 02/12
+# 🏡 Family Portal 02/13
 
 <div style="display: flex; gap: 10px; font-weight: bold; background: #f0f0f0; padding: 10px; border-radius: 5px;">
   <span>⛅ 広島: 晴れ</span>
-  <span>📈 日経: 57,651円 | USD: 153.17円</span>
+  <span>📈 日経: 57,640円 | USD: 152.74円</span>
 </div>
 
 
@@ -11,31 +11,26 @@
 </div>
 
 
-AI編集長です！02月11日のニュースをお届けします！
+AI編集長です！02月12日のニュースをお届けします。
 
 ---
 
-### 今日の3大ニュース
+**今日の3大ニュース**
 
-*   **広島電鉄の新循環ルート、3月28日開通へ**
-    広島電鉄は、紙屋町・八丁堀と比治山エリアを結ぶ新循環ルートを3月28日に開通させる方向で調整を進めています。地域の交通利便性が大きく向上することが期待されます。
-*   **JALで約2万8千人分の情報流出か**
-    日本航空（JAL）で、最大2万8千人分の個人情報が流出した疑いがあることが明らかになりました。サイバー攻撃の脅威が改めて浮き彫りになり、企業の情報セキュリティ対策の強化が求められています。
-*   **13日から気温上昇、雪崩や落雪に注意**
-    気象情報によると、13日からは気温が上昇する見込みです。これにより、積雪地域では雪崩や落雪、融雪による災害が発生する危険性が高まります。特に新雪は融けると重さが10倍にもなると言われており、十分な注意が必要です。
+*   **広島電鉄が市中心部に循環線を運行開始！**
+    広島電鉄が、広島市中心部を「内回り・外回り」で巡る新しい路線を3月28日から運行します。中心部の回遊性が向上し、お買い物や観光がさらに便利になりますね！
 
----
+*   **広島県内で「おこめ券」採用ゼロ、現金・商品券で支援へ**
+    広島県内の市町村では、国の「おこめ券」を給付に採用したところがなく、商品券や現金などでの支援策がとられています。中には1人2万円分の支援を行う自治体もあるそうですよ。
 
-### 豆知識
-
-**今日は何の日？**
-
-2月11日は「**建国記念の日**」です。
-日本の建国をしのび、国を愛する心を養う日として制定された国民の祝日ですよ。
+*   **セブン-イレブン、おにぎりなど29品目を値上げ**
+    大手コンビニエンスストアのセブン-イレブンが、おにぎりやパンなど29品目を値上げすると発表しました。日々の食卓にも影響が出そうです。
 
 ---
 
-次回の家族新聞もどうぞお楽しみに！
+**豆知識**
+
+今日は「レトルトカレーの日」です！1968年の今日、日本初のレトルトカレー「ボンカレー」が発売されたことに由来します。忙しい日や、手軽に美味しいカレーが食べたい時に大活躍ですね！
 
 
 <div style="background-color: #fff0f5; padding: 20px; border-radius: 15px; text-align: center; border: 2px solid #ff69b4; margin: 20px 0;">
@@ -74,15 +69,15 @@ function drawOmikuji() {
       <text x="50" y="85" font-size="10" text-anchor="middle" font-weight="bold">6</text>
       <text x="20" y="54" font-size="10" text-anchor="middle" font-weight="bold">9</text>
       
-      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(352.5 50 50)" />
-      <line x1="50" y1="50" x2="50" y2="15" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" transform="rotate(270 50 50)" />
+      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(49.99999999999999 50 50)" />
+      <line x1="50" y1="50" x2="50" y2="15" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" transform="rotate(240 50 50)" />
       <circle cx="50" cy="50" r="3" fill="#333" />
     </svg>
     
       <br><br>
       <details>
         <summary style="cursor: pointer; background: #1abc9c; color: white; padding: 8px 15px; border-radius: 20px; display: inline-block;">こたえをみる</summary>
-        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">11じ 45ふん</p>
+        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">1じ 40ふん</p>
       </details>
     </div>
     </div>
@@ -140,37 +135,37 @@ American, 1850–1913</span></p>
 
 ## 📰 詳しく見る
 <details><summary>🍁 広島のニュース</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE5adk9KX1dXd3Q0NzZNOW9vTDVnOHVXRlZJNk1MR3FnRjV3c3hxYm1NZjJwTy1ubENsRkZ3ci1BR3hXOENmZTh3d0ZFZUJIR1RUUkd5blpEZ3k5UdIBXEFVX3lxTE00dHIxYVVyMWtWVkRUX0o0YVNUQUhDUm96QkpRNXNZN28xTS1wVEI4M3BmT0Y0bFdMVGE2dFA1LWxDblp0c1RQOHFidDhDemN1cjEyRTRKM3MzLTR2?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">2月11日（水）の広島県内当番医 - 中国新聞デジタル</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE93TTR0Wm0zTERiQk5lakJYa3pNaWVkREloUDNZdEJSZ1EtT2wtbm0xV29QZk56SWhtNGxNNUJlZHA0V2ktRWt6UlpPa3dvNVVwNzhnR3lCdWF6Z9IBXEFVX3lxTE50cU5vMnFCcWJLMWtFVGNPTUlCNjExb3dCWVR5NlVsQ0JzZ3BXZDZ3TUxKYUhqZDBrd25wd19RVFdWRW1DM1JyTG9lU1BUS3R4V1lrSDNwd0tFZHBo?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広電の循環ルート3月28日開通で調整　紙屋町・八丁堀と比治山エリア直結 - 中国新聞デジタル</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE5haFJ6NTFmTnFUUVloTFdNZm8tVnJsZWxrcGhVRXkwUTBTQ0Q3aXZnV2d4MktYVWV3MG8tLTJCR09SSkF6UXF0Wklkd3J1LU0tejdYd1BscV9pOTZ3Zi1ISUNrX3BnS3ZjZ0UzSURxZHcydkwwdmtjZDZ0QjczX0U?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島・新井監督が断！ドラ6・西川篤夢の昇格＆矢野雅哉の降格決定、「横一線」波乱の入れ替えへ（スポニチアネックス） - Yahoo!ニュース</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMidkFVX3lxTFBJTFFHM0hqVHpmdlVHVGU4VU1vYlJBTk96MzhkUXY4aHY5Uk5UQ2xYbnZ0NGw1NEZTWWNNTWZuNEZPZXpraFNPbDNSd3pzTFg1c3lzLXRuYmNtV3ZTOVJ2d091NXdnMlBtSDQ4LXVRNGdVNFFScXfSAYoBQVVfeXFMT0xrUW9ELTBjamFEdmlPLUIwWXFwTjVGRnlGZmlFOUpTd0VlbFE4bU9iUVIzbFhYdFBORzdzSTlQUWRkSEpBakpSalliZ25GMTBhak5xeVFtSkNEM2EwZ0VWN0tQa25JVXBZNHBTZGR6RHZKX3hRbFY2b1dfalJTSGNBdDlHcUhBVG1R?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島D6位・西川が沖縄行きつかむ - サンスポ</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMic0FVX3lxTE9Ra0FxVXc2TjNzRlEzQ1VIdW43dmlaVi1YTWxJNUxNVGZoUFlvWDdUdnMtWmM0UExoVEdsOTFlakV0UFAwOU9EdDZrckNRTGVUaU11NDNIenFsVVBYYzJ3VDhHTU5VaFdyYUlWV2phdWpHUGc?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島 紅白戦のスタメン発表 先発は大瀬良と森 ドラ１・平川は紅組の「３番・中堅」 練習生のドミニカン２人も登板予定 - デイリースポーツ</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMihwFBVV95cUxNY1ljUFdHdWlNXzNnYWt2SDRMdVR3cDlKeTdod0lDVWM1a0Z4WVBER2JlcXlWWjZacjRVZ1FjRHROekJZd1U0QVNyREJxMUpRNFBvVFlvSlJ4VkxYTE5EZC1CSGs0cmxmbWNQdmFFMHFoeEVTNjI2ZEgwOExoT3lwWW5VSkxRZ2s?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島・廿日市市の住宅で火事 消火活動中（2026年2月11日掲載）｜広テレ！NEWS NNN - 日テレNEWS NNN</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiigFBVV95cUxPb2pGVkttNUxvT0VCSE1nMEwwZW5LZG44RjN4Q2tZYndZQUxZVEU2N256dnFSX1RaaHhPLVBaMThabzlrYXpxQW5WOU5DUVc3RXFEa1NxNExsRDVyMktTZDVfQzdpNGswWFFhU1V3UWRvd0YzVTVjX25KZjlreEZGR1dPS1hhcnpVZ0E?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【特集】平和について「感じ・学び・伝え合う」広島研修旅行…明治学院 - 読売新聞オンライン</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE9hbVQxRmNQYkhlZ2t6ZXZoTlNSZkprSnVxSnlSWm12WHRUdUI3VDhjdUtidU8yTGhQVnh6NEFrcFg0T3BDSXhNQ2VyVl9Ra3dGM0Vmak4yVWN0QdIBXEFVX3lxTE1iNmdFdDRfNjEyN3NpR0g3NldOVHgtd2hnNnBoUm95ZnZnc01aNnRWUW11NjFlSkI1X09qSFpLd2hGd240d1FKQk5xQi1qcXVYNlFkRTc3N0dkZFI1?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島県内、国の「おこめ券」採用ゼロ　商品券や現金などの支援策　最高額は1人2万円分 - 中国新聞デジタル</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9LaU5rTjZlYVIxZFJBSW1MXzVJT3NUT21IdDRnaTJhb0phbEVwOHZHVkZsVjUwQVNKSFdiTkdJcnhIMVBJek1nRnZXckp5S3VTQUNuSVhvM25adUcwX1dvZ0xSckx2N00?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島市中心部にも「内回り・外回り」ルート 広島電鉄の「循環線」 来月28日から運行開始 - TBS NEWS DIG</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE5FYzF3RjB4ZHhad3YwVGR3a0RoUExkSEg0Z1l2bHdxSXFiTFZiMzk5cFZLY294VlR5Y2hVNHcwZjQzTVZlTzBxbXFPSV9vNko5TElIVzhvOXlyZlJkX0pCVnh4NUJpRlJ1YllIMA?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島電鉄、市中心部を回る新路線を3月28日開業 回遊性を向上 - 日本経済新聞</a></li>
 </ul>
 </details>
 <details><summary>💰 経済・ビジネス</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569552?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">助成金啓発団体 不正受給を指南か</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569534?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">みんなで大家さん側が和解申し出</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569505?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">プルデンシャル 退職者が後絶たず</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569574?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">ハイネケン 従業員最大6000人削減</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569562?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">アメ横 はみ出す路上営業が問題化</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569687?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">日産 2年連続で巨額赤字の見通し</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569643?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">JR東 計10両で台車に16カ所ひび</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569664?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">アサヒGHD社長 障害巡る教訓語る</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569649?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">第一生命HD 情報持ち出し1155件</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569699?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">セブン おにぎりなど29品目値上げ</a></li>
 </ul>
 </details>
 <details><summary>💻 テクノロジー</summary><ul style="list-style-type: none; padding: 0;">
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569675?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">PayPayが米国進出へ Visaと提携</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569666?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">五輪中継で気になるドローン 賛否</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569644?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">なぜ Windows標準メモ帳に脆弱性</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569524?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">セクストーション 被害防ぐには</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569520?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">SNSで首相話題 識者が背景指摘</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569485?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">サイバー攻撃G 企業から人採用か</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569446?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">JAL 2万8千人分の情報流出疑い</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569394?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">AI要約でサイト「素通り」傾向は</a></li>
 </ul>
 </details>
 <details><summary>🚨 国内・社会</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569531?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">13日から気温上昇 雪崩や落雪注意</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569577?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">融雪災害注意 重さは新雪の10倍に</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569571?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">比例で公明優遇巡り 中道不協和音</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569521?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">中道の党代表選 泉健太氏は不出馬</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569532?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">大敗の中道 立憲と公明に隙間風</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569692?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">首相の3月訪韓浮上 シャトル外交</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569676?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">与党 委員長ポストの独占を要求</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569669?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">「国家情報戦略」の初策定を検討</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569704?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">参院の立憲と公明 別会派で活動</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6569725?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">中道・代表選挙 きょう投開票</a></li>
 </ul>
 </details>
 
 ---
-<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 07:19</p>
+<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 07:20</p>
