@@ -1,8 +1,8 @@
-# 🏡 Family Portal 02/20
+# 🏡 Family Portal 02/21
 
 <div style="display: flex; gap: 10px; font-weight: bold; background: #f0f0f0; padding: 10px; border-radius: 5px;">
-  <span>⛅ 広島: くもり</span>
-  <span>📈 日経: 57,468円 | USD: 154.91円</span>
+  <span>⛅ 広島: 晴れ</span>
+  <span>📈 日経: 56,826円 | USD: 154.99円</span>
 </div>
 
 
@@ -11,17 +11,20 @@
 </div>
 
 
-AI編集長です！02月19日のニュースをお届けします！
+AI編集長です！02月20日のニュースをお届けします。
 
-**今日の3大ニュース**
+### 今日の3大ニュース
 
-*   広島市の複合商業施設「ピースウイング」が開業2周年を迎え、一帯に経済効果をもたらしているそうです。地域のさらなる活性化が楽しみですね！
-*   ユニバーサル・スタジオ・ジャパン（USJ）の正社員の給与が、平均6.5%アップしました。他の企業にも良い影響が広がることを期待したいですね。
-*   JR東日本の交通系ICカード「Suica」のペンギン後継キャラクターの選考委員が決定しました。次にどんな愛らしいキャラクターが誕生するのか、注目が集まります！
+*   **広島駅ビル「ミナモア」1周年！街歩きイベントやスタンプラリーで盛り上がる！**
+    広島駅ビル「ミナモア」がオープン1周年を迎え、記念イベントが多数企画されています。周辺地域や紙屋町・八丁堀エリアとの回遊を促す街歩きやスタンプラリーも開催され、街全体が賑わいそうです。
+*   **AI時代の最新「オレオレ詐欺」に注意喚起！対策をしっかり確認しましょう。**
+    AI技術の進化に伴い、巧妙化する「オレオレ詐欺」に新たな手口が見られています。家族や友人を装った詐欺から身を守るため、最新の詐欺対策を確認し、警戒を怠らないようにしましょう。
+*   **JAL国内線、対面での機内販売を終了へ。キャッシュレス化進む。**
+    日本航空（JAL）の国内線で、客室乗務員による対面での機内販売が終了します。キャッシュレス決済への移行が進む中、航空会社のサービスも変化しています。
 
-**豆知識**
+### 豆知識
 
-今日は「プロレスの日」です！1954年のこの日、力道山とシャープ兄弟による日本初のプロレス国際試合が開催され、テレビ中継で日本中が熱狂したそうです。
+今日は「旅券の日」！1952年に海外渡航を目的としたパスポート（旅券）が再発給されたことにちなんで制定されました。もし海外旅行を計画する際は、パスポートの有効期限を早めに確認しておきましょうね！
 
 
 <div style="background-color: #fff0f5; padding: 20px; border-radius: 15px; text-align: center; border: 2px solid #ff69b4; margin: 20px 0;">
@@ -60,15 +63,15 @@ function drawOmikuji() {
       <text x="50" y="85" font-size="10" text-anchor="middle" font-weight="bold">6</text>
       <text x="20" y="54" font-size="10" text-anchor="middle" font-weight="bold">9</text>
       
-      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(355.0 50 50)" />
-      <line x1="50" y1="50" x2="50" y2="15" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" transform="rotate(300 50 50)" />
+      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(222.5 50 50)" />
+      <line x1="50" y1="50" x2="50" y2="15" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" transform="rotate(150 50 50)" />
       <circle cx="50" cy="50" r="3" fill="#333" />
     </svg>
     
       <br><br>
       <details>
         <summary style="cursor: pointer; background: #1abc9c; color: white; padding: 8px 15px; border-radius: 20px; display: inline-block;">こたえをみる</summary>
-        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">11じ 50ふん</p>
+        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">7じ 25ふん</p>
       </details>
     </div>
     </div>
@@ -126,37 +129,37 @@ American, 1850–1913</span></p>
 
 ## 📰 詳しく見る
 <details><summary>🍁 広島のニュース</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTFAyVXkxRjV4aXM3dkVTTUtKMkJEaHJCSng1Smo3ejEwV3RVallfT0VhR3dSX1lJVklKRkl0dTJmdEdDZWsybU41RktRbjA4ZGRkYnBidzU1VGhZUdIBXEFVX3lxTE5uWE1tbVJ1Wkc5amJQc3lTLVZYcVZiU3c3VXFVdGRvUmhiNzV5b0RidUpSU2RoRHhiMmJORkw1Z3M3RzUzWHhRbWJ1eEpsdzh3WjRteGxCSTNPUS1i?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島市のピースウイング開業2年、一帯に経済効果 - 中国新聞デジタル</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE9vUEJMeGx6ekpBdTM5WE9HbWRyVzVxUlhlZjUxRDV1NjVCTlhwanBFdHJtb3pKYk9pRTQwbE52bi1EbnBVa0I4UHhNZktTeGUxVVgxWkdHamlQWVhUODNkNmFGZS1nY2h0WFVLWXJ1TGFNUGRNSEowMmtNT2plbTQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島市中心部でドラマ撮影の大規模ロケ 国道2号・54号などで車線規制 市道で通行止めも 2月21日―27日（RCC中国放送） - Yahoo!ニュース</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE1IaVU2UHZ4dHhCTjZfM29iQ0NtZnkyVnNYMVNHS2FZbUIxRlprY2tjMW4ta3hTTmZKSkJJVm96bjEwTVdMSXZRRzlicHQzdzlncV91YllBb3Y2NE5EWHRTZnlmS05Wb1o4WnF1bF9FQ01SbTZLcEg0Vy0yd3VBbDg?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【広島・坂倉将吾 単独インタビュー】打ちまくり、勝ちまくり、100勝捕手になりたい（スポニチアネックス） - Yahoo!ニュース</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE12V1JPZmZkR0Vkbm9MV1gxemtYOEJ4Wkg4RmhDbWNWcWU5WjQ2UktxamJtWkVSUnRxZzg1VXljV2xHOW5wMEJTemYtb092a0VFYnFNX0I0OEhWQXZGR3FxWU9pQ0tFckJFaXR3OUl1TXh0blJPRm1yY3pLOXFDRU0?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">トラックが自転車を巻き込み死亡 広島市西区 - Yahoo!ニュース</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE1MNmFJNDhyUzhVZzR4ZmdGeFBhQ3BrRVA4SEJsY2FLWUtDZ21EdWhJSHV6ZldvaWxObTYzbUF1VFlQR0ozclFaTTVTbFFCQUltR1Q5LXBBSHJyQdIBXEFVX3lxTE9WUC1ZM3FQTnhlNFNYMW5tbDc2YmJUMF9ZNjRpWnEyQmV1NHZzV0lZSENsdGljdmx3SFFEYTVrd2g0aVM0QVNMVU1IdkxCbnFwNXB3MDgweXRtUXlq?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【事故】広島市西区で大型トラックにはねられ、自転車の男性死亡 - 中国新聞デジタル</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE1kU0wtM2pDUjA5VmZnM2dlTC0ta0loQTFxaklMNlJuZV9BQ3ZNOFExV0xXV25zRXYwQVlYa1N3aVJuYllUXzIzb05MT3hBblhySmtmQ3BFdkd1aV9wMFdjT2N6MGplM2VrU3l0UEpiMjVZTmM1d1UxOGJOVnVWX1k?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島駅ビル「ミナモア」１周年イベントを発表 - Yahoo!ニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBVWUR1TzRJVVQtLTFmUURWTlVORE1DVklwSFFKNXBCQmVpem9HSVk2NExObk9uNC1vd0tHVW1ySDFpUTdDZ09ocTlCU0pjanpjbUJvSXh5eXF4cF8wRGNXN2luc3g3azg?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島駅ビル1周年イベント「ひろしまオーバルフェス2026」開催へ | RCC NEWS | 広島ニュース | RCC中国放送 (1ページ) - TBS NEWS DIG</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE5tNFozLUtRV2IwVWhOTXVmVjB6RnNtVEpabVUzYWJVWE1HcVlleWhmTjlQaWFNYjlTZWxWemJtSll6VnUxYy1sRlYtc3R5Vng3VlBZd0lLWndEUdIBXEFVX3lxTE5YU2l3RkYtcGZPdWx2OHNXSkh4MnRWVFhsemdTXzE1dXZQOU5RU2VxRlNpOHVxU1Y4bXhmVTJrbVZHRUtBRlkzUzRhMG1aX25Yek51LWpkRGxUQWQ1?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島のミナモア1周年で街歩きやスタンプラリー　広島駅周辺と紙屋町・八丁堀の回遊促す - 中国新聞デジタル</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE1aUThaZ1ZLUDRCVXExN1ZZemJYUGtobEZFdTI1QVFFbjlQNHFWN3I1SHRYcUZhMU01Z1RIeThSYnZxOXdvdE9iV2ZOVEY4TTVpNms5TTNnSmZBUQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島市中心部でドラマ撮影、国道2号など交通規制 2月21～27日 大泉洋ら出演「俺たちの箱根駅伝」 - 中国新聞デジタル</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE5lLXc2cUtmT2pVdy03aW5mTXhBcDBIWUh1a1NiTDBQOFNWWUE2UHZZemFUXy10ZFpwMHgzVWtpSFdVYXF1bFBuTDN0dEhuVGpTRUtMSTU4Zmlyb2hwUjJFWTFQdFVHbDhoaHphekN6R013UV8ycmsxQU1lR3dyX1E?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">ドラマ撮影で広島市内で交通規制 2/21(土)～27(金） 広島フィルムコミッションが協力をお願い（テレビ新広島） - Yahoo!ニュース</a></li>
 </ul>
 </details>
 <details><summary>💰 経済・ビジネス</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570443?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">米FRB レートチェック実施認める</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570502?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">ミュゼ元従業員へ給与支払い開始</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570510?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">太秦映画村に「18禁」コンテンツ</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570477?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">ベトナム人を幹部候補に モス狙い</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570490?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">USJ正社員の給与 平均6.5%アップ</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570636?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">EVモーターズ不具合続き社長辞任</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570610?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">久光製薬のMBO成立 上場廃止へ</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570656?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">コロワイド ベローチェ買収を検討</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570598?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">下請法違反 日産東京販売に勧告</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570621?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">JAL国内線 対面の機内販売終了へ</a></li>
 </ul>
 </details>
 <details><summary>💻 テクノロジー</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570525?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">りくりゅう画像を透け加工 問題は</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570654?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">AI時代の最新オレオレ詐欺 対策は</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570642?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">TOTOや味の素 AI特需勝者と注目</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570619?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">OpenAIに300億ドル投資へ NVIDIA</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570601?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">Suicaの後継キャラ投票 なぜ賛否</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570459?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">Suicaペンギン後継 選考委員決定</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570428?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">グーグル「Pixel 10a」 何が進化</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570361?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">Paramount+ 日本での提供終了へ</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570322?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">衆院選の偽情報 8割を事実と誤認</a></li>
 </ul>
 </details>
 <details><summary>🚨 国内・社会</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570511?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">自民党の支持率が3割に回復 時事</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570514?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">協定国に殺傷武器輸出容認 自民案</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570487?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">首相「旧姓の単記」検討を指示</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570476?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">西村氏を四役に起用 党内で賛否</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570467?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">自民 選対委員長に西村康稔氏</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570641?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">政府 122兆円の予算案を国会提出</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570608?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">高市氏 国力強化へ投資喚起の考え</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570638?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">中道代表 首相に「小川節」で対抗</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570647?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">立憲代表 首相指名の造反「遺憾」</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570603?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">3連休の天気「春の4K」に注意</a></li>
 </ul>
 </details>
 
 ---
-<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 07:20</p>
+<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 07:14</p>
