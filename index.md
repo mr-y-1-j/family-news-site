@@ -1,8 +1,8 @@
-# 🏡 Family Portal 02/22
+# 🏡 Family Portal 02/23
 
 <div style="display: flex; gap: 10px; font-weight: bold; background: #f0f0f0; padding: 10px; border-radius: 5px;">
-  <span>⛅ 広島: くもり</span>
-  <span>📈 日経: 56,826円 | USD: 155.16円</span>
+  <span>⛅ 広島: 晴れ</span>
+  <span>📈 日経: 56,826円 | USD: 154.89円</span>
 </div>
 
 
@@ -11,22 +11,17 @@
 </div>
 
 
-AI編集長です！02月21日のニュースをお届けします！
+AI編集長です！02月22日のニュースをお届けします！
 
 ### 今日の3大ニュース
 
-*   **広島市中心部で大規模交通規制！ドラマ「俺たちの箱根駅伝」ロケ本格化**
-    広島市中心部では、人気ドラマ「俺たちの箱根駅伝」の撮影が本格化しており、2月27日まで大規模な交通規制が実施されています。バスの一部運休も発生しており、市民の間では「西部警察以来では？」といった声も聞かれるほど。SNSでの撮影情報発信はご法度とされていますのでご注意を。
-
-*   **「ルンバ」日本市場で再起の鍵を探る**
-    お掃除ロボット「ルンバ」が、日本市場での再起に向けて新たな戦略を練っています。競争が激化する中で、日本独自のニーズやライフスタイルへの適応がカギを握ると見られています。
-
-*   **AI時代の最新オレオレ詐欺対策が急務**
-    テクノロジーの進化に伴い、AIを悪用した新たな「オレオレ詐欺」の手口が登場しています。声紋認証やディープフェイク技術を悪用した詐欺から家族を守るため、最新の対策や注意喚起が呼びかけられています。
+*   広島市中区の飲食店でノロウイルスによる集団食中毒が発生しました。複数の利用者が下痢や嘔吐などの症状を訴え、当該店舗には営業禁止命令が出されています。
+*   明治安田J1百年構想リーグ第3節、サンフレッチェ広島がセレッソ大阪との激戦を見事制し、貴重な勝ち点「3」を獲得しました！
+*   AI技術の進化とともに、巧妙化する「オレオレ詐欺」など、AIを悪用した詐欺が増加しています。家族みんなで最新の対策について話し合い、注意しましょう。
 
 ### 豆知識
 
-今日は「日刊新聞創刊の日」です！1872年（明治5年）の今日、日本初の日刊新聞である「東京日日新聞（現在の毎日新聞）」が創刊されました。AI編集長として、この記念すべき日にニュースをお届けできることを光栄に思います！
+今日、2月22日は「猫の日」なんです！「ニャン（2）ニャン（2）ニャン（2）」の語呂合わせから、日本の猫を愛する人たちが、猫と一緒に暮らせる幸せを記念し、猫への感謝を表す日とされています。愛猫家のみなさんは、ぜひこの機会に愛猫との時間を満喫してくださいね！
 
 
 <div style="background-color: #fff0f5; padding: 20px; border-radius: 15px; text-align: center; border: 2px solid #ff69b4; margin: 20px 0;">
@@ -65,15 +60,15 @@ function drawOmikuji() {
       <text x="50" y="85" font-size="10" text-anchor="middle" font-weight="bold">6</text>
       <text x="20" y="54" font-size="10" text-anchor="middle" font-weight="bold">9</text>
       
-      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(137.5 50 50)" />
-      <line x1="50" y1="50" x2="50" y2="15" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" transform="rotate(210 50 50)" />
+      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(60.0 50 50)" />
+      <line x1="50" y1="50" x2="50" y2="15" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" transform="rotate(0 50 50)" />
       <circle cx="50" cy="50" r="3" fill="#333" />
     </svg>
     
       <br><br>
       <details>
         <summary style="cursor: pointer; background: #1abc9c; color: white; padding: 8px 15px; border-radius: 20px; display: inline-block;">こたえをみる</summary>
-        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">4じ 35ふん</p>
+        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">2じ 0ふん</p>
       </details>
     </div>
     </div>
@@ -131,19 +126,19 @@ American, 1850–1913</span></p>
 
 ## 📰 詳しく見る
 <details><summary>🍁 広島のニュース</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMidkFVX3lxTE1qRV9lTW9uY2tlcWpUWlVJLWRQNjJaTGpTemFjemFNMVJxa1RoSE5vQ3lDSDlfUzlJMFFmdWtXaTBobldmVjdZQVQ2ckNfZnJGdWlURWdDN0t1Q1NkZ25YTDZiSHhuaUpZVFR5Y2xQcHY2RE9meFE?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島：市民プールにスライダー 広島市改修案 敷地内大型遊具も ：地域ニュース - 読売新聞オンライン</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE84dUs3Z082SFZ2TUMxNEp1cWdqOWVqQjhPbzdQTVcwU1g2NFJMVjJSOGJCS2pORi1PQ2x0akVUWXNjOGFoUm9MQ2tEaW5lN3FMOUxR?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">「広島太郎さん」 広島県民なら誰もが知っていた 路上生活半世紀、不思議な装いや人柄が愛された人生だった - 東京新聞デジタル</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE95RlFhODF6eTNJSmNmTE9qLWtEc1JUS29DcGxMSnlwRU9yYldEQmpkUC1MOVdCVDZXdVNIZ0I0ZkUyTS13bVI3Y1VNRVR3WVVBNzN0SHU3ZlQ4dw?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島市中心部で撮影、ドラマ「俺たちの箱根駅伝」のロケ地に選ばれた理由 - 中国新聞デジタル</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE1CSDRzeDB3VWs2VE55ME9TWWFoNnhBeE1LdGFPUnVZckVGTFhuMGpneEUtT1VVeUszNTkzbnp3b3gyQzB5ejFyV2RQQTJZOG8tZzN1cjhnODIwYk5oc2ZLN01hS1pfbnFIXzVkNlVUd0dQM21lM0xmd20xRjM2Y0E?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島市中心部で交通規制スタート ドラマ「俺たちの箱根駅伝」ロケで2月27日まで（中国新聞デジタル） - Yahoo!ニュース</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiSkFVX3lxTE5TNmQ0UWxWVjdpa09kMXR6WENSV3pRQklwMU5sVG8wMjBHYklhbldoRXhGUFFWZ2oxWHhWN3dhUmJ6UFQ4aDV1QVp3?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">「ドラマ撮影のため」21日から広島で”大交通規制”実施 バス一部運休 「西部警察以来では？」の声も SNS発信はご法度！ - 乗りものニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE5BenhwNjM0V2JXWkpLZTlzODA5a045TGQ0RmJNZU43NGktTjd0M3NYN0xkYWE1dDBldFlKcXl3VTZ6Vk1iZmE0UGRRVVQ1bEtza0I2TWtzU2o0UdIBXEFVX3lxTFBGd0ptdHNRZHptN0RDRWpLYnl0MGEwYV96X1dsV292a3d5WjNSbjVfc21PN0hFclJta29NRkhBRVZrWU51QWowQzdoVVBnQkNld3pnTFhkc1hrU1Bx?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島市中区の飲食店で食中毒　4人からノロウイルス - 中国新聞デジタル</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE5qQmYzbkE0alF0RjN5cllwbHhfMXhCbHlwTGRrOE5fQUd4d3o0T3ZqYkdyZDhHVWtNR2ZyS3hNbnpNT040M0pzSnBrWG0yMHBCeWloNVlMRkM1T2xRTjA3NVhTV0J2WkVaLUVMaEY0cGhZR0dQM21FWGFrZ1pQQVk?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島市中区の飲食店でノロウイルスによる集団食中毒 5人が下痢や嘔吐などの症状訴え 当該店舗に営業禁止の命令 広島市 - Yahoo!ニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMi2AFBVV95cUxOUDY5bTU1N0EtTUtTR01pcFdJWUdCYnpHSFlQMWE2SndfbzlhUE53RUdzdEhqQTZXQ1FPOVExbW50VjNQOTRXOEtKbWpxMk80MVdvVXY1SXNJUlYtcEdQRVR5cDdnd29CNFh1V3BVYnMwTXlITktrejN1NFU0WUd3UDJEWGxYM2FJM1Z4Wjg2Yk8xTl9LZXN0R0VsSXI5bDluRnNSYXNSajdCVGNfcDVCeGl2ZXNxYzItb28xLVdoNTJSaGZiNzd1TUVZOU5zeTE3XzJMM3NkOFk?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【2月22日】セレッソ大阪vsサンフレッチェ広島のテレビ放送・ネット配信予定・視聴方法｜明治安田J1百年構想リーグ第3節 - DAZN</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE1Rd3JLdjFkRkh6ckIwMGMzX3BmOG96LWJaNDZETmVqeG8yTzltUFVWd2tsOUlYZjRRdk96bS1iVTMwdGNUWkdudzZWd3h6YTNMLTUxaUUyOEJmZ29jSjhTRHZwLW50X3BVTkJVdlFfZlRqNHpCSmNaOVlWbktmNE0?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【J1結果速報】サンフレッチェ広島が激戦を制す！ジャーメイン良らのスーパーゴールで勝ち点「3」を獲得（フットボールチャンネル） - Yahoo!ニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE1INlBvQXJtSDdnd0w4Z2lSNFJGYm5LNDBuSmZ4LXJKRE1wRzN1Xzk0Tmk5WG5HU2NGendjekFMMGF1aUE5eUd3ZlhfdS1uSHAxRHFDdVVHN2pISWJ5OVE?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【公式】Ｃ大阪vs広島の試合結果・データ（明治安田Ｊ１百年構想リーグ：2026年2月22日）：Ｊリーグ公式サイト（J.LEAGUE.jp） - jleague.jp</a></li>
 </ul>
 </details>
 <details><summary>💰 経済・ビジネス</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570749?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">ルンバの再起 カギ握る日本市場</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570725?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">温泉が出ない温泉街 再生への道</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570727?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">「東京より便利」移住人気の街</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570729?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">なぜデカ目に プリクラ30年の変化</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570692?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">スーパーの唐揚げに脚光 背景解説</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570834?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">K字型経済で格差 賃金上昇実現は</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570797?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">ワーキングケアラー増 経済損失も</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570810?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">「日本型チップ」じわり浸透?</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570799?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">万博の来場者増 背景に裏方の奔走</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570830?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">デイサービス旅行 介助者付き人気</a></li>
 </ul>
 </details>
 <details><summary>💻 テクノロジー</summary><ul style="list-style-type: none; padding: 0;">
@@ -155,13 +150,13 @@ American, 1850–1913</span></p>
 </ul>
 </details>
 <details><summary>🚨 国内・社会</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570695?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">米の関税違法判決 日本は状況注視</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570701?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">「国民会議」の在り方 野党が反発</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570728?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">施政方針演説 のぞかせた自負心</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570641?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">政府 122兆円の予算案を国会提出</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570638?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">中道代表 首相に「小川節」で対抗</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570870?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">天皇陛下 66歳の誕生日</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570832?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">高市内閣の支持率上昇し61% 毎日</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570821?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">予算案審議「高市1強」の試金石</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570853?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">「国旗損壊罪」に首相意欲 懸念も</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570852?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">首相連れてきて 竹島式典でヤジ</a></li>
 </ul>
 </details>
 
 ---
-<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 07:12</p>
+<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 07:13</p>
