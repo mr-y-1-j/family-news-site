@@ -1,8 +1,8 @@
-# 🏡 Family Portal 02/25
+# 🏡 Family Portal 02/26
 
 <div style="display: flex; gap: 10px; font-weight: bold; background: #f0f0f0; padding: 10px; border-radius: 5px;">
-  <span>⛅ 広島: 雨</span>
-  <span>📈 日経: 57,321円 | USD: 155.85円</span>
+  <span>⛅ 広島: 晴れ</span>
+  <span>📈 日経: 58,583円 | USD: 156.33円</span>
 </div>
 
 
@@ -11,17 +11,21 @@
 </div>
 
 
-AI編集長です！02月24日のニュースをお届けします。
+AI編集長です！02月25日のニュースをお届けします！
 
-**今日の3大ニュース**
+### 今日の3大ニュース
 
-*   広島の食卓を彩るカキ、大量死の苦境を乗り越え改善の兆し！アンガールズも応援に駆けつけ、子どもたちも期待を寄せています。
-*   ついに実現！国産「空飛ぶクルマ」が都内で試験飛行。未来の移動手段がいよいよ現実味を帯びてきました。
-*   京都大が開発！お坊さんと仏教について対話できるAIロボットが登場。人々の心に寄り添う新たなテクノロジーが注目を集めています。
+*   **広島カープ、羽月隆太郎選手との契約を解除**
+    指定薬物「ゾンビたばこ」使用の疑いで逮捕・起訴されたことを受け、広島東洋カープは羽月隆太郎選手との選手契約を解除しました。ファンにとっては残念なニュースですが、球団の厳しい姿勢が示されました。
+*   **広島県では公立高校の一般選抜を実施！**
+    2月25日は広島県公立高校の一般選抜の日でした。受験生の皆さん、本当にお疲れ様でした！この日に合わせて、ネームバリューが強いと思う「広島県の公立高校」ランキングも発表され、関心を集めています。
+*   **マツダなど3社が春闘で満額回答**
+    経済のニュースでは、マツダを含む3社が春闘で労働組合の要求に対し満額回答を示しました。これは、働く皆さんにとって良いニュースですね！
 
-**豆知識**
+### 豆知識
 
-今日は何の日？ 2月24日は「月光仮面登場の日」です。1958年のこの日、日本初のテレビヒーロー番組『月光仮面』が放送を開始しました。正義のヒーローが日本のテレビに初めて現れた記念すべき日なんですよ！
+今日は何の日？
+まさに今日、**2月25日は広島県公立高校の一般選抜の日**でした！たくさんの受験生が未来に向けて頑張った一日となりましたね。お疲れ様でした！
 
 
 <div style="background-color: #fff0f5; padding: 20px; border-radius: 15px; text-align: center; border: 2px solid #ff69b4; margin: 20px 0;">
@@ -60,15 +64,15 @@ function drawOmikuji() {
       <text x="50" y="85" font-size="10" text-anchor="middle" font-weight="bold">6</text>
       <text x="20" y="54" font-size="10" text-anchor="middle" font-weight="bold">9</text>
       
-      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(65.0 50 50)" />
-      <line x1="50" y1="50" x2="50" y2="15" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" transform="rotate(60 50 50)" />
+      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(100.0 50 50)" />
+      <line x1="50" y1="50" x2="50" y2="15" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" transform="rotate(120 50 50)" />
       <circle cx="50" cy="50" r="3" fill="#333" />
     </svg>
     
       <br><br>
       <details>
         <summary style="cursor: pointer; background: #1abc9c; color: white; padding: 8px 15px; border-radius: 20px; display: inline-block;">こたえをみる</summary>
-        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">2じ 10ふん</p>
+        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">3じ 20ふん</p>
       </details>
     </div>
     </div>
@@ -126,35 +130,35 @@ American, 1850–1913</span></p>
 
 ## 📰 詳しく見る
 <details><summary>🍁 広島のニュース</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE1YeTRiSDI0aXZDVzJicWFLZHlNTE9WZXdEY3V6VFhSLXBtck5BWlJ1VS1uZjNqMWNlUUZfbEk4blZTVFpEQWM1RzAyZ1A4UDI5UElHZzdaMHRnZ9IBXEFVX3lxTE9xRUlsQkZtNURqdUptRkJOSm5iZUxjeHNMZTVBU2JDYmVWZVNLMXNVd25FMzJuU1JTSzhiZlNKY1V3TkhxR1BTYTdxQVk1c3RBM0JEMkdpRlJ2aTRs?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島市、高齢者施設2カ所の食中毒で業者を指名停止 - 中国新聞デジタル</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTFBtdnc4SjlkbGYyUHFpZkFEbWgxZHdNZUVRN0JhVG1pWkpoQ0JFYmhyTjMzNlpoajUxV2Z4anQxNWhvUl9mN3J5XzU3RXp2aHl1WEU1eUhsemZZR1I0bm1xekphNldrbk9DbG5kMGktSzA0cmU4UWktTXgya1Y1c2s?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島 秋山翔吾が復活3安打「最後の手締めだけ入る状況だと…」実戦復帰へ手応え（スポニチアネックス） - Yahoo!ニュース</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5KUkVjaWZzRVNiVG9ZcnhLT3pud0V3VFpTcnJiNk00NWVZZFZXQ1NzUWZHVm9fbXVjdEZKS2FVYThIV1VXY01KQ2tON2V4eUtyNUZ2SXhoM0M4eWNqTzhJaURPUzFaYW8?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">アンガールズも子どもたちも応援！大量死で苦境の「広島カキ」 年明けからは身入りよくなり旬を迎える 改善の兆しも - TBS NEWS DIG</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE9wNU90UnBjeDhYejk2SFViMXp3STNJMW5HdktUeThsbkFwbXNHNmo0Q3NKREMwR2hoMGMxMlJYTk1fUmRkYkEwWWdKdW53WmRveW5vcFdCN3l3WmE3c0VEdV9INExnWkNxWE94djd5bE1QUDFoQXFQWlZZYjZKdVU?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島・久保修が本格的に練習を再開 15日に巨人戦で頭部死球（スポニチアネックス） - Yahoo!ニュース</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTFBZb3RTeG1tMWVwUGlTcWcxMEF3b2x4M0dBcThZcUtOc1BzaFQxNnhhUWdxTTYxQlladnRQT25UT0EwUld5UXRLSVRLdk5taEFxajN1SjZxOFY5VWVDRmttcHI5NGdlZklsVTJRNlZzOVNXbWNlOW9zSEtmb2g0SHM?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">プロバスケ・ドラゴンフライズ加わり「広島４大プロ」に - Yahoo!ニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE5KUm5tMnNIcDBfUV82R3p1THJaOWZ5eFFKZGxfNnhuTWcyZkxxX25jcG1GQkRQeXhpMzlXSExnQW5JcmRIdVFibXY4MXJhUTN3Wm1UU2VsdlBNX1J2ZWcwdFgzWWtuWklLRTNpXy1Db3ZKVTN0dUsyOEJLa1Vfb1E?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【広島】羽月隆太郎被告との契約を解除 指定薬物「ゾンビたばこ」使用疑いで逮捕、起訴（日刊スポーツ） - Yahoo!ニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZY0FfTVF0RzRvbjBPUGxVampzb0FZQ2VWVzBFZFBFbTdWaFRFYUdFRHBKSHo0alZuLURjdmxJdHFCUERqbDFsa08xN0d6bGJMbUNSQUU0WUQ4WUs2OFZXenhlRnNjMFU?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島カープが羽月隆太郎被告との契約解除 「ゾンビたばこ」巡り起訴 - 朝日新聞</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMihgFBVV95cUxQSnF3Q2NVTHVmOEh0YlVSS0xEWWhVZ01vbVUtRlNWSlhZWW05NWYxN1NoNTFPaDV4WVNVQ29XcHZHcXNmNktINU1Ja2xELXV5UXp5WXhLUGd0QVRjWDRvYzZJRXc4YXVTX1NnMnFHNmMyb09sYjJfbUFINnJHNmpMWW5pNkQ4UQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島東洋カープが羽月隆太郎選手との選手契約を解除（2026年2月24日掲載）｜広テレ！NEWS NNN - 日テレNEWS NNN</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTFBPVTJzNkszSGsxRk5Fc1VjaVlYcWFuVU5Ud0F0QWVYeHJva3Z4V3dqYkMtQzNSZjEzbkY1cWZaaDZ6WTZDOUtIV1VRNzFuVXFHRXJvUUJwMDdwQQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">2026年 広島県の公立高校の入試問題と解答 - 中国新聞デジタル</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE01ZVNtZUFRWWNnVzdYeWhRZjliSTBQdnBSTWp5TmJ3VjlObGpvdVZWUDVVOXBiZDZuam92bklpZDB6UThMOHRScVF3S09jdHptOEFsRk1hX2lqYjJMRm1NTHpNTmJUTmltR0JzYzNxeXpLNXV2UlU3QTBTTkZoNjA?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【広島県民が選んだ】ネームバリューが強いと思う「広島県の公立高校」ランキング！ 第2位は「基町高校」、1位は？【2月25日は広島県公立高校の一般選抜の日】（ねとらぼ） - Yahoo!ニュース</a></li>
 </ul>
 </details>
 <details><summary>💰 経済・ビジネス</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571037?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">米富豪と面会公表 マネックス会長</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571053?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">住友生命 営業職平均5%賃上げへ</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571077?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">40・50代の「リベンジ退職」対策</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571114?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">高島屋 特損計上で一転赤字予想に</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571070?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">映像 国産空飛ぶクルマが都内飛行</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571193?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">外食業界 食品消費税ゼロに反対</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571176?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">MS日本法人に立ち入り 公取委</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571199?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">マツダなど3社 春闘で満額回答</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571196?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">住みたい街 躍進の船橋に億ション</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571200?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">嵐とドリカム来る 新幹線臨時運行</a></li>
 </ul>
 </details>
 <details><summary>💻 テクノロジー</summary><ul style="list-style-type: none; padding: 0;">
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571210?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">上司AI化サービス どう実現した</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571183?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">複数自治体HP 閲覧できない状態</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571173?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">フーデリの「Wolt」日本撤退</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571111?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">仏教対話できるAIロボット 京都大</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571105?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">露がテレグラム創業者捜査 国営紙</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571085?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">X「インプレゾンビ」対策へ本腰</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570996?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">兵器搭載AI 高度化急ぐウクライナ</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6570886?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">Xの日本批判3千アカ中国系工作か</a></li>
 </ul>
 </details>
 <details><summary>🚨 国内・社会</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571098?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">首相側 当選議員にカタログギフト</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571094?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">小沢一郎氏 中道の旧執行部を批判</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571084?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">政府 中国の輸出禁止措置に抗議</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571071?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">首相 会談で追加利上げに難色示す</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571055?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">首相 公式サイトのコラム削除説明</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571203?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">「国民会議」26日夕方に初会合</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571190?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">首相のカタログギフト 問題点は</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571198?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">チームみらい初代表質問 首相論戦</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571189?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">競合TV局の統合容認へ 総務省</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571181?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">心だけでは限界 ケアマネ現場切迫</a></li>
 </ul>
 </details>
 
