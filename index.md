@@ -1,8 +1,8 @@
-# 🏡 Family Portal 03/01
+# 🏡 Family Portal 03/02
 
 <div style="display: flex; gap: 10px; font-weight: bold; background: #f0f0f0; padding: 10px; border-radius: 5px;">
-  <span>⛅ 広島: 晴れ</span>
-  <span>📈 日経: 58,850円 | USD: 156.04円</span>
+  <span>⛅ 広島: くもり</span>
+  <span>📈 日経: 58,850円 | USD: 156.24円</span>
 </div>
 
 
@@ -11,20 +11,17 @@
 </div>
 
 
-AI編集長です！02月28日のニュースをお届けします！
+AI編集長です！03月01日のニュースをお届けします！
 
 ### 今日の3大ニュース
 
-*   **広島市、街路樹9千本撤去を検討**
-    広島市は、巨大化して歩道を危険にしている街路樹約9千本の撤去を検討しています。高度成長期の緑化政策から、安全確保へと転換する動きです。
-*   **広島カープ、森投手が開幕先発へ前進！新人・平川選手も本塁打**
-    広島カープの森翔平投手が、楽天戦で4回無安打無失点と好投し、2年連続の開幕先発枠入りへ大きく前進しました。また、新人・平川選手も本塁打を放つなど、明るい話題が続きました！
-*   **セルフレジでの「うっかり万引き」に注意喚起**
-    買い物の際に利用する機会が増えたセルフレジで、意図せず会計を忘れてしまう「うっかり万引き」に注意が必要だと呼びかけられています。
+*   広島のマツダスタジアムで4月、「ポケモンベースボールフェスタ」が開催されることが決定しました！
+*   OPECプラスが4月からの原油増産を再開することに合意し、今後の市場動向が注目されます。
+*   AI開発をリードするOpenAIが、米国防総省とAI導入で合意したと発表。AI技術の活用がさらに広がりそうです。
 
 ### 豆知識
 
-「広島県人の一人称は「ワシ」ってホント？」という疑問が話題に。修道中・高出身のコンテくんのコミックエッセーでその実態が紹介されていますよ。実際のところはどうなんでしょうね？
+今日は3月1日「行進曲の日」です！アメリカの作曲家、ジョン・フィリップ・スーザの代表作の一つ『ワシントン・ポスト』が初めて演奏された日だそうですよ。明るい行進曲で、気分を上げて一日をスタートするのも良いかもしれませんね！
 
 
 <div style="background-color: #fff0f5; padding: 20px; border-radius: 15px; text-align: center; border: 2px solid #ff69b4; margin: 20px 0;">
@@ -63,15 +60,15 @@ function drawOmikuji() {
       <text x="50" y="85" font-size="10" text-anchor="middle" font-weight="bold">6</text>
       <text x="20" y="54" font-size="10" text-anchor="middle" font-weight="bold">9</text>
       
-      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(252.49999999999997 50 50)" />
-      <line x1="50" y1="50" x2="50" y2="15" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" transform="rotate(150 50 50)" />
+      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(195.0 50 50)" />
+      <line x1="50" y1="50" x2="50" y2="15" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" transform="rotate(180 50 50)" />
       <circle cx="50" cy="50" r="3" fill="#333" />
     </svg>
     
       <br><br>
       <details>
         <summary style="cursor: pointer; background: #1abc9c; color: white; padding: 8px 15px; border-radius: 20px; display: inline-block;">こたえをみる</summary>
-        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">8じ 25ふん</p>
+        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">6じ 30ふん</p>
       </details>
     </div>
     </div>
@@ -129,19 +126,19 @@ American, 1850–1913</span></p>
 
 ## 📰 詳しく見る
 <details><summary>🍁 広島のニュース</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTFBDUXBNaThUVVk4RVZYbW9uY3hsNV9ZX3lFcU8zV2hoekl0NHdxSzRFbENwaDA2QzhZdlJITzhqWnJVN0N1RU9GcE02YjNZZDhSSk5wNmNLU3g2dw?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島市、街路樹９千本の撤去検討 巨大化で歩道に危険 高度成長期の緑化政策から転換 - 中国新聞デジタル</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE9VZkduUjM2YTVUTTdNUWNsd01fOTduYWJVT0RKYUlYWnZhb1NKZ2pkbXQyZURiVWJmcFBCNVFMYUFEX0NwajMycHJ2SWY5LVVyeV9hTGtSUm5odw?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">2億6300万円給付費不正受給、呉の放課後デイサービス事業者 広島県・呉市が指定取り消しへ - 中国新聞デジタル</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE1nR0VyYXAyWEQ5TGdZNU1nWmFoWkVsbms4NVY3WXRWaUZPSnd2M3pZNnZEbXdQZmZpV1o1NmJEUlVicnBmX09ieEpySTFBZ3JxQkZNYTBoNWlfak8zNzBTY0lYOVpldEthUWNBZG9abFQ2aERwdXZpVWhIblo2WUE?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島 森翔平が2年連続の開幕先発枠入りへ前進 楽天戦で4回無安打無失点（スポニチアネックス） - Yahoo!ニュース</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE52X1VRbnpyQ2FiVExZSDl0Umc4cFZsSV9ERlZMeDIydC1Ja1ZsaXFHNlBxNzNsSjVfb2Z1N3VUOUZxa2h5WnJZMy1SS2w3SEg0ZzN4LV9YMkd2dw?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島県人の一人称は「ワシ」？ 修道中・高出身コンテくんのコミックエッセー - 中国新聞デジタル</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE1xblA4Q255SmdOOFFSdkw1c045bG9DSzlnNW5YcW5lN09NbjRNNk1QN0UxdEtmUTE4cmlvS1hYUk9XU204dDBaOHRNMEJyWGJtaXd2ZzJZYzEwYW8wT19QMUxB?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">楽３―５広（２８日） 広島新人の平川が本塁打 - 秋田魁新報電子版</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTFBPcm02RWJUOENmS0lZTGNnVGs5V2d5SE9LX0d4MmwyMjNfU3N6VUI2QXJOMGpnR2lGMlJrTHdRN0NvNHZDWmtCdzRndk9JVlMybGszYlBTMUc0dw?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">東広島市中心部の交通渋滞解消へ 市が本腰 - 中国新聞デジタル</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWEFVX3lxTE1Ebmt5NUNkV0JSdG9pT2oyYVhtdjVOQ05xNkg3Ymoyb0lORi1SR0R4RW5ua2d5dHNxVTlWQjJ0NThmamtjXzBvczFKS2lKOExuYmM4enJ2NXY?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島で「ポケモンベースボールフェスタ」 マツダスタジアムで4月、開催へ - 広島経済新聞</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE5uR3pPWVZkbWpoN1FUUmR6cEE2MWI1UGpBUUtUdjlMbnRRbk5YaW0xM1RYME5NSmFLRnBpNVhkWFlwem9Eb3NGbVk4NUFyZUUwVTVDT2ctbmF6SU5nZm4yZXRuZDZEOFp5RkhMem5hWVVxNVBlWWZ1N0ZVSHF4MVk?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【広島】新外国人フレディ・ターノック「全体的に良かった」４回４K１失点、開幕ローテへ前進（日刊スポーツ） - Yahoo!ニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMijgFBVV95cUxOX1ItQ3kzRHE3VEJPd3Fwc0JUT04wam53ekpURmJ2a1RETG5Bb1lpNGs3NjJzV2NfU2pnYXFjTExyNGxVWjFma0NDZ3ZDZU1Ja0dnUklyTHE5TktHV2ZKeVNUVmRJbkZtY3NnVG84U29hTTdWVFREQTQyRk9aaWxrTmwxaWViYXlEM1pidVhn0gGTAUFVX3lxTFBfSFdyeG5wcVdLdGNaV0pQX3RCR2NEaXBLVnRvTEY0N1oyYzBZckJiS2ctTWpDMGxaQ0xfRWJzcDFxVHFQRE51c3R0ZGJhR21WSzVzWmVIanZnRGZiWHVXSVRNLXVvcnZ3VnlFQ0I4TENkeENoQmZNaFFnX0xWN2UwOFlTNlJSSzVWUDJoZnhhb1EyMA?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島　新外国人ターノック　2度目先発で4回1失点　新井監督は高評価「ナックルカーブも切れていた」 - ｄメニューニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMifkFVX3lxTFBMTjBoSjB2bW9LdEt3Y3R4OXBUX2lfMmFEN2Y3aVNhREJIY3h2b25RejJkV2tPSkYtTE5aLUk5SUF1SnNlWU1NRmxaUHNWczA5cHlRSlcxWDM2NXNaVlB2T0FfMVpkeUhhU2hVdUtRdXhaSmJGbHhnSnBtOFNYUQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【広島】ドラ２斉藤汰直「どんどん成長を」フォーク武器に１イニング無失点 先発とリリーフ“両にらみ”の戦力で期待 - au Webポータル</a></li>
 </ul>
 </details>
 <details><summary>💰 経済・ビジネス</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571542?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">27年卒大学生の内定率3割超 調査</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571580?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">名鉄百貨店 71年の歴史に幕下ろす</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571520?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">漫画原作者巡り物議 出版社責任は</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571546?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">オイシックス 新潟大に学科設置へ</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571513?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">セルフレジ うっかり万引きに注意</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571707?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">OPECプラス 原油増産4月に再開</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571691?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">日本の海運各社 ホルムズ通航停止</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571714?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">トラック運転手 隠れ残業が常態化</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571704?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">小学館 漫画賞の贈賞式を延期</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571666?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">一部スシローで決行 順法闘争とは</a></li>
 </ul>
 </details>
 <details><summary>💻 テクノロジー</summary><ul style="list-style-type: none; padding: 0;">
@@ -153,13 +150,13 @@ American, 1850–1913</span></p>
 </ul>
 </details>
 <details><summary>🚨 国内・社会</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571575?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">政府 イランの邦人を国外退避へ</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571582?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">異例 首相が保守分裂選にテコ入れ</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571585?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">中道の落選者聞き取り 解党の声も</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571591?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">外国人の摘発 ピークから4割減</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571593?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">活動ない宗教法人の不正 調査へ</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571709?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">イラン攻撃 日本は賛否明確にせず</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571721?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">政府 イスラエルで邦人の退避検討</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571706?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">自維 衆院の定数削減法案提出へ</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571695?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">中道が立ち位置模索 追及は控えめ</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571684?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">1.6億回再生の首相動画 法的解説</a></li>
 </ul>
 </details>
 
 ---
-<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 07:12</p>
+<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 07:13</p>
