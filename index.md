@@ -1,8 +1,8 @@
-# 🏡 Family Portal 03/06
+# 🏡 Family Portal 03/07
 
 <div style="display: flex; gap: 10px; font-weight: bold; background: #f0f0f0; padding: 10px; border-radius: 5px;">
   <span>⛅ 広島: くもり</span>
-  <span>📈 日経: 55,278円 | USD: 157.48円</span>
+  <span>📈 日経: 55,621円 | USD: 157.76円</span>
 </div>
 
 
@@ -50,7 +50,7 @@ function drawOmikuji() {
       <text x="50" y="85" font-size="10" text-anchor="middle" font-weight="bold">6</text>
       <text x="20" y="54" font-size="10" text-anchor="middle" font-weight="bold">9</text>
       
-      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(127.5 50 50)" />
+      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(97.5 50 50)" />
       <line x1="50" y1="50" x2="50" y2="15" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" transform="rotate(90 50 50)" />
       <circle cx="50" cy="50" r="3" fill="#333" />
     </svg>
@@ -58,7 +58,7 @@ function drawOmikuji() {
       <br><br>
       <details>
         <summary style="cursor: pointer; background: #1abc9c; color: white; padding: 8px 15px; border-radius: 20px; display: inline-block;">こたえをみる</summary>
-        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">4じ 15ふん</p>
+        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">3じ 15ふん</p>
       </details>
     </div>
     </div>
@@ -116,37 +116,37 @@ American, 1850–1913</span></p>
 
 ## 📰 詳しく見る
 <details><summary>🍁 広島のニュース</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMidkFVX3lxTE1sZGxka29XUklNc2VYUmY4RW8ybE50ZU5hTVIzYUlIY2lYTVlPYllCd1d3czh4Z0xTbGFNdWxfOG94Nml4dUVIYTNFeC0zbnhQYnEybDlreWZTLXNTLU5VdFRqSTVaVFdRc0NfamxCVWRMazktcWc?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島：平和の思い商品でも 平和記念資料館ショップ 改装オープン ：地域ニュース - 読売新聞オンライン</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE5CNGRpMm92NHVNVFJub3h3a1ZQZFBHN2o3OXIzX3BZbXotbzRUcHk4THdBX3hNbmZOYjZZOXdpSVdaWWFveXFwSEtKVmdYdDJKaXVQTVNMZmMtUQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島県警一般職の人事異動（4月1日） - 中国新聞デジタル</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE5CRnNwZkhlMUQ2emxmeF9nTEZzWi1CQTh3a2d3V0hvVTBQREM3c1pPb3JqS3hJNEhjR3A2NERaem5VM1VXQ1JIZWdyazlVQ25BQkJjUkJVNXlZdw?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島駅とエールエールヒロシマ結ぶ歩行者用デッキ開通 福屋広島駅前店に新たな18店【動画あり】 - 中国新聞デジタル</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE4yOWRJMzB5bnJIWUtsTTdJVjlBbmRxWHVsUjRkcE1PX1NWeUkxTmFfbVZaa2t2bXZ5VXQ3NFNGVWZ6QXNmX0NudmlaQnJuQ2g0b0tfeTVuWjZwZDd4TGhfdUJHeG03ZXhGMEdjdjR3Si1uNHdCZG9JdTRXdUZYczA?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島駅前のペデストリアンデッキ供用開始 福屋広島駅前店もリニューアル（みんなの経済新聞ネットワーク） - Yahoo!ニュース</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTFBRRzg4VEpsN2ZYYVZ4LVJHQlpMODl5OHh0VjZLMXVOVUsyTF9rX1hXbGRSQ2NTRTYtTmZrNzBwWGthTmZ4LVQzelZ2UU1nZ2ljRlpXZDJhdC03MnFJMnpWeQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">「１日 広島駅エリアで楽しんでもらえる提案がしたい」エールエールHIROSHIMA 福屋広島駅前店 リニューアルグランドオープン前日 報道陣に公開 - TBS NEWS DIG</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE1kd01RdUIyeFBPVkIxaURab0hHOTJiV3RUNEhMMExjbFFaUHY1V3AtbHVFYVlRdFlHQ3ZfQ0IwWXF3Z0NKMWNhek9TYXRha2FTMkJIVnpBanBBZw?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【火事】広島市中区舟入中町でマンション火災 - 中国新聞デジタル</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE5naHgtVmxUOWsybkRiRGoxcDZjMEtXSWcwOEJHbU1NM2ctekV5RGpldFdRYmZlQ2VhUzNMZ0pfNkt3Y3V3MDkxZDFMbXRfczVvYmdWOEI1N0JfZ0dTcEQxT0JrUEI4RlR6MGFFYW5iQ3JqR3M1VG9rMXFFQUZJVWM?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">ＡＬＬ崇徳＞センバツ２０２６ 選手紹介／１ ／広島（センバツLIVE！） - Yahoo!ニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWEFVX3lxTE9EZkQ3ZmhTRzhPdGFiMGtJLVZKeGVPZENKUGUtTjZoREl3TTZiR0RFN2NaR3lEX2JybUltOFVXdzRzN2JMVjd3amtzZnFSU3pTS3c4dm9nTkk?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島 中区でマンション１室全焼 部屋から男性とみられる遺体 - NHKニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBiVmdERXduLVh5MTBka3hEeUI1YzRxTDNNUV85Q2Vvd2Q2T1I1N3kwY18tU0NKOG1hdFhjMUQ4S1NvNGdrTEhldkdxQ3lvLXZTRnNBRmpEM2QzRkl6QVFuOUk3ZGtjcU0?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">「裏切られた」広島サミットで記帳も核増強、仏大統領に被爆者ら抗議 [広島県] [アメリカとイスラエル、イランを攻撃 報復も] - 朝日新聞</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE14MWFNRmZsZHdmQ2VVWTF5NGRzUjROWmlFUW5WWjNZZ1dXX0xKbkgycmw2Wi13c2dwQTNEX1VlczZvWV9DZENGSEFpU3hUZlVBYTduVFBzRUxEdk5zeFRKaHR6V2pyZWh1?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島県被団協など抗議「理性ある政治を」 フランスの核弾頭増強方針 - 毎日新聞</a></li>
 </ul>
 </details>
 <details><summary>💰 経済・ビジネス</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572096?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">中国 経済成長率目標を引き下げ</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572086?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">米政権 次期FRB議長を正式指名</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572167?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">ポッカ 自販機事業の売却を発表</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572169?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">無料納品巡り スーパーに公取警告</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572130?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">ホンダ「インテグラ」日本で復活</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572240?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">東芝 最短で28年度の再上場を想定</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572238?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">デンソー ローム株の取得を検討</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572236?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">NHK 職員逮捕受け緊急会見で謝罪</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572281?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">セルフレジ 性善説のジレンマ</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572244?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">スシロー 北京店舗に当局立ち入り</a></li>
 </ul>
 </details>
 <details><summary>💻 テクノロジー</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572166?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">最高裁 AIが発明の特許を否定</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572066?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">Apple「MacBook Neo」を発表</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572264?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">食べログ側の逆転勝訴確定 最高裁</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572260?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">5ちゃんねるのドメイン 停止へ</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572211?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">SANAE TOKEN 発行元のPJ中止</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572031?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">「SANAE TOKEN」名称を変更へ</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571913?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">金融庁「SANAE TOKEN」調査へ</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6571974?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">M5搭載「MacBook Air」発表</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572201?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">米国防総省 米AI企業をリスク認定</a></li>
 </ul>
 </details>
 <details><summary>🚨 国内・社会</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572170?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">首相がイランを非難 日独電話会談</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572164?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">与党「土曜日審議案」を取り下げ</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572128?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">旧統一「天地正教」に資産移転か</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572140?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">中東6カ国への渡航中止勧告 発表</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572126?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">国民・玉木氏 国民会議に参加表明</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572277?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">日カナダ 経済安保対話の創設合意</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572269?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">政府 石油の国家備蓄放出を検討</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572210?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">兵器輸出の容認 与党が首相に提言</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572202?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">イラン拘束の邦人は2人 茂木外相</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572242?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">旧統一の「先祖解怨」今後も注意</a></li>
 </ul>
 </details>
 
 ---
-<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 07:19</p>
+<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 07:16</p>
