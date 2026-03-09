@@ -1,8 +1,8 @@
-# 🏡 Family Portal 03/09
+# 🏡 Family Portal 03/10
 
 <div style="display: flex; gap: 10px; font-weight: bold; background: #f0f0f0; padding: 10px; border-radius: 5px;">
-  <span>⛅ 広島: 晴れ</span>
-  <span>📈 日経: 55,621円 | USD: 158.35円</span>
+  <span>⛅ 広島: くもり</span>
+  <span>📈 日経: 52,729円 | USD: 157.71円</span>
 </div>
 
 
@@ -50,15 +50,15 @@ function drawOmikuji() {
       <text x="50" y="85" font-size="10" text-anchor="middle" font-weight="bold">6</text>
       <text x="20" y="54" font-size="10" text-anchor="middle" font-weight="bold">9</text>
       
-      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(140.0 50 50)" />
-      <line x1="50" y1="50" x2="50" y2="15" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" transform="rotate(240 50 50)" />
+      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(132.5 50 50)" />
+      <line x1="50" y1="50" x2="50" y2="15" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" transform="rotate(150 50 50)" />
       <circle cx="50" cy="50" r="3" fill="#333" />
     </svg>
     
       <br><br>
       <details>
         <summary style="cursor: pointer; background: #1abc9c; color: white; padding: 8px 15px; border-radius: 20px; display: inline-block;">こたえをみる</summary>
-        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">4じ 40ふん</p>
+        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">4じ 25ふん</p>
       </details>
     </div>
     </div>
@@ -117,36 +117,36 @@ American, 1850–1913</span></p>
 ## 📰 詳しく見る
 <details><summary>🍁 広島のニュース</summary><ul style="list-style-type: none; padding: 0;">
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTFAyc3pEYVFBdG9rc3k5SHVPNlh0a09VdTRWUzJRS0xxVnRIcTNFd2RfZnJhcHVucXNsSTA2M05iRnBGcE96cHNGbkQ2TnpkUzBjYktEVnVqZFQ2QQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島市西区の広田泰司さん、第二の人生は保育・幼児教育の道へ 定年後に学び直し - 中国新聞デジタル</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMib0FVX3lxTE93UGJHRUJZSnpRUk95ZWpCWjlubDVWeGctNGlQNE0wQTFwNkFDVXM5WS1QN3ZveUVVZ1Z1cVBnYmlqcmkzQkRzLVU4V2pCWUZjOXQ5ckw2N2JucFMyTTRTWl9mc3N4UU5VXzctb2RoZw?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">ミナモア開業１周年記念 ひろしまオーバルフェス２０２６開催 - HOME広島ホームテレビ</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE9Ya19RcVloZWVhb2JkaXZBMlpycGl4UFRUdG44UXJCTDM4VXZsYzBmTzhmamNuVTVRUEJFQjdXMER2ck5mOHBQZGJncG41eU02VFFlNDM3M0dCT0xKVFE?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">「沖縄ほど平和を考える所はない」 広島被爆の93歳が体験語る くららの会、那覇でつどい - 沖縄タイムス社</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE5IX2FmaFdhR2tFdkhJYjAzajZkdnN6X2RieDlVQm9HZGhVUTJ4LVpNMlRwOGlyZUZzMzYybTVyWXVoRC1YdmJRcVkzY3pIU3cyRkh4enlyUDZiTERtRDE1RkxiN0NBdE55dmxrY3QzUk9ONkhoNXpjWnFCMy1XOVE?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">「世界に知られてしまったか」広島名物「スクワット応援」がアメリカでも注目！？動画拡散「この熱気がリグレーにも必要！」「カブスでもやろうぜ」（スポーツ報知） - Yahoo!ニュース</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTFBJOGFxRUk0T1htVnBycFBkdGR1YzNSRkJCbnV5OXZZZGFoQWxTTWtabW5rbjI5WnVieXhybnRlTF92bnpubEtsMkVTV3N4YXJ6a1hfcGwtRlJ3dw?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">カープの新ホームランガールに広島市の女子大学生3人 - 中国新聞デジタル</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTFBGWHphbEd2dlV1Y0VURG15WTVWM3Bpcm9nYmQ2a0E5ZjZSeWVLVlpWeXpiWU9Ia2ZEakdXVkZzTjJOSnNDR0lMX3pDNm16QXFYZ1RrSnljbjVXcXZTTlJfS0ZrOVU0RjIwVTlKbU5mZDlMajB3YklWUzhmdDRlYTA?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">女の子に監禁とわいせつ未遂、容疑で広島市の中学生逮捕（中国新聞デジタル） - Yahoo!ニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE1PZ2pRVmdGZUtpX1l3ekprdURDZldRUDBaRDJlWEw2R0wzRnZJZldpZkpEU1FnU1BjdFVSNnlUUjlnUjVQYUp2Q0ZadkhkbFA1Nng4V2xobGxhZlJXbEZYdXBKaDlPUkJ0M0lsRUlnWXo4enRCOV8xZEEycXYzRUU?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島・大瀬良大地「気を付けながら、急いで…という気持ち」早期復帰へ意欲 5日に右ふくらはぎ痛める（スポニチアネックス） - Yahoo!ニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiUEFVX3lxTE1KUmplYXcxUXpWSk02S0NFVFd2anFPSEFHZmxaQ0p1NUFDYzBDTmkyaEdESE1rb3BDUTUzNnMxSlh1aUxsSDFfZE5KT0ZqVUFH?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">カキ被害 気仙沼から広島へ恩返し - Yahoo!ニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiZkFVX3lxTE1oSVoxQVZOdnVRTkFUYktNUFlqR3R4SU8yTTAxMHpLMGZqb0c5SnJnZDQyZVV3TTctdVA2SzltZmVicHNDUmxSSHVxSXRQZlpHNlJLcjNFN1BGQ2NxY1ExajhYLTc0UQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島へ「カキの恩返し」、大量死に苦しむライバルに宮城・気仙沼…震災時は支援「苦しくても連携し高め合いたい」 - 読売新聞オンライン</a></li>
 </ul>
 </details>
 <details><summary>💰 経済・ビジネス</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572484?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">男女の賃金格差 大企業が顕著</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572435?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">働く女性の健康支援に課題 調査</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572440?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">1万円台「ランドセル」変わる常識</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572416?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">弁当店の倒産最多「安い」限界に</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572384?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">ノリが不作で高騰 関係者ため息</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572615?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">日産 自動運転でUberと協業へ</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572592?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">2-3月家族引っ越し料金 5年で2倍</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572559?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">氷河期世代の男性 なぜ生きづらい</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572571?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">20代夫婦の数が減少 要因を解説</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572608?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">砂絵セットに石綿 4.8万個回収へ</a></li>
 </ul>
 </details>
 <details><summary>💻 テクノロジー</summary><ul style="list-style-type: none; padding: 0;">
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572578?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">IT企業の面接「なりすまし」出現</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572577?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">WBC巡りデマ拡散 AI時代の課題</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572497?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">ドコモ3G終了へ 50万回線争奪戦</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572426?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">メモリー高騰 メーカーは調達苦慮</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572366?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">県がメタバース婚活を主催 狙い</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572356?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">AIで男女格差拡大リスク ILO警鐘</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572323?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">記念Suica電子マネー 失効に注意</a></li>
 </ul>
 </details>
 <details><summary>🚨 国内・社会</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572499?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">中東退避の邦人 成田空港に到着</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572429?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">中東混迷 長期化で対中戦略影響か</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572490?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">武器輸出緩和に反対56% 共同調査</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572476?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">首相の国会答弁 衆院選圧勝で減少</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572493?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">地元記者 震災報道の減少に焦り</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572564?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">原発事故15年 判断は正しかったか</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572579?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">震災で突然の別れ 生徒涙する授業</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572589?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">震災犠牲の1.4% 人助けるため殉職</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572603?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">訪日中に災害 外国人被災者の壁</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6572598?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">国備蓄石油の放出準備指示 経産省</a></li>
 </ul>
 </details>
 
 ---
-<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 07:12</p>
+<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 07:17</p>
