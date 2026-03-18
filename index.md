@@ -1,8 +1,8 @@
-# 🏡 Family Portal 03/18
+# 🏡 Family Portal 03/19
 
 <div style="display: flex; gap: 10px; font-weight: bold; background: #f0f0f0; padding: 10px; border-radius: 5px;">
   <span>⛅ 広島: くもり</span>
-  <span>📈 日経: 53,700円 | USD: 158.94円</span>
+  <span>📈 日経: 55,239円 | USD: 159.82円</span>
 </div>
 
 
@@ -50,15 +50,15 @@ function drawOmikuji() {
       <text x="50" y="85" font-size="10" text-anchor="middle" font-weight="bold">6</text>
       <text x="20" y="54" font-size="10" text-anchor="middle" font-weight="bold">9</text>
       
-      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(207.5 50 50)" />
-      <line x1="50" y1="50" x2="50" y2="15" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" transform="rotate(330 50 50)" />
+      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(227.5 50 50)" />
+      <line x1="50" y1="50" x2="50" y2="15" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" transform="rotate(210 50 50)" />
       <circle cx="50" cy="50" r="3" fill="#333" />
     </svg>
     
       <br><br>
       <details>
         <summary style="cursor: pointer; background: #1abc9c; color: white; padding: 8px 15px; border-radius: 20px; display: inline-block;">こたえをみる</summary>
-        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">6じ 55ふん</p>
+        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">7じ 35ふん</p>
       </details>
     </div>
     </div>
@@ -116,35 +116,35 @@ American, 1850–1913</span></p>
 
 ## 📰 詳しく見る
 <details><summary>🍁 広島のニュース</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE82T1BpQ0hVbkRvZFdSS0VoU0tYa1VBelQxY096MkstUFp4cDdJSmVheG9LMTNWNVRaNVB4dWJkUXVFcjgzNDVTTnl5ZFYtaGRsMVlDMHVmVURDdw?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島県府中町、市制移行の検討を本格化 2026年度に住民アンケートや審議会諮問 - 中国新聞デジタル</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Ha1VPdUYyRGcyRzl3d3A2Tk9CY3c4UUFvaU14a0xPMi1ldVRNdHBNLTJ2TURXZ0hna2RDTW43OU9Ia0g5ZTl2T2tIZDdQUFVMQ2ZsUXBWam9zUQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">ヴィレヴァン広島サンモール店22日閉店へ 「ノコノコ」縁にドラフラファン集う場にも - 中国新聞デジタル</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxPa1BqcXczWDM0SndnMVcxX3JjYlhhZ0dQckZHZDd6UmJuMWlibFJ5dGg1TlVlSks0YkFlbTJiWFY2dVdEUmJONjNXYW40Y01fMk03MVJ3bEtaaTdVTGQwTWZXSzJMdVlVdWZYWi1TX091YVdqZWlQSUdDN2tkT1J4SU51NkhPQ3UzaHpNeGJOZm9wSGI2ZlkycHJJWVJmZ20xTFU2Z25pbFRYQQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">(中国地方 キラリ企業) Raku-P（広島市） 駐車場、AIで自動精算 利用者と接点 「楽しさ」も - 日本経済新聞 - 日本経済新聞</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE5BS3RySV9SQWVybnEyTEpvY1dvSlBHVF9yR2l0UDBxc1lmRl9SQ3hJLWRFODJGQ2diNlRwZmk5anFPOVV5LWNhMjJQRXhzaEcyb2YxME14V3QtUm1feW9XT0YtUHA5VzN5YU9OTGJLUktHNERQb0MtdjdnOU8waVE?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">歴史研究家の森重昭さん死去 被爆者、広島でオバマ氏と対面（共同通信） - Yahoo!ニュース</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiY0FVX3lxTE1wejJqMmFPZFQ3S2x2R1JGZXI4Z21tdmEyaTFnQTZnSnRBUkZ2QllEZUJDc2dhc0tFMjVBUGxkb3dfc0l4QnJBRHlJTVpJRG85MERQRWpsSXBmOU1QYVE2ZWVGdw?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">森重昭さんが死去 オバマ氏と抱擁の被爆者―広島 - 時事ドットコム</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE9HTlNmZmZ0UWJ6TFZpWFVsYXNQS0p4NW1SY1hYdXBGMzdINExTRzdFcmdDUDVqTENzcW5Sc1hwUG9kdXE4Y3pEal9ZbU1CUW9vSkxwQnF1T01VUQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島市中区の飲食店で食中毒 ７人が下痢や嘔吐 - 中国新聞デジタル</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTFBnZWlkNVpqdXdfSkxXZlRJZE1rTlNmcnFzMUQ1QVNOZGxaanF3V1pNRHlmX1IxU3BJMUVSWG5QQ1p6YzdXcnhqV3FfWHhfRWhoOElHNWpUTHVxLVhkOTg3WU55aVE4Tm1qNXhXTGZDN25OaTBFTFkxQjRlbk5jX0k?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">「ついに咲いた!」 広島市植物公園で38年ぶり“サクラ開花促成”見ごろへ 花咲かおじさん「ほっとした気持ちと悔しさ半々」 - Yahoo!ニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE5LcGNFU3RPcEJxQkVGc2dZa3hPV1FUaUZnT3NpNnZrQ3pKUHJpdmZ2TC04MWJNM0R4UWxSVzBoVGVRRS02Z3pJVnNCOV9lMWEyTElDZGdHVkg5emNLSFE3WS1qLU5wM21LSkJYSVBQVF9OZFExbU91ODJrQ0JEV1U?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">ナゾの甲子園監督、初出場で初優勝…“広島史上最強チーム”から50年、崇徳高を復活させた重要人物とは？ 元カープの伝説的OB・山崎隆造の証言（Number Web） - Yahoo!ニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE5pekR2NDBYeGZpb2FuNl9LNl92Y1IzX3o2QkEtT1F6cE1EQnlCblhoSlAtUS1FVm9mWlhsOC13cWN1WjBHZjdiZnpHSFc0R0l6dFp1bmtLUEEtajZEbWs0c0FBaTdyQ29RZ2otZ2hjUzRmNXIyOGU2czJ0aFc0T1U?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【広島市】初の公募で原爆死没者名簿の記帳者14人を選出（HOME広島ホームテレビ） - Yahoo!ニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTFBEQlpkRFd3VTlWWVdhdVQ5cHFqczFnYmV1VE10aHduSWlZWTBLQXFpNWxkUzZKZmtkeFNRSWFWS0tHMnhNTFRZcHpPQ2d4a19sUndDLWFBLXIxQQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島市、原爆死没者名簿の記帳者14人発表 最年少は15歳 - 中国新聞デジタル</a></li>
 </ul>
 </details>
 <details><summary>💰 経済・ビジネス</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6573454?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">USS買収 日鉄に計9000億円融資へ</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6573461?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">米国産原油の輸入拡大 首相伝達へ</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6573435?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">公示地価 バブル後で最高の上昇率</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6573465?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">伊藤園「香水ブランド」人気の訳</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6573417?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">日産新型「ムラーノ」日本で復活</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6573554?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">米FRB 政策金利の据え置きを決定</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6573560?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">ガソリン価格 きょうから補助金</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6573510?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">日経平均が反発 終値5万5239円</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6573534?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">ソニー生命元社員 顧客から借金</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6573513?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">JR東 輸送障害続き社長ら4人処分</a></li>
 </ul>
 </details>
 <details><summary>💻 テクノロジー</summary><ul style="list-style-type: none; padding: 0;">
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6573549?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">携帯5社 非常時に他社回線提供へ</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6573516?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">アバター介して通話 新SNS発表</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6573438?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">WBCで導入 野球中継の新技術</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6573356?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">新モデル「AirPods Max 2」発表</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6573326?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">卒アルなど 性的なAI加工に注意</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6573308?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">ドコモ社長 新AIサービスの狙い</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6573291?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">Apple 創業50周年の祝典を開催</a></li>
 </ul>
 </details>
 <details><summary>🚨 国内・社会</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6573458?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">茂木氏 海峡巡りイラン外相に要求</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6573377?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">海峡への自衛隊派遣 4つの想定</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6573365?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">自衛隊ホルムズ海峡派遣 検討着手</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6573343?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">情報収集で自衛隊を中東派遣 検討</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6573353?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">艦船派遣の要求なし 日米外相協議</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6573546?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">自衛隊派遣巡り 停戦が条件と首相</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6573524?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">対米投資 第2弾は計10兆円規模</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6573512?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">首相 トランプ氏と桜の記念植樹へ</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6573537?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">神奈川の特定失踪者 国内で発見</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6573508?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">中立公の3党 国民会議参加へ調整</a></li>
 </ul>
 </details>
 
