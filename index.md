@@ -1,7 +1,7 @@
-# 🏡 Family Portal 04/04
+# 🏡 Family Portal 04/05
 
 <div style="display: flex; gap: 10px; font-weight: bold; background: #f0f0f0; padding: 10px; border-radius: 5px;">
-  <span>⛅ 広島: 雨</span>
+  <span>⛅ 広島: 晴れ</span>
   <span>📈 日経: 53,123円 | USD: 159.63円</span>
 </div>
 
@@ -50,15 +50,15 @@ function drawOmikuji() {
       <text x="50" y="85" font-size="10" text-anchor="middle" font-weight="bold">6</text>
       <text x="20" y="54" font-size="10" text-anchor="middle" font-weight="bold">9</text>
       
-      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(212.5 50 50)" />
-      <line x1="50" y1="50" x2="50" y2="15" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" transform="rotate(30 50 50)" />
+      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(322.5 50 50)" />
+      <line x1="50" y1="50" x2="50" y2="15" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" transform="rotate(270 50 50)" />
       <circle cx="50" cy="50" r="3" fill="#333" />
     </svg>
     
       <br><br>
       <details>
         <summary style="cursor: pointer; background: #1abc9c; color: white; padding: 8px 15px; border-radius: 20px; display: inline-block;">こたえをみる</summary>
-        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">7じ 5ふん</p>
+        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">10じ 45ふん</p>
       </details>
     </div>
     </div>
@@ -116,37 +116,37 @@ American, 1850–1913</span></p>
 
 ## 📰 詳しく見る
 <details><summary>🍁 広島のニュース</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE0zNGZfenZ0NHFaOC1BOTE5OG9zX1k3b2dENTdPUS00M096ZXBPcDl3NlBlREJubTlZTVE0bkJETHhCa2lKTjFGUEZGMDdKQTJGTl9lRHRBWVBtNzVlLUVST2dlT1FjV0F6dHBBcU1BdkbSAXhBVV95cUxNckp2VXR5VDdzUWRfUlAzNGQwbDNxS054cnJoNUg0QjJXSElqcDFSMGN5RGRVNG1WSEtiM2VPS2JXckI4Q1lrcFVqb2w4bkxYMHZ0b1cwNXFCdjZFU2JibkFNTWExT0dwMVJxMlpGTl92YnFVUzN0QUM?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【阪神】岡田彰布オーナー付顧問が広島のベンチワークに苦言「動きがないから１点ずつになる」 - nikkansports.com</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE9PQ1hxaFZsUGI5VXlUNWVJN0Q3WFYzOFpiSFpGaWRleDQyS2ZTS1k5WGw0TWFNenlraXR3MDd0NmJrTENlbkFKUEpaYlRBazJmZms2OFZPSHBiVjg4YlZiZDUwVVdSTWUySGUtbEd1Wks4MXBvVGlyMVRCcktNUzQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島×阪神 2026/4/3(金) の試合速報・結果 - 週刊ベースボールONLINE</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE1DdmZ5WnVxU1QycjAwVm00U0dnQlJWZmdsUl9yYU1FekVCRW5xLVNRNXhlQllPSF9seFJiR3J3SDREWXJ4RjJPWkVwLXBTV2lwM05CSGlHQy1RQ2trbFc5OC1pTEpDZlBNMzJUU3ZPcGNfWU9CN3hqcGRuMTN0WXM?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">３連敗の広島に待望モンテロ弾丸１号「あれだけじゃ足りない」“虎アレルギー”払拭へ４日大竹粉砕再現へ（デイリースポーツ） - Yahoo!ニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiUEFVX3lxTE1HUFg4NmRRNXFXMFdELXFkX3RsUHdVTXoxemp3czhlVWhwdm52VFpJQ2duSWRoTDFVbzJZQjR3S2ltWHdmb1R0bWgwUE9zM1c0?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">デーゲームの広島vs阪神 20時終了 - Yahoo!ニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMifkFVX3lxTE1mOEpiNXdaVHl6ZVMxd0xpWHB6LUpTYWhUTjJUb0RZR0dYeGdFdUxFcHNlcklBLWwwdWxHUm91SExOT0k1UDJjT1JOTlRKa1dIN0laeXVRRnh2N1pLSEVFcTNod0Q0UjBMV1pVMzV5VW9yTUtDZFlUMnNXMUhuQQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島 阪神に悪夢の逆転負け - au Webポータル</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiekFVX3lxTE1GTUFCNTRYUjB2VnBMeU1fbktXNmM5TDdzbEU3S0x3UmJmVmh5QTF5WmRac1E5WnZ2bURRU1IwOU9Ya1Q2RmY3TWs0d2VXUUdQZ3hpTDdhZ3dMVjZnTWFLOWl1X0ZhNktQRTBWaWNXdVlPNlMtbkhrWU530gF_QVVfeXFMTkhGNTk0SUNQeFBNT25idXIyaTBEU0JNMVFhMkJWOXU1QkhzTXpOa3V2RENnUlU3bjJsWjMxLUQxTWdtbzh4anVaWkNZM3JkR3A1dGMyT3RhdlZWdGoxd2Ztc0N3WjJldlhDUkdsSkhNOHp1N0ZvM191NEJkNVItUQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島・佐々木「よっしゃ！」雄叫びプロ１号　 ２年目２１６打席目にマツダ沸いた　「阪神も強いんで」胸の内も明かす - ｄメニューニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE5KekxYTnJmb3VJMmdQbVBXMkttT1FsTXR1bGhJWWxoYkNXdWZPQnhIb2NKRkdIRmV3OHpOUzYyRXc1c3NlXzUyNk1NNkNWOGMwaFRPS0ZsNHYzUQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">スーパーのロピア、広島と山口に計4店の出店方針明かす - 中国新聞デジタル</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE5QSjZxdWJpSDZjQUdJZUV2bS14Ujl5THpHel9uSmd4bEc5eVhfMGZPVi1rLWt6YU51UXRDTFJZSXBFRlBPODBxODRwTzJsWFMwX3JZM2lDX2JIQQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">スーパーのロピアが広島パセーラ店オープン、ほかに4店の出店計画も - 中国新聞デジタル</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5PeFVOTkNhZFpVZG45dUdnSjZldmR0TDBCSkVxT3BaVmxyd2dYV0x6eUIwTXBjdVpyREtZWDJOZGFhcHY3TEpFR3RON3liTngyZjlKLUxTamVFZjQtTXc3U0FONEZWYzA?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">掲げるのは「食のテーマパーク」 広島市中心部に「ロピア」がオープン 開店前から大行列 中四国地方で初出店 - TBS NEWS DIG</a></li>
 </ul>
 </details>
 <details><summary>💰 経済・ビジネス</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6575090?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">商船三井LNG船 ホルムズ海峡通過</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6575089?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">ペルシャ湾の日本関係船 内訳判明</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6575038?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">今後のガソリン価格どうなる 解説</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6575085?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">電車内で外国人ケンカ 遅延や運休</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6575087?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">毎日新聞 元役員が10年前セクハラ</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6575179?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">日本関係船がホルムズ通過 2隻目</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6575209?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">上下分離方式8区間で提案へ JR北</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6575172?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">関電 原発燃料の配置方法変更へ</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6575171?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">スカイマーク サーチャージ導入へ</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6575195?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">鉄道路線 30年間で1366キロ廃止</a></li>
 </ul>
 </details>
 <details><summary>💻 テクノロジー</summary><ul style="list-style-type: none; padding: 0;">
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6575166?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">校歌の作詞作曲にAIを使う 完成</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6575133?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">OpenAIの経営陣に大きな変化</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6575119?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">京都新聞 誤情報巡りXに削除要請</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6575084?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">SNS「みてね」 想定外の快進撃</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6575032?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">AI 米MSが日本に1.6兆円投資</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6575017?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">「遺言」スマホやPCで作成可能に</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6574961?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">ボンドロシール 偽販売サイト急増</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6574960?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">ドコモ3G停波 一部4G機種不具合</a></li>
 </ul>
 </details>
 <details><summary>🚨 国内・社会</summary><ul style="list-style-type: none; padding: 0;">
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6575102?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">武器輸出を原則容認 政府案判明</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6575068?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">閣僚の資産公開 最多は小泉防衛相</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6575004?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">予算巡り首相直面 参院自民の特質</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6575034?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">小川淳也氏 女性天皇巡る発言撤回</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6574990?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">戦時下の露に経済訪問団 政府計画</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6575138?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">国民と中道 両代表に微妙な距離感</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6575120?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">石破氏来週訪韓 大統領と面会予定</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6575125?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">節電・節約要請は慎重検討の方針</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6575146?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">東大汚職 自浄作用が不足と検証委</a></li>
 </ul>
 </details>
 
 ---
-<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 07:21</p>
+<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 07:17</p>
