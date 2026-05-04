@@ -1,8 +1,8 @@
-# 🏡 Family Portal 05/04
+# 🏡 Family Portal 05/05
 
 <div style="display: flex; gap: 10px; font-weight: bold; background: #f0f0f0; padding: 10px; border-radius: 5px;">
-  <span>⛅ 広島: くもり</span>
-  <span>📈 日経: 59,513円 | USD: 157.03円</span>
+  <span>⛅ 広島: 晴れ</span>
+  <span>📈 日経: 59,513円 | USD: 157.20円</span>
 </div>
 
 
@@ -50,15 +50,15 @@ function drawOmikuji() {
       <text x="50" y="85" font-size="10" text-anchor="middle" font-weight="bold">6</text>
       <text x="20" y="54" font-size="10" text-anchor="middle" font-weight="bold">9</text>
       
-      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(207.5 50 50)" />
-      <line x1="50" y1="50" x2="50" y2="15" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" transform="rotate(330 50 50)" />
+      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(240.0 50 50)" />
+      <line x1="50" y1="50" x2="50" y2="15" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" transform="rotate(0 50 50)" />
       <circle cx="50" cy="50" r="3" fill="#333" />
     </svg>
     
       <br><br>
       <details>
         <summary style="cursor: pointer; background: #1abc9c; color: white; padding: 8px 15px; border-radius: 20px; display: inline-block;">こたえをみる</summary>
-        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">6じ 55ふん</p>
+        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">8じ 0ふん</p>
       </details>
     </div>
     </div>
@@ -116,37 +116,37 @@ American, 1850–1913</span></p>
 
 ## 📰 詳しく見る
 <details><summary>🍁 広島のニュース</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE5MNWNDc2w0X052WEZmUUVDYmpKU1kwTldCblJhX1QwZXVaSWZwSkVOZlYyTzVLRHNnN24yQ21vdWF3bFN4VnRodXVGTXFjV01saTlyMU1vRFFWUQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">「川の岩の上に女性が倒れている」 広島市安佐北区で心肺停止で救助 - 中国新聞デジタル</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE0wejRRMkhFVkxyVkhPd2hhR2xGTFRsZkpJTU5qMnN1amZON09TdS1ONFdOenFHc2F4SWNkTHR1cXpJOXpqeG5ZLTZfNkh0RndWOUNPdUkwdkgydw?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">高速道路の事故・渋滞情報 5月4日 広島・山口・岡山・島根・鳥取 - 中国新聞デジタル</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE43UkdGcDQtR3FuVEpOdUxtVm04dTk5dDdKbTRjV2w1UkVqb0pMdFlZbkFZejd5UzE1TUNGRDhMNUY1UDJRZ2FudGh3THd6OU9TZkxyOHM0dmVPZw?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">第1Qの劣勢を覆せず 広島サンプラザ「最終戦」は敗戦 5月3日富山戦を徹底分析【ドラフラ×AI バスケ🏀分析ラボ】 - 中国新聞デジタル</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE1qYlF3SGI0bHdxSUZwMjA4Q3NXSDVfVl9MY0RMQ0hxNk1sTjBZWVJDNWdKU2h4ZzVGYW1RZEFCcS1xWHhOLW9LZWpCeFFkTHRvSzZVRmxDWEhwUQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">＜写真集＞フラワーフェスティバル 花の総合パレード 5月3日 - 中国新聞デジタル</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9vRUxSczZRbjVOck1LUXd6c2lIb2xOb1dnY0sxUDN3VFZocXlDQ2NvVFNSUGtFZ1Z6aEZJYmU5RUc4OENrZEU3bEFRYkZNREQ4QUFWRjBqSnlyNGRmQXVtYXpobWs1bWs?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">｢ひろしまフラワーフェスティバル｣開幕 あいにくの空模様も 約7000人参加のパレードで笑顔届ける 広島 - TBS NEWS DIG</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiV0FVX3lxTFBqWFFuVExvR01YYnY0RmxFeHZkQjZxeWdVR3VJZzJHUlVJTG1fN0ZtZ1BPbjhubWFXTTB0NWdmbVlGdUdDcTlCZDdRd3lkaWVkRFJtS1lRdw?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【速報】「排気ダクトから火」広島・佐伯区の焼き肉店で火事 - TBS NEWS DIG</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTFA4dUZZbHc2ek5TQkwtOExQQlh3LThnNUUySjA2S0hjb3B6ZHJ2ajduaEhfVUdiNzJBY25sYnpFVXZaY2pvVTdRSU9RZEtzczlJcnE2RjhPa1Exdw?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【続報・火事】広島市佐伯区の飲食店から出火、2棟焼く＜動画あり＞ - 中国新聞デジタル</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE5mSUs0NEctSko2X3F3bWV3RlU3a09zMVE4cWRoTzB3Qm5FdlJySVVpeUpBZ2FseTVPV1VMQ3NJNFhUb2RoUEdnUGZuLWVnQXVjNFNFOGdKZkxxenBpd0dmdC1fUUEtTnFVS3BlWWRuQUVXSWxUNTZkd2JTQ2I5Zkk?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【火事】広島市佐伯区の飲食店から出火、消防車15台出動（中国新聞デジタル） - Yahoo!ニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTFByOXRzUDhPcG0xRENVcmppRHNIbnA3eGFxazlYeGx3NFNFb0d5U3ljRzlNV3cyTWh2UXpER3VoRkp2WHh0dUtIRUtkaGo1bGJ4Z21pcFVEVUw1RWVkWlhDS1B3NWlOYUdsVDBSQkFNWElaa2l0T3pQYTZ5d0JZQmc?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">J1岡山が不適切投稿を謝罪 広島戦後に公式SNSで問題発生…再発防止へ体制強化「深くお詫び」（FOOTBALL ZONE） - Yahoo!ニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTFB6bEJqcEtRTUhiTWVFZjE4cXZNXzV5Q3pKMDVValR3LWlubWFkY3g5dTUxQ0lBMEdHU0o0bXFVTW00bUdvV3Nxc3QxNUFzLUdzRjVNX3dSa0ZnV1J4?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">5/10（日）明治安田J1百年構想 第16節 広島戦 グッズ情報 - ガンバ大阪オフィシャルサイト</a></li>
 </ul>
 </details>
 <details><summary>💰 経済・ビジネス</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6578634?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">GWガソリン高騰 近場志向強まる</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6578611?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">サムスン一族 相続税1兆円を完納</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6578606?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">米バークシャー 日本投資を継続</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6578642?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">高速道路のETC専用化 各地で加速</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6578652?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">プロテイン値上げ相次ぐ 供給不安</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6578777?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">為替介入 財務相「ノーコメント」</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6578730?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">一時1ドル155円台 神経質な動き</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6578683?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">露産原油のタンカー 愛媛沖に到着</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6578715?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">強風 関東で交通への影響相次ぐ</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6578700?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">燃料高騰 LCC「冬の時代」突入か</a></li>
 </ul>
 </details>
 <details><summary>💻 テクノロジー</summary><ul style="list-style-type: none; padding: 0;">
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6578792?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">再審巡る政府案 X上で広がる批判</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6578724?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">SNSで顔見せない投稿 若者の本音</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6578689?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">政府 行政AIシステムを海外展開へ</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6578608?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">スマホなし4年 通信困難者の実態</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6578584?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">数学の未解決問題 AIが相次ぎ解く</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6578532?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">内部情報をSNSに投稿 背景に油断</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6578446?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">米国防総省の機密にAI 8社と契約</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6578426?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">春節はハッカーも休暇?攻撃7割減</a></li>
 </ul>
 </details>
 <details><summary>🚨 国内・社会</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6578666?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">北陸～北海道 警報級の暴風恐れ</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6578614?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">時代に合わせ憲法更新すべき 首相</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6578601?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">党首討論めど立たず 首相対応焦点</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6578595?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">国内ムスリム土葬 政府が実態調査</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6578641?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">陸自部隊ロゴに批判続出 使用中止</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6578799?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">首相 武器輸出解禁巡り意義強調</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6578757?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">高市首相 GW外遊の成果を強調</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6578806?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">日豪共同宣言 重要鉱物確保へ協力</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6578789?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">高市首相 豪首相にレコード贈呈</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6578750?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">子どもの人口1329万人 45年連続減</a></li>
 </ul>
 </details>
 
 ---
-<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 07:29</p>
+<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 07:45</p>
