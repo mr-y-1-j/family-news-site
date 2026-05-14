@@ -1,8 +1,8 @@
-# 🏡 Family Portal 05/14
+# 🏡 Family Portal 05/15
 
 <div style="display: flex; gap: 10px; font-weight: bold; background: #f0f0f0; padding: 10px; border-radius: 5px;">
   <span>⛅ 広島: 晴れ</span>
-  <span>📈 日経: 63,272円 | USD: 157.78円</span>
+  <span>📈 日経: 62,654円 | USD: 158.36円</span>
 </div>
 
 
@@ -50,38 +50,85 @@ function drawOmikuji() {
       <text x="50" y="85" font-size="10" text-anchor="middle" font-weight="bold">6</text>
       <text x="20" y="54" font-size="10" text-anchor="middle" font-weight="bold">9</text>
       
-      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(340.0 50 50)" />
-      <line x1="50" y1="50" x2="50" y2="15" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" transform="rotate(120 50 50)" />
+      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(272.5 50 50)" />
+      <line x1="50" y1="50" x2="50" y2="15" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" transform="rotate(30 50 50)" />
       <circle cx="50" cy="50" r="3" fill="#333" />
     </svg>
     
       <br><br>
       <details>
         <summary style="cursor: pointer; background: #1abc9c; color: white; padding: 8px 15px; border-radius: 20px; display: inline-block;">こたえをみる</summary>
-        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">11じ 20ふん</p>
+        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">9じ 5ふん</p>
       </details>
     </div>
     </div>
-  <div></div>
+  <div>
+            <div style="background-color: #fdfefe; padding: 15px; border-radius: 10px; border: 1px solid #ddd; margin-top: 20px;">
+                <h3 style="margin-top:0; color: #555;">🖼️ 今日の名画ギャラリー</h3>
+                
+                <div class="mySlides" style="display:block; text-align: center;">
+                    <img src="https://www.artic.edu/iiif/2/ef96e79b-f481-8114-0804-4bd39c101983/full/600,/0/default.jpg" style="width:100%; max-height:400px; object-fit: contain; border-radius: 5px;">
+                    <p style="font-size: 0.9em; margin: 5px 0;"><b>Early Morning, Tarpon Springs</b><br><span style="color:#666; font-size:0.8em;">George Inness (American, 1825–1894)</span></p>
+                </div>
+                
+                <div class="mySlides" style="display:none; text-align: center;">
+                    <img src="https://www.artic.edu/iiif/2/815fb024-96bb-6f38-e6fc-d398d2103c65/full/600,/0/default.jpg" style="width:100%; max-height:400px; object-fit: contain; border-radius: 5px;">
+                    <p style="font-size: 0.9em; margin: 5px 0;"><b>Sunlight</b><br><span style="color:#666; font-size:0.8em;">Richard E. Miller (American, 1875–1943)</span></p>
+                </div>
+                
+                <div class="mySlides" style="display:none; text-align: center;">
+                    <img src="https://www.artic.edu/iiif/2/e72305c9-1a1c-8a36-7450-582619366338/full/600,/0/default.jpg" style="width:100%; max-height:400px; object-fit: contain; border-radius: 5px;">
+                    <p style="font-size: 0.9em; margin: 5px 0;"><b>Flower Girl in Holland</b><br><span style="color:#666; font-size:0.8em;">George Hitchcock
+American, 1850–1913</span></p>
+                </div>
+                
+                <div class="mySlides" style="display:none; text-align: center;">
+                    <img src="https://www.artic.edu/iiif/2/2e796bd8-4e0b-f55a-7c69-75a70a3e97d7/full/600,/0/default.jpg" style="width:100%; max-height:400px; object-fit: contain; border-radius: 5px;">
+                    <p style="font-size: 0.9em; margin: 5px 0;"><b>Afterglow</b><br><span style="color:#666; font-size:0.8em;">Jonas Lie (American, 1880–1940)</span></p>
+                </div>
+                
+                <div class="mySlides" style="display:none; text-align: center;">
+                    <img src="https://www.artic.edu/iiif/2/9604cbbd-722b-8de3-e7cc-4a80be648d79/full/600,/0/default.jpg" style="width:100%; max-height:400px; object-fit: contain; border-radius: 5px;">
+                    <p style="font-size: 0.9em; margin: 5px 0;"><b>Lady in Green and Gray</b><br><span style="color:#666; font-size:0.8em;">Thomas Wilmer Dewing (American, 1851–1938)</span></p>
+                </div>
+                
+                <script>
+                var slideIndex = 0;
+                carousel();
+                function carousel() {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";  
+                    }
+                    slideIndex++;
+                    if (slideIndex > x.length) {slideIndex = 1}    
+                    x[slideIndex-1].style.display = "block";  
+                    setTimeout(carousel, 5000); // 5秒ごとに切り替え
+                }
+                </script>
+                <p style="text-align: right; font-size: 0.7em; color: #aaa;">Powered by Art Institute of Chicago</p>
+            </div>
+            </div>
 </div>
 
 <br>
 
 ## 📰 詳しく見る
 <details><summary>🍁 広島のニュース</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiV0FVX3lxTFBFUTJwT3pyTm4yeE10WXpobENHTjFtNmNnMzdxQXVIRXRBRkFhNHpRYzJ4cm1xc2tQZGNzOWtVY1lTQ3R2blVzVHdGMHRrcHpKcU9LMkFFOA?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">特別養護老人ホームで46人に虐待 広島市が行政指導 ベッドの四方を柵で覆うなど 広島 - TBS NEWS DIG</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE1Pd0Z1Z1JDc0xkTGo0M2ZVMV9FU1dmaEpLQVRfZFFEc001Ylk3SnNBMzJDYXU3YWpCcFZhUDlXSTRSU1pKWURIV252ZVJLbEVkaUtzbDBQbm5zNWNHSkpB?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島市 特養で入居者46人に対する虐待行為確認 行政指導 - NHKニュース</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiZkFVX3lxTE84MlhkY3hzZnlkV2VxZGduNXdMVzh0SmRpbEd5Qzh3MXhqMU85a3h2QnhCcUl6SHRrcVk2a2xHWmtqRUIyS19rYW9uZ3dCXzhGaU9XdUszdUxUUlNOOUdnT2R5UmlDUQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">特養が入所者４６人に虐待、広島市が行政指導…ベッドの四方を柵で囲う・車いすにベルトで固定 - 読売新聞</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE1SWUhhYlVBT085ZDVrRElwN0tCTldrdWtVYkNWdEE3RDc2RlBlNkRWbzhZbzZ4LTI2eDZLbENic0F1RVpKUUJJcVA2MDJPamttTFluT0xFd1dpUQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">「クマらしき動物」広島市佐伯区で目撃情報 関係機関が確認中、小学校1校が臨時休校 - 中国新聞デジタル</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWEFVX3lxTE9Tc3dPb1A5TzVqZmN4MUIwQmhYaFNiSmlSUGJOUnh2TDJBZTRNdVpfYzBMN28zeTNhSzlOYkZWMWxSYjBSaHVKYkdvSGZXYlFNaGticWRRR0c?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島 佐伯区でクマの目撃情報相次ぐ 近くの小学校は臨時休校 - NHKニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiV0FVX3lxTE1nLTl3QXQ5Z2JMdWhvOVdWMEc3UWdjVURMWms4MG1wa2lJUzRKU0d4Y3FUZk5CNm81RGd2SS1xek5ORFRkMFhfX3FXRWtwbnFkM0U0SU5Bdw?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">「酸素ボンベが爆発しているのでは」広島・呉市の船の解体現場で火事 廃船や廃材が燃え、係留の船にも延焼 356世帯650人に避難指示 - TBS NEWS DIG</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE1BQVAtTVZQWnRDcGRmZGJnUE5KdmdUYi14VE10eENxUUJkQjJfTmJ3V2hpUzJpOTlXSDRTN1VnYlA5a1VvTFF0VnU5YlppMVdmaDI2NnF3OWtyQQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【独自】広島県人口が268万人、2025年国勢調査 前回比4・2%減 広島市が78年ぶり減少 東広島市が呉市を逆転【一覧表あり】 - 中国新聞デジタル</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTFBCM09fQjNydE5LdlRqU3ZhcjlwdXZVUks1Z2djN0ZmQkRGTU1EcmFGNV9pRFpBR2JNRkFwSS12bDhFbU9qUnJuY2RZcllqMEJnVGc1dzNLNnFDbGhDUjN6eWhma1NwOXpkd1NjbHhmdjJIcDhHWGtaSThwU2RzVjg?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">坂本勇人とグータッチ…広島“FA”捕手に《来年は巨人》ファン期待も“15億円捕手”は２軍ベンチの実情（週刊女性PRIME） - Yahoo!ニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTFBYREtKNDJ2blBwV05pUGJGQ2llSHNBQWpjOXVJUVhWTzg2dGRzM0ctMDNMaXpvR2dlWUxsV2s3ck1aMnpkdEtiNkRSQUktSDBQZjVZSHZjM3FJdw?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【事故】広島市中区の寺町電停交差点付近で車同士が衝突 広島電鉄が一時運転見合わせ - 中国新聞デジタル</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTFBfWVZyR2M4dVQ5TE1Tc2t6UkkxRlptelJSdGtOYU1QT2tSajd1OUtSRzVvMDF4eUpZM2wzdlp5ank3dGpVcHB6c1BLMFBvNzFLd1dhVWczMEFlWThvTU5xRXR0MUNFeU9lcmRXb3lPTEM3blRMd2llVnlmVEVPZ2s?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【事故】広島市中区の寺町電停交差点付近で車同士が衝突 広島電鉄が一時運転見合わせ（中国新聞デジタル） - Yahoo!ニュース</a></li>
 </ul>
 </details>
 <details><summary>💰 経済・ビジネス</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6580035?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">日産自動車 2年連続の巨額赤字</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6579964?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">「物価高倒産」再び急増に転じる</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6580008?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">不動産大手5社 売上高が過去最高</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6579977?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">コメ価格 下がるか高止まりか</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6580006?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">華麗なる一族の題材 日鉄吸収合併</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6580122?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">タンカーが海峡通過 ENEOS発表</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6580126?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">消えたナフサ由来商品 困惑する客</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6580180?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">大阪メトロ 万博EVバス損失計上</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6580165?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">フクダ電子会長 1.5億円不正利用</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6580143?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">スタジオジブリ 社長の交代を発表</a></li>
 </ul>
 </details>
 <details><summary>💻 テクノロジー</summary><ul style="list-style-type: none; padding: 0;">
@@ -93,13 +140,13 @@ function drawOmikuji() {
 </ul>
 </details>
 <details><summary>🚨 国内・社会</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6580025?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">岩手県で最大震度4 津波心配なし</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6579988?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">再審見直し法案 自民部会が了承</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6580018?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">再審見直し案 検察からは不満の声</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6580002?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">政府 電気ガス料金の補助検討</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6580016?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">高市氏 G7前の英と伊訪問を調整</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6580192?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">補正予算案を検討 電気ガス代補助</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6580186?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">緊急事態条項 与野党議論に温度差</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6580140?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">米中会談で台湾焦点 日本どう影響</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6580113?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">中東7カ国危険レベル 事実上緩和</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6580174?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">コロナ後遺症患者 厚労省に要望書</a></li>
 </ul>
 </details>
 
 ---
-<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 07:55</p>
+<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 07:47</p>
