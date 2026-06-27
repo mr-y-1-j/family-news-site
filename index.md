@@ -1,8 +1,8 @@
-# 🏡 Family Portal 06/27
+# 🏡 Family Portal 06/28
 
 <div style="display: flex; gap: 10px; font-weight: bold; background: #f0f0f0; padding: 10px; border-radius: 5px;">
   <span>⛅ 広島: くもり</span>
-  <span>📈 日経: 69,361円 | USD: 161.73円</span>
+  <span>📈 日経: 69,361円 | USD: 161.68円</span>
 </div>
 
 
@@ -50,7 +50,7 @@ function drawOmikuji() {
       <text x="50" y="85" font-size="10" text-anchor="middle" font-weight="bold">6</text>
       <text x="20" y="54" font-size="10" text-anchor="middle" font-weight="bold">9</text>
       
-      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(217.5 50 50)" />
+      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(307.5 50 50)" />
       <line x1="50" y1="50" x2="50" y2="15" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" transform="rotate(90 50 50)" />
       <circle cx="50" cy="50" r="3" fill="#333" />
     </svg>
@@ -58,7 +58,7 @@ function drawOmikuji() {
       <br><br>
       <details>
         <summary style="cursor: pointer; background: #1abc9c; color: white; padding: 8px 15px; border-radius: 20px; display: inline-block;">こたえをみる</summary>
-        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">7じ 15ふん</p>
+        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">10じ 15ふん</p>
       </details>
     </div>
     </div>
@@ -116,15 +116,15 @@ American, 1850–1913</span></p>
 
 ## 📰 詳しく見る
 <details><summary>🍁 広島のニュース</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTFBuVkNVQmJaR1Q5SjFMUjhzQXNrV2xOTVRZNkJ3WUstSllRbHZ2emdvZTM4MmhranNXZ0lxT1lINVFIaUpRQVJSWHdqVHBFamR6ZENfNGs0cTRpUQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島市安佐北区の旧給食センター付近で熊の目撃相次ぐ 小中学校が隣接、集団下校などで警戒 - 中国新聞デジタル</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE5lQ29zZFVQdWsyV3RBNlJ3V0NGNkZURFhzOTZwTVkxSGpXSEZ6c2N1aXFWV1cxWlZjTDZ5SmZ5bjlJQVhsU3dodEVScHRHby1kUTJvemp2aGFoUQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島市、プレミアム商品券 未申込者に紙版の案内はがき発送へ 全市民の半数に満たず - 中国新聞デジタル</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMie0FVX3lxTE1UeDktdThuLS1JbTNzMjhaczNJQW5OSW0teTVGMjJSQ2QzMzBtUjBVT3RVWDJCWGJ0aWFNUkZvMVBHZ1JUMUlfRnFwVm1iTTAyRXJ6LW1FT1Q2M2trb1I5RC14czVSajM4eC1uUE9lNF9mM2JlbDJtT21JRQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【雨天中止】26日の広島×阪神戦 広島は2試合連続 阪神は3戦連続で中止の事態に - 日テレNEWS NNN</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTFAwQ3F6SVluNWxHRDVCdzM3VTZSTjRMeGhYMmFYeGh1VXFBN1B4RWJtZk9YTXVETnNBUGJBNGxGR0lJV3BiOWN0bUR3eVRzRjFCRWJ6LU45YkIyUS1QX0FOYVZOZ2ZIYzhTb3RJYTVYeVlwSTk2MWRpNzR4cHpKVlU?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島－阪神戦は雨天中止 阪神は３日連続１０度目、広島も２４日に続き７度目 午後１時に発表（デイリースポーツ） - Yahoo!ニュース</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiSEFVX3lxTE0tdWVkbmU5eWZGdkV1U0xwbU9RTldvZTFOVmdQNzdreTNTZmh1ZHhhdWJpVFNLV3E2eVFFOEJnSlBCc0xlZWxvTw?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">7月22日（水）の広島戦は「NEW ERA® DAY 2026」 - giants.jp</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTFAwaVBVazRpM0ZPRU9VSjU3b250UUlaa3RVX0xfUTlvWFF3SVdKR0E2b25sMEt5SFZ6UkNFeHZQNllDdHBxOWFXOWxCbTNKcGltSnZBdm4zbkFLUEFiMm9N?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島 福山 ため池が決壊し 住宅16棟浸水 - NHKニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMihwFBVV95cUxON2hfU0JpUmROUkZWbUM5a0lTdWk5YkFNOHFOMEFMNTR3b2dmNUpET254MmgwVk1YS3BlVFdFQkt0ODBoT1N0aTZQUnlEd1Q1TzByZFpfakZtVDJhX3hRRjBmYjEyM1l3Y0Y0b29iTWc4anZNRWRJd2dmSWNZWFNQMFR1TExWMFE?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">ため池決壊で約10棟に床下浸水の被害 広島・福山市 （2026年6月27日掲載）｜広テレ！NEWS NNN - 日テレNEWS NNN</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE5wOVotYmNlWUZQWE02LTAyZUpuNzVjR2kyVzJwTXZQQjZheDNTWHdDb2psVjYtRnhUUHVGTjRJUkw1Tmtray16MU9FUDM3ejl6LVdTRm8tOGN0U193YVo4dnBpQjdkNUVZTE9SVklfS19ESFZxNm1oVFVsblVLTWc?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">「一気に水が流れてきた」ため池が決壊 複数の住宅に水が流れ込む 28世帯が避難 けが人なし 広島・福山市（RCC中国放送） - Yahoo!ニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMie0FVX3lxTFB4S3ZlWDhOUTlDSnhneWk5SWpxTHg0akpBdk1qcGFFVTlEajBvNWVaT1pNWkt4VVBSaXJjYjVCRG84VlBHTDRQbEpYOXByMzAzX0Jvc3B1QklqTDdENldtMXZuSHVxaVVEd1BWZDltTk9aMVE5U080WkFnYw?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【広島】名原典彦が「気合と根性」一時同点に追いつくソロホームラン 5月の支配下登録からチームを鼓舞する躍動続く - 日テレNEWS NNN</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE16bExpQnBIODM1WXFUOWtyTTVSajVQTnlIMHFvUktlTkdBUkxiUm9hVGo2NlgxNFd2SGVJMzR6c3lDNnIyV2xfUkZJcG9CU0xPMzFYeXhyU0JXMDVOSmxNUmxQWUQtZFIxNVZvc3REMnVLcWRZZVJWVFVpbWl4XzA?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">試合結果 阪神は4日ぶりゲームで広島に敗れ首位陥落…拙攻9残塁 村上は八回途中3失点で5敗目（サンケイスポーツ） - Yahoo!ニュース</a></li>
 </ul>
 </details>
 <details><summary>💰 経済・ビジネス</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6584504?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">全国の鉄道・フライト 最新情報</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6585935?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">北陸新幹線 延伸ルート巡り混迷</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6585798?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">防衛ドローン 川重とエアバス提携</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6585774?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">日産60万台リコール ノートなど</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6585756?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">ゴーン氏 ‌復帰求める声に言及</a></li>
@@ -132,21 +132,21 @@ American, 1850–1913</span></p>
 </ul>
 </details>
 <details><summary>💻 テクノロジー</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6585690?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">MacもiPadも Appleが一斉値上げ</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6585652?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">作業員のダンス動画炎上 会社謝罪</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6585623?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">芸能人肖像 AIで無断使用4万件超</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6585901?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">次世代通信IOWN 活用の将来像</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6585876?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">ソニー明言「aiboはやめません」</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6585600?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">犬型ロボ「aibo」国内販売を終了</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6585459?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">AIが共著者の論文専門誌 創刊へ</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6585874?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">OpenAI GPT-5.6シリーズを発表</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6585846?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">米政府 一部にミュトス提供を許可</a></li>
 </ul>
 </details>
 <details><summary>🚨 国内・社会</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6585827?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">台風7号 関東甲信は大雨に警戒を</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6585821?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">地震で土砂災害恐れ 今後の雨注意</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6585811?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">富士山の火山活動 特段の変化なし</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6585822?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">山梨で震度6弱 発災時のNG行動</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6585820?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">イランなどに人道物資支援へ 政府</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6585939?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">青森・岩手で震度5弱 津波なし</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6585913?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">政府「骨太方針」で日銀けん制へ</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6585938?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">太平洋防衛へ無人潜水艇 政府検討</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6585937?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">28日 雨が止んでも土砂災害に警戒</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6585892?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">熱中症死者早期に1000人未満 方針</a></li>
 </ul>
 </details>
 
 ---
-<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 07:57</p>
+<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 07:52</p>
