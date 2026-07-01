@@ -1,8 +1,8 @@
-# 🏡 Family Portal 07/01
+# 🏡 Family Portal 07/02
 
 <div style="display: flex; gap: 10px; font-weight: bold; background: #f0f0f0; padding: 10px; border-radius: 5px;">
-  <span>⛅ 広島: 雨</span>
-  <span>📈 日経: 70,062円 | USD: 162.61円</span>
+  <span>⛅ 広島: くもり</span>
+  <span>📈 日経: 70,475円 | USD: 162.54円</span>
 </div>
 
 
@@ -50,15 +50,15 @@ function drawOmikuji() {
       <text x="50" y="85" font-size="10" text-anchor="middle" font-weight="bold">6</text>
       <text x="20" y="54" font-size="10" text-anchor="middle" font-weight="bold">9</text>
       
-      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(267.5 50 50)" />
-      <line x1="50" y1="50" x2="50" y2="15" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" transform="rotate(330 50 50)" />
+      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(25.0 50 50)" />
+      <line x1="50" y1="50" x2="50" y2="15" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" transform="rotate(300 50 50)" />
       <circle cx="50" cy="50" r="3" fill="#333" />
     </svg>
     
       <br><br>
       <details>
         <summary style="cursor: pointer; background: #1abc9c; color: white; padding: 8px 15px; border-radius: 20px; display: inline-block;">こたえをみる</summary>
-        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">8じ 55ふん</p>
+        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">12じ 50ふん</p>
       </details>
     </div>
     </div>
@@ -116,37 +116,37 @@ American, 1850–1913</span></p>
 
 ## 📰 詳しく見る
 <details><summary>🍁 広島のニュース</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE1xTnVGblBaNUQxODRCZnE4QUpTbVAtV2pjQ290dUhDMndVNlAwUHBWc2M3Z0FvUENfcEVqb2h0UjZWR0IxbHVSMUpJZi1wVk9qRmlQZnd2dkxLWWM3eEpYaHAwMTJYX1dUYl9NTTVwa0thTW5aWmpqUkpYUFZOUVE?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">焼き鮭の下に虫の死骸が混入 ゴキブリか 学校給食の弁当で生徒が発見 広島（RCC中国放送） - Yahoo!ニュース</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiTEFVX3lxTFBPNkwyWmVlZjgzeXVYOTZOd1lYMm45cEhhRmdmTWlqSWRvM0tGZXVhaVowX0FEb0hkNVNpRzFWRi1IeTQ0VDluMGpyYjY?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">7月1日（水）運用開始！広島東洋カープ公式「X」 開設のお知らせ - 広島東洋カープ公式サイト</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMie0FVX3lxTE9US003ZGlVX3liNXVKbnVEZGJhZ2JfUVlyQ0RUX0prQ0VuRy1nUGY0dXdnWWVhWi1TanROeEUxZUJxQXBzMkRNNFVKZjRTcnFuZmlvRnJWWGNFT18ybGkwaTVDbUVyX1BwOTZfNjk4Y2FRdXN5MURPOGQ0RQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">「新しいきれいな芝で選手が躍動するのが楽しみ」Ｅピース広島 開業以来初の天然芝全面貼り替え工事始まる - au Webポータル</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMibEFVX3lxTFAtWVB3UW1zMnhkZWRacXJiLWpCTlpsUUZCVXBsNmQ4b2VTakZQQ25jQjU4bU5OZ0U4cFc0S0hwTGQyLTFTLVF3clFWYUo2a2lPNEtmVE9kdlV5M3pwcEpBQ01MeUZ5VlRCMmhRY9IBckFVX3lxTE1uSHBPOHJKQWpNT0ZITlU4cjF2TFk4MGQwUGh1bDBHTzI0czl5OU1iMDlWSm1HU1Z3aU10TUFBN1FtOXljb3dTR29ud1F2Z2pJdlNUZlBjQ19rYlhLZ2hFek1zTXhackVqQ0hBODNSQTNDUQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【きょうの広島の天気】全般に雨　雷を伴って激しい雨の降る所があり、大雨の恐れあり　土砂災害等に注意！ - ｄメニューニュース</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTFBhZFg4VHYtRzZKS2oyNEJ0Q2xUdlRpMWo5T1Y1M2I1MGZkVHNSeFo4b1FXM0RDZVFiRGIxQWxCcm1PenBWanVTVGJVVmhhTndZY01URGZzQkhSMXRfRE5v?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島 強盗殺人事件 容疑者がギャンブルで約8000万円損失か - NHKニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE1fZlJqd01pZ29pQk5ONU5icE9jQzRheS1SdWNqVTBjZ0d3WEZ4bWhSVjNiY19mcWdzUV9QWkxNM3pETzlrTURkM0ZManFNXzhPdDRqQ0RjM1BZdw?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">想定上回るペースの人口減、広島県が総合計画 - 中国新聞デジタル</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE1Fa2VWV09WYmJORjBSeFZfNmxJcF9HVmF4c1dIdHliOXVfMVc3bzF3WEZ3UmItUTgxOS1kTzVBcnNKd05sYmU1U3ZLY09FUjViWjkzTEQ4UHdZM2ZOVHNoQ1QteTJGa3dLNzRJVEN3bUtLT3NHQzVXY25WblJhYVE?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">DeNA×広島 2026/7/2(木) の試合速報・結果 - 週刊ベースボールONLINE</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE84ZVRjak5iNmRhRUE5elVTMVNvM2p5RVFNQUw1NXBnLWFVUElJVzc0S1dRZjNudVdyV3JoQVlKeFZBUktRZ1prZndZM25FZ0FmUnBWblhWeGpaeVFMZDZkYkNxNHpWeXhPQUJTN0I2OUhkNktDTmR3SUZ6aHd0MGs?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島電鉄「モビリーデイズ」端末 きのうから交通系ＩＣカードなどでの決済が可能に 戸惑う利用者の姿も…（テレビ新広島） - Yahoo!ニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMie0FVX3lxTE9MYnFNeEJqUlhXQ0Z2VjJpdVBuVkptd0NMVEJxRFI3aGdnNDFKS0k2RG5qZWpBVDVDRTRGWGpmWnozOHFYUi13eUh0VE91c0RvRVZKeXJydzJndkF1bFJobjE0QWhlc3hNcUdaREgxRTNFS1FxdjNtVVpKYw?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">「音が鳴り終わるまでタッチして」 広島電鉄の交通系IC対応は“タッチ＆ゴー”を変えるのか？ 「2～3秒問題」が突きつける地方交通の今後とは - au Webポータル</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE50VHBfVkNwTXFlc1BrdkVZbko1dHF2Tkk4YXpRa0pjek1fV1R3cW1ZS3Bqb0p6aDRiYjM4RzJ5UHlYTlZvOG10eHJ2YWFMYWIya05ZbGpQUDNzQQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島電鉄モビリーデイズのICOCA対応、定期券の未対応などに不満の声 - 中国新聞デジタル</a></li>
 </ul>
 </details>
 <details><summary>💰 経済・ビジネス</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6586279?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">歴史的な円安水準 生活への影響は</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6586227?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">アフラック 438万人分の情報流出</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6586261?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">飲食料値上げ 年間2万品目ペース</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6586205?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">国家公務員 ボーナス平均73万円超</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6586264?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">大丸下関店 来年8月末で営業終了</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6586303?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">大企業製造業 景況感5期連続改善</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6586351?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">トヨタ ハイランダー8月全国発売</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6586345?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">大阪の「毎日放送」社名変更へ</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6586377?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">スムージー再び半額へ セブン対策</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6586372?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">出川哲朗の兄の海苔問屋 高騰嘆く</a></li>
 </ul>
 </details>
 <details><summary>💻 テクノロジー</summary><ul style="list-style-type: none; padding: 0;">
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6586411?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">PS新作のディスク版終了へ 背景</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6586400?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">PS新作ゲーム ディスク版終了へ</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6586308?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">米 AnthropicのAI輸出規制を解除</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6586280?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">異例 防衛省報道官がSNSを開設</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6586255?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">国産AI会社に3873億円支援 経産省</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6586236?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">iPhone18Proの機密情報流出 報道</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6586188?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">マイクロソフト株下落 AI巡り逆風</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6586144?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">米アップル 露のSNSサービス削除</a></li>
 </ul>
 </details>
 <details><summary>🚨 国内・社会</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6586290?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">印にバイオガス施設 日印合意へ</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6586277?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">典範改正閣議決定 宮内庁に戸惑い</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6586245?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">政府 皇室典範改正案を閣議決定</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6586237?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">野党5党「国会正常化」を申し入れ</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6586265?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">航空宇宙自衛隊 略称「空自」維持</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6586408?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">インド事業創出の投資 2兆円規模</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6586404?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">九州で大雨 土砂災害など厳重警戒</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6586326?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">旧宮家男系養子案 国民の理解焦点</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6586401?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">麻生太郎氏 高市政権の実績を評価</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6586357?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">パスポート申請余裕持って 木原氏</a></li>
 </ul>
 </details>
 
 ---
-<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 08:01</p>
+<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 08:00</p>
