@@ -1,8 +1,8 @@
-# 🏡 Family Portal 07/29
+# 🏡 Family Portal 07/30
 
 <div style="display: flex; gap: 10px; font-weight: bold; background: #f0f0f0; padding: 10px; border-radius: 5px;">
-  <span>⛅ 広島: くもり</span>
-  <span>📈 日経: 62,365円 | USD: 163.87円</span>
+  <span>⛅ 広島: 晴れ</span>
+  <span>📈 日経: 61,434円 | USD: 163.41円</span>
 </div>
 
 
@@ -50,15 +50,15 @@ function drawOmikuji() {
       <text x="50" y="85" font-size="10" text-anchor="middle" font-weight="bold">6</text>
       <text x="20" y="54" font-size="10" text-anchor="middle" font-weight="bold">9</text>
       
-      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(30.0 50 50)" />
-      <line x1="50" y1="50" x2="50" y2="15" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" transform="rotate(0 50 50)" />
+      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(172.5 50 50)" />
+      <line x1="50" y1="50" x2="50" y2="15" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" transform="rotate(270 50 50)" />
       <circle cx="50" cy="50" r="3" fill="#333" />
     </svg>
     
       <br><br>
       <details>
         <summary style="cursor: pointer; background: #1abc9c; color: white; padding: 8px 15px; border-radius: 20px; display: inline-block;">こたえをみる</summary>
-        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">1じ 0ふん</p>
+        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">5じ 45ふん</p>
       </details>
     </div>
     </div>
@@ -116,37 +116,37 @@ American, 1850–1913</span></p>
 
 ## 📰 詳しく見る
 <details><summary>🍁 広島のニュース</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMidkFVX3lxTFB2a1p3MDNMenZXempLNHphc3pfUlE0X3V2ZlJMd1dqZHVjTnUtUS1UUklUbHFhTzR2MmFtVEt1UjRzN0VURTJyQ0hYUzRtVE5hNExkUW9lSDZKc0hmajYyMkNMVzBWaWpjS1A1QTZVbzh6bHEzNUE?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島：紙オブジェに平和の願い 原爆ドーム対岸 アートイベント ：地域ニュース - 読売新聞</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiTkFVX3lxTE5WdlZidEtxRTRDU0FLN0NSX01xbF93TFYyUEJ4Tm5ObWhiNzFvS2ZfN0E0bjJkaFgyckV1akdua0I3Sm1lT0xsTEFWSDlHQQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">宿泊客や従業員が世界の平和を願い ８月６日を前に広島市内のホテルが折り鶴 約８万羽を寄贈 広島 - FNNプライムオンライン</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWEFVX3lxTE83MUpVQUZFV1p0ZV9yblg5cENJNnR0SjRqSWtGc0hZWDNOU2xqWXNFOTI5WWpxSzA3Zkp2ZzdGMzNjV0JGX2FNUkZzU2pUb2oyRFU2MWdfZzA?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">夏の全国高校野球広島大会 市立福山高 春夏通じ初の甲子園へ - NHKニュース</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMidkFVX3lxTE9FbGloWlNEOGRXWEFGVVNGNlJsN0xGLUszYUN3OFFiOFVVNWcxQllxX2lFZDlmRFNNbDVJWkRhZ0V2YmZRazhSWFBiY1BoVXB5UU85Z0dVM0lCanJMa0Y3a2tJd1dGUndBcVpDWXNEY1d2ZnJ3QUE?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">伝統校の広島商か、初V狙う福山か 広島大会28日決勝の見どころは - バーチャル高校野球</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTFBiZ09rdUlETXVhbFRGbHQxMEdZaVFGaE5fVmRJY2pSUk83ZEs2MmhNYzFORW0zQ0NLb01QQU01T0tqQVBSaFRlR3ZFbnR5VUpNLTBhNXdkVllveGtSRUo5clYwbWtfVTNCcGQ0eHBqcXpvdVJmNGxkX1d3M01VWUU?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島大会決勝で大番狂わせ…敗退の広島商ナイン号泣 福山が春夏通して初の甲子園（Full-Count） - Yahoo!ニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTFBtREpFOTk4MlpvWW9lZWoxRnhaM2RrTk53VXlKV1RMWVdnamxxWVF3U1JOV1NxUVo5V1E4b0N5ZDRjZFY1LUxhOHRHU013N2F3WDZZRkNUVWhHUQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島市、呉の建設コンサルを1カ月指名停止 - 中国新聞デジタル</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE5TZVg1dTJUV2IzQnhKNGhPREJRRXAwMTZPNk1MTnMzNkdzVHFRb3JBX3YtOHhvRVhxYTV4V3ZucU1UdXdEM2dzQURrSTU2Rm9LYVpxTnp5dVF3STRySkU4?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島県 横田知事 「副首都」指定目指す意向表明 | NHKニュース | 広島県 - NHKニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE50azRzeW4wWXh5M01ZVjBQWXl6R0gxODZEaWlNOTlGYmotcVl2ZE1YWVEzYUpuYmdpRmpIa08wTklCdFpFckNQLUhYTzgxcVlMQ1Y1QVVnc1VoVVdZZ2k3anQzRy0yeFllVmRSNEpmUkFvSUtBc2ZRRm5LU1NtV2c?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【熊本地震】広島県内から続々と支援 イオンモール熊本で救助活動 ６３００リットルの水運ぶ散水車現地へ（テレビ新広島） - Yahoo!ニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE94NnNJcFNId3IxVGRyckdnQzZHa1RZQ1haUGNfa240a3kxSDJfZzJqUk5Td0dfM19CNnVVODdsTlJqNFcxVFN6M2lYV3ExWVdvVndoTmpnMmFCc1ZtOHZZc1BtdlNTNVhfV1FLTTZJN25kZTdYc0hiN1lZX1R3cHPSAXJBVV95cUxQaXZDMHBUMVFjSnRrUl9CRE5DYXdyTjVudVpkNGd5TVNMcEN2YlRtUGxBS21iT2xqZnFieU15cFE1RHdVeTNYY0d4TjlZeC1OZ0FDcGJvTE1MbGtBcDVYcmYzdzQ1SGtxWkVoUW9nV3BtVEE?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">ＰＴＡや地域住民が協力　広島・瀬野小学校でプール開放　広島県では熱中症アラートの発表続く - ｄメニューニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiV0FVX3lxTE5nWkZoNjA4LUdmS19XSnZfLUNoeTVIR2hJY1ZjTTM5V1B5aDlOcVBIR0hxR0Vla1N0SS00RXJSSUJPcGRWczJkMjNNSG1Ib3Bvd1FGQzFoQQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島大学の研究棟で火災 「建物の中にある廃液が燃えた」と職員から通報 初期消火がおこなわれ約50分後に鎮圧 - TBS NEWS DIG</a></li>
 </ul>
 </details>
 <details><summary>💰 経済・ビジネス</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6589714?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">地震影響 鉄道やフライト情報</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6589702?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">九州の交通網やライフライン 影響</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6589699?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">鉄道各社見合わせ 帰宅困難者続出</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6583459?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">電気ガス停止 安全優先でどう対応</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6589608?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">BYDが日本で軽EV 実質100万円台</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6589846?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">イオン爆発 なぜ地震の1時間半後</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6589825?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">イオン社長「爆発想定しきれず」</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6589820?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">九州新幹線 被害の全容つかめず</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6589749?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">熊本で地震 46の医療機関が被災</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6589821?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">熊本地震 問われた「企業防災」</a></li>
 </ul>
 </details>
 <details><summary>💻 テクノロジー</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6589711?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">電池や通信 スマホの災害時の対策</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6589696?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">地震 デマや真偽不明の情報拡散</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6589647?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">災害時 SNS上でのデマなどに注意</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6589632?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">Apple時価総額 世界首位返り咲き</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6589626?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">子のSNS利用に年齢制限 議論へ</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6589804?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">アップル 米国で「リース」を開始</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6589786?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">生保協会 3万7千人分情報漏えいか</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6589783?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">ネトフリ 英で視聴メディア1位に</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6589762?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">災害時のSNSデマ投稿 見極め方は</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6589761?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">00000JAPAN 利用時の注意点</a></li>
 </ul>
 </details>
 <details><summary>🚨 国内・社会</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6589694?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">熊本県で震度7 最新情報まとめ</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6589721?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">熊本厳しい暑さ 熱中症と地震警戒</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6589718?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">地震で政府 プッシュ型支援展開へ</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6589678?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">気象庁「令和8年熊本地震」と命名</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6589651?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">震度7の40分後に5弱 地震が相次ぐ</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6589844?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">猛暑日続出 関東は天気急変の恐れ</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6589791?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">12人死亡6人心肺停止 熊本県発表</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6589849?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">令和8年熊本地震 最新情報まとめ</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6589816?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">熊本県内3万戸超で停電 断水も</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6589837?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">避難所は冷房ある教室活用を 通知</a></li>
 </ul>
 </details>
 
 ---
-<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 07:49</p>
+<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 07:45</p>
