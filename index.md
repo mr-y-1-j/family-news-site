@@ -1,8 +1,8 @@
-# 🏡 Family Portal 07/31
+# 🏡 Family Portal 08/01
 
 <div style="display: flex; gap: 10px; font-weight: bold; background: #f0f0f0; padding: 10px; border-radius: 5px;">
   <span>⛅ 広島: 晴れ</span>
-  <span>📈 日経: 61,867円 | USD: 159.69円</span>
+  <span>📈 日経: 64,362円 | USD: 157.40円</span>
 </div>
 
 
@@ -50,7 +50,7 @@ function drawOmikuji() {
       <text x="50" y="85" font-size="10" text-anchor="middle" font-weight="bold">6</text>
       <text x="20" y="54" font-size="10" text-anchor="middle" font-weight="bold">9</text>
       
-      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(310.0 50 50)" />
+      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(280.0 50 50)" />
       <line x1="50" y1="50" x2="50" y2="15" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" transform="rotate(120 50 50)" />
       <circle cx="50" cy="50" r="3" fill="#333" />
     </svg>
@@ -58,7 +58,7 @@ function drawOmikuji() {
       <br><br>
       <details>
         <summary style="cursor: pointer; background: #1abc9c; color: white; padding: 8px 15px; border-radius: 20px; display: inline-block;">こたえをみる</summary>
-        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">10じ 20ふん</p>
+        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">9じ 20ふん</p>
       </details>
     </div>
     </div>
@@ -116,37 +116,37 @@ American, 1850–1913</span></p>
 
 ## 📰 詳しく見る
 <details><summary>🍁 広島のニュース</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTFBrTFA0YmVqTnlQM0lweFMxeXhnSU9NNk5XSlA3c2hwQ2NaS01BNnN2YzJzU09idTRaZzFmQlRDT2hBbnpZQjRoOFpiSUtOUmtGRkpCOXZEaXBhWUZCNkVoVUlRTWlfTFR1enVLc0dfa0stZ0kwTzM3LTZlXzF4Q1nSAXJBVV95cUxPbFhzejFGUnNaemVacDREei13aFBqeDA1U1plbW5aLWh5WkV2Q25ZMUZteDhMTURnVzVwOFp6YTROdFNUMjl3b0tpVlFaOElqNEktZWstMFZMWWQxaEVaOXNMLXZxTHpNMFFOUk43UWF3aUE?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">大人気！広島ご当地ぷっくりシール　続々登場！　秋には『ご当地スーパーロゴシール』発売 - ｄメニューニュース</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE5OUk05UWVtT3YzeUs1VDViZGtJQjNXWlQ5ZG5fVWx6cDl2SDAzTnZaTjZkRnpraktHa3RHWlBwV3UtTGVrOHBuVDhFNnZkNzVuQklhRVdDWDBNOU5DaF9XUklKRjJXbUJ6LXBueGMzWVZpb1RsQjVfT0ZHRTd1MUk?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">阪神×広島 2026/7/31(金) の試合速報・結果 - 週刊ベースボールONLINE</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE5fRWlOQ0FGcmRGQk5ZVDExcHlnZjhQNzVvZUItd2pQSndUVkRyaFU5VWVUMDFCSnhuRXBHeU5SQ1dsLXBmR19YZ0FMVTFkZkdoVTRHcUxPRVpuRmZmazJ1dmFhYmNDd2lUWS1GZkdoS280MzJ5Tld3dUF1OW9Ydkk?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島県警、カープ矢野雅哉と前川誠太の自宅などを家宅捜索（中国新聞デジタル） - Yahoo!ニュース</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiY0FVX3lxTE1OS05xSDFxSm5WZHN2TW9BQnRvUUVXeHI3Z3lKU0J3eXdmNWFaMEk3LUdQR3NELUFVaXF2SWlHbnlJUEVBX2hRTVpTRkl3a0l5enExN1liZkY0NEJIcTJoR1lIUQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">矢野雅哉、前川誠太両選手に家宅捜索 松田オーナー「申し訳ない」―プロ野球広島 - jiji.com</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMikwFBVV95cUxOSU9BNE1melAzOGp3ZThGaVhjdGhkdU52NWRTYUhPdGEybjZGU2h0c0hHQ2Y4VjZmYVp4Z1gxS1BOeGFjRG96WlNLUjFDRkxvakpDYnZlVUdJYWtlWDlaZDJqcnhqOHJnTjBhZkJSNWYwYXNDeUJ3UnhidGtWOWo4TENfVHN1YkNUWndDemdpOGdmU0HSAYoBQVVfeXFMT294MklMRmwzRl9aT290WWZUN3pQWjBZNU94eHN6cXVoNmttMFFqWkVoQWZfZWVERjNyS01wYUhJamlfZGNUbGF0ak5wT2pLVGN1VnhiX3pac3pxMW40d0lvcW9RcmRIWmQ5dC1xVzFvQzBkYW5xSXNLRUN0ZmU2a0hlTU50eXB5aG1B?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【若狭勝弁護士の見解】広島・矢野＆前川への家宅捜索は次のステップにいくための証拠収集…広島県警が捜査に力を入れているのでは - sanspo.com</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE9FTC1PQlpZRDNHT1RaV2J5TElxSVZOV1pzcFhtSDg3TU83Q3pfWElfSlJwNGdLQ2ItVTA2d1dSOGFEcHVWUnBHN3NvVHhaQXQyeEpCenJ4N1R3bkpqd3pQRU1pVWd6NTA2dmU3cFlDMUdTYVBQNDBTUWdEMGdSUUk?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">「これ以上醜態をさらすな！」広島の矢野雅哉＆前川誠太が“ゾンビタバコ”で家宅捜索の衝撃にカープファンSNSで激怒…後手を踏む球団対応に「危機意識がない」「甘いぬるま湯体質」の厳しい声（RONSPO） - Yahoo!ニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMickFVX3lxTE5jR0hFY3FFMXFURUs1SXJybXVhRWhFcDlFWENZUVRQMDlTZEdDd2FvU0dub1h4bXJTODlSQUVuMEUtQUMzOXpNSUI5LVd6ZXp0TXl5SW81Q0piTVZlZ0NsY1hOVjVxeXZmVnZTRE1yZldrQQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【速報】広島カープの矢野雅哉選手と前川誠太選手の居宅などを県警が捜索 球団が発表 - テレ朝NEWS</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiekFVX3lxTFB1V0k1WEk3RG1MeUhzN1lKdzNUOWdhZkZpZWRuZ1pFNHBQM2lVbjZEWVNFdnUwY0RqaVJFQ0pKN2JLM0lqQ1BINGk2VXIzV3E0d0xMajd3Mm5NVkM3ZW9fV3NWeGlfdFFCZmhwaHVrR0l4Rld0MWhneGpB0gF_QVVfeXFMTkZWWjdRUzkwTmdrQ296bDZseW51V0VoempXRWdSdW8za3ZGVGctOXFRRjBwRktkaUlfcEFnS2RELTF6S2czTjgxU3JvNm1ZTnluM3UweGdtVTB1NXJlcktFSDlTbDdjZW5PSHhWNmVFT0QxaUgzcXJQYzhWYXZjMA?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島　前川誠太が３軍合流　報道陣に頭を下げ大野練習場に - ｄメニューニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTFBsYVhQcC02T0xsb29kbUFudTBWc19DQWJhMFJMU1NwRktZWmFIQXIxYTZ5bVNuVTJvS0xvZW5PSTdGeUpDcUQtX2MxM2lEb3djanQxZDktc1kxeUNJSWJVVDRoT0VBNHo2?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">「核兵器のない世界、遠のいている」 広島市が平和宣言骨子発表 - mainichi.jp</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiY0FVX3lxTFBrMHlBa2RmajFrREJ2dzkyNWl2Vzh4akxwMl9fWjctVDJaLXhrOVJYT0l0TWVDM0NiZzVhTVRuU1RfT1lsTUxyNl9iWkNKQXhxLXZFYkpqbWpXMm04Y2R5SU5maw?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">信頼構築や核兵器廃絶訴え 平和宣言骨子発表―広島・長崎 - 時事ドットコム</a></li>
 </ul>
 </details>
 <details><summary>💰 経済・ビジネス</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6589962?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">一時1ドル157円台 為替介入か</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6589946?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">食料品消費税1% 生活への影響は</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6589941?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">九州新幹線 31日に博多-熊本再開</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6589951?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">イオンモール爆発 経産省が調査</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6589926?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">8月使用分の電気・ガス 値下がり</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6590063?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">新幹線 熊本-新水俣の8月再開困難</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6589999?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">イオン爆発 オンワードの3人死亡</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6590088?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">円 一時1ドル157円台半ばまで急騰</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6590004?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">東海汽船に事業停止命令へ 国交省</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6590061?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">LINEヤフーに行政指導 総務省</a></li>
 </ul>
 </details>
 <details><summary>💻 テクノロジー</summary><ul style="list-style-type: none; padding: 0;">
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6590082?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">EUが生成AIの監督強化 暴走を抑止</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6590048?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">デュエマサポアプリで漏えい恐れ</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6590006?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">Chromeに13年超潜む脆弱性 AI発見</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6589997?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">アンソロピックAI 3社に不正侵入</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6589968?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">Apple純利益が27%増 iPhone好調</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6589922?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">JAL系保険サイト 保険業法違反か</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6589897?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">地震 データ通信など各社支援策</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6589762?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">災害時のSNSデマ投稿 見極め方は</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6589761?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">00000JAPAN 利用時の注意点</a></li>
 </ul>
 </details>
 <details><summary>🚨 国内・社会</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6589969?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">九州～関東は広く猛暑 熱中症警戒</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6589909?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">熊本地震の死者34人に 県発表</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6589958?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">首相 8月3日にも熊本入りで調整</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6589915?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">入浴食事を支援 防衛省船舶派遣へ</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6589935?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">食料品消費税1% 首相が正式表明</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6590093?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">九州-関東危険な暑さ 熱中症警戒</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6590073?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">熊本地震の死者36人に 県発表</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6590065?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">被災自治体に支援 税繰り上げ交付</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6590029?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">地震の救助 イオン以外は全て終了</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6590075?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">れいわ新選組 新代表に山本譲司氏</a></li>
 </ul>
 </details>
 
 ---
-<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 07:54</p>
+<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 07:48</p>
