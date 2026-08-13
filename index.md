@@ -1,8 +1,8 @@
-# 🏡 Family Portal 08/13
+# 🏡 Family Portal 08/14
 
 <div style="display: flex; gap: 10px; font-weight: bold; background: #f0f0f0; padding: 10px; border-radius: 5px;">
   <span>⛅ 広島: くもり</span>
-  <span>📈 日経: 67,524円 | USD: 159.42円</span>
+  <span>📈 日経: 68,309円 | USD: 159.50円</span>
 </div>
 
 
@@ -50,15 +50,15 @@ function drawOmikuji() {
       <text x="50" y="85" font-size="10" text-anchor="middle" font-weight="bold">6</text>
       <text x="20" y="54" font-size="10" text-anchor="middle" font-weight="bold">9</text>
       
-      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(37.5 50 50)" />
-      <line x1="50" y1="50" x2="50" y2="15" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" transform="rotate(90 50 50)" />
+      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(62.50000000000001 50 50)" />
+      <line x1="50" y1="50" x2="50" y2="15" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" transform="rotate(30 50 50)" />
       <circle cx="50" cy="50" r="3" fill="#333" />
     </svg>
     
       <br><br>
       <details>
         <summary style="cursor: pointer; background: #1abc9c; color: white; padding: 8px 15px; border-radius: 20px; display: inline-block;">こたえをみる</summary>
-        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">1じ 15ふん</p>
+        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">2じ 5ふん</p>
       </details>
     </div>
     </div>
@@ -116,35 +116,35 @@ American, 1850–1913</span></p>
 
 ## 📰 詳しく見る
 <details><summary>🍁 広島のニュース</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTFBIVUFCUlUwd0pna1pvOEFSajdKTWV1SG9xM05yS2ZsWkJwM2p5SFVxaWc1MFpfRHNtSnVYcndlN1R1MEJOclU1QW4tVzZnSjRGNUFuMC1vRTlRUQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島市中区、熱帯夜が途切れる 台風15号の影響で中国地方の気温低下 - 中国新聞デジタル</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE90WlVwNlZHeXd5T0Y3UkhRZ29NdUJfZmZHSzhvNHZ6YjNrOV8tYkxnQWJMNkpOSjM5TFhxcjRZR3pwcG1BNkIzVGxVY1VaSTU5S2Y2WVVTYW9yOWpnNUhDQU8xOEVjZDEwUm9jbkoxWWlJVmtKRjlPS3hIaVVuaU0?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">「広島はゾンビタバコ問題で野球どころではないのだろう。すべてをハッキリさせて処分して終わりにせよ」指定薬物問題が再燃し5連敗で最下位を抜け出せぬ広島に球界大御所が緊急提言！（RONSPO） - Yahoo!ニュース</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE9CMEhYaHFFTW03OUpuc1o3VlpnbzRrRUM3eGVXY2tBblpOeEpQNnpRNTVmNF9TYS13UG5VNVNRTkQxM00tRGw2Q3Q4RzhwUmNtbVBDR1owTzZFSl81UVRlWDd6eXRlOFpqMzZ3aG91R3Z1UnNDSE5ublg2eXdPeG8?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【広島市西区】8/13 最高31℃、暑さ、夜は雨の予想【朝版】 - Yahoo!ニュース</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTFBaa1l5TURrME5icE9nT01xclNCcGRNRU01bHFORUhvdFRZQXBGaXN0LWhQNWpCTGRwQ0hrSnY5cmhpbEVSRHcyRFFfbng0MXBLZ1ZpblNnWFFlSW91bml2a1pud3dBRmhXdmJmR0lQdjFZM2Q4bUlCZEV1NmdwWEk?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【広島市中区】8/13 最高31℃、暑さ、夜は雨の予想【朝版】 - Yahoo!ニュース</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTFB1b041bEtJR1JRc2h2enNwbTBzT3NuUlprekNiU0dDdWNTYWZZd1Y0RlhfWFJTNmdvV3FLdFVQXzhoRThZSlhGblBlZTdrSWVuSE9uVXN0MGFKa1oydE5uLU56eDFXeUlXVl9vWkNNdkVlZVFaUXBienN0eFRoNnc?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島・栗林がまさかの大乱調 ４回１１安打自己ワースト７失点ＫＯ 試合前時点で防御率１点台も…（デイリースポーツ） - Yahoo!ニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE1Fd215Vy1sV1ZQczUyOUtJeEstN2tXdUYxVGlkZDVwVW02bXg3U0ttSWJlNS1uUVVOekU2REl3OUxjNjZzem16U0JyaUxNek02SHc3MjJGcUVvcTQwd2VLTlVibEQxLUNza2xZempyek9ud1N0QzZLc1FSTGlIdW8?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">最下位の広島、精彩欠く大敗に嘆き「見放してしまいかねない」…続いた騒動「何してんの？」（スポーティングニュース日本版） - Yahoo!ニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMigwFBVV95cUxQUDNGNkdKNmtjaEZYTzlvMGRUaEM1b1kxMDh2SWhBU3ZCdjdSNDFic2JOUV8tZUNONmVwZkk4M3YtT1RZYXRiMmd3cjdyVWV2X0tVaFB6cHhScVdzQnk1WHphanBMcF9vWGxYOGVsMS1NZWpsQmN5dE9KcUp6Q0ZlY2RzYw?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【虎になれ】残り40試合、悲願連覇へ広島戦がカギか？ 巨人スイープも不安要素 - 日刊スポーツ</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ncDNRSDJIb3I0REtqSlVfQzMtV1QtaVAzMHBXZ20xSVdKUkttUG5PR0ZBUnBJZzJyLVVyMVdqamFVSlBoSnUyUU5URFJORXhtV1dpenFBTGZLUWlJQmlYdU1RY3BDXzA?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">燃えるごみを「紙袋」で出せる？広島市が独自の収集方法になった理由 - 朝日新聞</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE5HbVQzVTI0c0xUbDdjZlBDLV9STk52a3ZqSnhBUWNQNzFOVmdmWmxNREEyMjJ4dy1Bb3dZNXJjQmNyOFExVGswa1FFOWVvb1VoTzJUM3R4TkZ3UDZtZndURTNSQ2RyWEROTlVJSGMyaXdFenhPc0lTdEJYS1JadUk?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【広島市西区】8/14 最高32℃、暑さに注意、昼間は晴れる予想【朝版】 - Yahoo!ニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTFBHUXdOeklMRkFkUmRWeVlpN01vWGlYVEhRRXlVd1hQSDRHUVpQNjg3N0RfXy1MSDUydVVHV3Vjb05xcEFFN1pYRHZQWlFsQmxxT2xmUllkekVuUQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【事故】広島市安佐南区の国道54号で追突事故 男性1人死亡、女性1人重傷 - 中国新聞デジタル</a></li>
 </ul>
 </details>
 <details><summary>💰 経済・ビジネス</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6591493?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">地震で観光業約60億円被害 熊本県</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6591485?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">イオン爆発 ハビタが「補償模索」</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6591457?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">ボーイングHP記述巡り日航に謝罪</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6591486?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">コメ収穫始まる 倉庫は古米山積み</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6591491?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">夜間の墓参りも 変化する供養の形</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6591646?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">千葉県内のJR各線 始発から運休</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6591647?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">午前1時 成田空港に6600人が滞留</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6591591?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">九州自動車道 14日朝に全線復旧</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6591610?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">「プチプチ」なぜ原油危機に強い</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6591602?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">秋葉原駅に熊本産の牛乳 売上急増</a></li>
 </ul>
 </details>
 <details><summary>💻 テクノロジー</summary><ul style="list-style-type: none; padding: 0;">
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6591588?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">一太郎転落 振り返る当時の担当者</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6591582?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">ネタバレ許される境界線 識者解説</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6591522?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">Google「Pixel11」シリーズ発表</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6591407?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">Geminiアプリ ユーザー月10億超</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6591358?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">ソニーとTSMC 合弁会社を設立へ</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6591352?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">YouTube 収益化ハードル引き上げ</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6591320?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">NAVERの牙城崩れる 韓国で変化</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6591293?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">携帯キャリア悩ませるホッピング</a></li>
 </ul>
 </details>
 <details><summary>🚨 国内・社会</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6591511?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">東北から近畿 急な雨や落雷に注意</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6591512?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">日本国旗損壊罪法 きょう施行</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6591492?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">首相 15日の靖国参拝を見送る方向</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6591505?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">首相 イラン大統領と電話会談</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6591449?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">検事総長が退任 不祥事続発を陳謝</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6591650?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">千葉県の特別警報 危険警報に切替</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6591649?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">危険な雨 土砂災害など終日警戒</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6591651?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">千葉県に大雨 最新情報まとめ</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6591644?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">千葉県北西部などに線状降水帯</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6591626?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">気象庁「経験のないような大雨」</a></li>
 </ul>
 </details>
 
