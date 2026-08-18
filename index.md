@@ -1,8 +1,8 @@
-# 🏡 Family Portal 08/18
+# 🏡 Family Portal 08/19
 
 <div style="display: flex; gap: 10px; font-weight: bold; background: #f0f0f0; padding: 10px; border-radius: 5px;">
-  <span>⛅ 広島: くもり</span>
-  <span>📈 日経: 69,220円 | USD: 159.47円</span>
+  <span>⛅ 広島: 晴れ</span>
+  <span>📈 日経: 67,461円 | USD: 159.59円</span>
 </div>
 
 
@@ -116,37 +116,37 @@ American, 1850–1913</span></p>
 
 ## 📰 詳しく見る
 <details><summary>🍁 広島のニュース</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE9qZ3hPcjl6VmhVMkNERHdRcEI1V3NpcG1ncU9Ic1RFejhlcFpyR0RrcjZJMkd4RkRibjZyenhhT0NqSGt1Q0lfVGNlUE5IdG51ZlZNWmNBai1kdw?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島市のマリモグループが就労支援事業所 菓子製造販売で常設店舗も - 中国新聞デジタル</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdkFWVGJSVG5OdkVCT2tFRHktYW5YaW9GMWhBTnltcDloYnZhcEdCaXotNVRYMzJVeXAwTmxMX1duOWtIbC1BdWtXT0ZwNXp6RTJMa2FvX0I2QnRFXy02VzByaWdvN1I4U1NFTHRsZ3RTQk82T2FnSmxhTDh6Mk9rVmRQX0p3NVl5eDZLMkVTcHFicUN1QU13cWV2NEZvVkd1OENKd2hDcFVKR1N3bFNBOG5fRkF6YzduU3czYm5JQl95d9IBckFVX3lxTE41MXNTVS1yX3ZpcXBBOHZUYnYzZFlhckhneWJ5ZjRGWkgxWlozeHdfd01aSEVkTk9nWm0xY2RCN0tfaWVsMFdGYzZ3aVI2QkN4c1JhY0lKV0E1Q082MzBvbncxZTdzMHlLQWFYQUFRSlRnUQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">熊本地震　断層破壊３８キロに及ぶと判明　広島大学教授が現地調査　防カメが捉えた「断層隆起」瞬間映像も - ｄメニューニュース</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE50OHhfOXotWUJTOWUwMVJ6OERNbDFROVg5QmFZQzVzeVpGMXNvRzQybS1MSEwtVlNWaTdLRjdCWjhXUG5QMkJMWEFTSVo4dFF0MTdlcnY0Z2ZLdw?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【事件】男性を誘拐し海外移送の疑い 広島市の女2人逮捕、かけ子のリクルーター役か タイの大使館に駆け込まれ発覚 - 中国新聞デジタル</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE45UWpiUlRncWMtRlpWN0NHUkJUbnlwbjZlYzA1ZzUtX1NodmtNNUlRTzA5NHR6LW9rUEZsZFQ4QWRnNEo4N1JCSlRsS0pBYVBnaFdhS0l3Q2xfd1lPV1Y4Z1l1RkhtV0lTRnlRZUwtZUtxazUyVnNlalRZWXFqcWs?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">男性を誘拐し海外に移送か 広島市の女2人逮捕（中国新聞デジタル） - Yahoo!ニュース</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiY0FVX3lxTFBMX1hJRGRhbXJPand6bVdHb3htS294RExNSjdrMTJiSk9ZdTYtVThmNEVORjBISlBKMDJ6c3VSSTFLb3ZGRGlmeFB0Si1qMERYd2g1bXJDZDJud2NoOEN6SFpfQQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">採用面接応募者を国外移送容疑 東南アジアで「かけ子」、女ら逮捕―広島県警 - 時事ドットコム</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qUUl0cmFpUmhtYmZMeVpXaHlDLTNQMHNzZ1dQUTJpVTdFa3I4YTBMYlJhMzNqVHU5NzdydTY1NEZoMXF0blAwVDVNTU91bFl6?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島・小園「無期限」2軍再調整 - Yahoo!ニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMic0FVX3lxTE9fRkxCOWRhS3FMVGJNaUtFLXdmWmdqOU9HSS00SXg2U0M5SFFlem5KWTE2VnpSdVA1Sjh6LTJmS0dzTU1yM09paGMtc0ZtRkdZNHF3dzFjZ1pTQlVWaXE4Z0ZpUGx6S1BWT2V5RHZiVWJvQVk?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島・小園がシーズン３年ぶりの２軍降格 新井監督が小園への思い明かす「一日中、彼のことをずっと考えていた」 - デイリースポーツ</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiekFVX3lxTE1qeUNDVlJ0UXJjaWNXQXB0SmE4MEsya2VkRnFlVEdDS2Ntd0x0eldldlRtUGZLTS1wTWxZMHB2amQwbk9KaTZJb1pjemJZSENOMlJMRWZ5eFhfR3UzbmtZRGE2NWhXMjZXNTdrbEF0Y01TY2dTMjZ0dS1B0gF_QVVfeXFMT1F1OW1seDhMTDZpT0F4UW5sMEFTR2lEbGFpdTlUUm5tSDBxcndZUmhEZW9tM0VTTUh2SWxCaUNveWFUMm85Z09XT3gwMXBRa3ZGa1VHbjQtR0tRY2Q2ZmwxcS03elQtaXIzcGhZbkFFNzJibzRVQ0FTZllOMXAxdw?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島　逆転一気１３人攻撃８点　「気持ちで打った一本」持丸→名原２点適時打「めっちゃ喉が痛い」　育成出身選手だけで決起集会 - ｄメニューニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE42UWMyME1CRnJNQmJzb1hTQk1CWUhidTNhZmtLcE5MelNkYmNKWUR3M0U3bTNwQjVWb3lHc2RyaUxRNTlzOWl5RVI4N2V0eVVLXzd5dWg1b1FOZw?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">「2次交通」の強化で観光客呼び込みへ 松山・広島など瀬戸内4市が連携確認 - TBS NEWS DIG</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE9yOVhxWlluQTV2N1Jxci1xaFhQbUVhcUlWS1FzTDN2TzlOU3RhSGNCN0lrM2VqMDFoRHVRTGl4c0s2NkJZaW44MlpDZVVSTDhIQmFXMVlDc1k4OUE0NXBJUUdadFhVVUZ4dHBQR3pNUXJFZFVHSmhHZlJVTjFwVnM?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">「2次交通」の強化で観光客呼び込みへ 松山・広島など瀬戸内4市が連携確認（あいテレビ） - Yahoo!ニュース</a></li>
 </ul>
 </details>
 <details><summary>💰 経済・ビジネス</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6592041?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">長期金利が上昇 約30年ぶり高水準</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6592102?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">ANAとJAL 互いにダイヤを調整へ</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6592073?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">楽天 迎撃ドローンで独企業と提携</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6592117?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">豪雨で車が浸水 金銭負担が心配</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6592088?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">葬儀の料金複雑化 トラブル絶えず</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6592194?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">大型クロマグロ 漁獲枠25%拡大</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6592224?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">米産ジャガイモ輸入巡り 農家懸念</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6592197?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">LINEクレジット 都が業務改善命令</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6592208?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">ANAとJAL 互いのダイヤ調整発表</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6592215?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">通販生活が楽天市場から撤退</a></li>
 </ul>
 </details>
 <details><summary>💻 テクノロジー</summary><ul style="list-style-type: none; padding: 0;">
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6592150?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">電子書籍や動画「購入」巡る課題</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6592154?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">AI事業者向け政府知財保護案 判明</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6592135?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">子が「自殺」検索で通知 インスタ</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6592107?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">生成AIで標章偽造の疑い 書類送検</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6592103?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">ロケットナウ つまみ食い動画拡散</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6592086?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">ゲーム婚した夫婦たち 恋した瞬間</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6592078?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">「comico」来年1月でサービス終了</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6592006?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">オープンAI 経営幹部が相次ぎ退社</a></li>
 </ul>
 </details>
 <details><summary>🚨 国内・社会</summary><ul style="list-style-type: none; padding: 0;">
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6592232?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">九州～東海で猛暑日続出か 警戒を</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6592221?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">地震倒壊 工場煙突を国が全国調査</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6592118?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">熊本地震3週間「関連死」防ぐには</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6592098?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">熊本地震 月内にも支援パッケージ</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6592015?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">介護保険証とマイナ 一体化を促進</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6592074?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">コロンビア地震 日本が物資供与へ</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6592013?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">石綿除去に免許制 日本は未導入</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6592210?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">陸自の個人情報収集 昨年公益通報</a></li>
 </ul>
 </details>
 
 ---
-<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 07:11</p>
+<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 07:10</p>
