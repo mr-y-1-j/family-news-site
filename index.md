@@ -1,7 +1,7 @@
-# 🏡 Family Portal 08/29
+# 🏡 Family Portal 08/30
 
 <div style="display: flex; gap: 10px; font-weight: bold; background: #f0f0f0; padding: 10px; border-radius: 5px;">
-  <span>⛅ 広島: くもり</span>
+  <span>⛅ 広島: 晴れ</span>
   <span>📈 日経: 66,406円 | USD: 160.04円</span>
 </div>
 
@@ -50,15 +50,15 @@ function drawOmikuji() {
       <text x="50" y="85" font-size="10" text-anchor="middle" font-weight="bold">6</text>
       <text x="20" y="54" font-size="10" text-anchor="middle" font-weight="bold">9</text>
       
-      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(77.5 50 50)" />
-      <line x1="50" y1="50" x2="50" y2="15" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" transform="rotate(210 50 50)" />
+      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(315.0 50 50)" />
+      <line x1="50" y1="50" x2="50" y2="15" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" transform="rotate(180 50 50)" />
       <circle cx="50" cy="50" r="3" fill="#333" />
     </svg>
     
       <br><br>
       <details>
         <summary style="cursor: pointer; background: #1abc9c; color: white; padding: 8px 15px; border-radius: 20px; display: inline-block;">こたえをみる</summary>
-        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">2じ 35ふん</p>
+        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">10じ 30ふん</p>
       </details>
     </div>
     </div>
@@ -116,19 +116,19 @@ American, 1850–1913</span></p>
 
 ## 📰 詳しく見る
 <details><summary>🍁 広島のニュース</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE55cnBNNm1JbFRJSlh2RjhEYVRkYVFFa2hhaUNSMTZNS3FZUjZycWlrSEVzLXQwS2pFWnNqa3hhQXplcnpxaTlPUVpLbXBtTllFeGtpYW1ldUdsQQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島市のプレミアム商品券の未申請の市民へ商品券支給を年金者組合が要請 市は「国の交付金に制約」 - 中国新聞デジタル</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE1DelhidThnNnVpY1VwUWlpQjFwMUdWaTF0RmhlcElDT21nS1NlWUMwcm00VzRfUmNwSWQ1TkpUa0pQWTVhR3Bra2NSb1A2WklpYWw0cU5ZeVpNTFp0cE03TVdiUi1IVGphVm5DeWRKZnpKeUNTNEhWWGFFYjR0bzA?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【広島好き】西川篤夢が一軍デビュー。そこで前田智徳、鈴木誠也らカープで高卒1年目にデビューした野手を調べてみた - Yahoo!ニュース</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE5YcEVPazd5eGlra0daR1loZUljLV9yOURfdkFDbmh5VVhqTnBvTFhqYjh3emZwNWJLYzZYbXhVSHhNZzBiekhmM3diT2pOWkhTVEVlTVhDQzNyZw?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">「復興の物語伝えたい」 原爆に耐えた路面電車の敷石、広島東照宮の歩道に 広島電鉄が1000枚寄贈 - 中国新聞デジタル</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMijgFBVV95cUxPbXFVZS1UREQyT293OHlQMUlGTW5rX05SZUJkWmRHc05NUjlzRktaeEU0dHlPa1plZXo2RVNRLUlsakRtc29WWGdFZERzQlBKYmI4WnpCU2YzZ3ZaR1RqMUdla0YwY1kwUU5jR3Ffek9kUmhublFSU0ZQcmpwem5odHJ1ZS0wTFpqQ0lGRmJ30gGTAUFVX3lxTE53T0w0a0NrcnBrQkRMR2phNkl0N1ZMR3FJQjRHcGtoMGdNOWhUMGh1UlcwNU9Val92a014dW8yamdyUmhHeUtGcFFmLWotRTVaektoMmRmQldDNU9IT25yTl9PR1lCZEFjT2RscElLazlWODE2WEcyMFlPSmg4Q2hyWUlUWDBsV2tvMnJfM0tCcnZXRQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島　スカウト会議で横浜・織田翔希を高評価　田村スカウト部長「大学・社会人を含めてもトップクラス」 - ｄメニューニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTFB1RnVnMjh1WjFkYmtZejVoNXNsRFlDaFFhTE5ReEVsQ0lQSzllSklST2lhMUNWeTFUMzZRRkNDU0p2R0V5RkFXRGFlTUVIQWtTdzFsaTNQTjBZSEhlcUM5VTBR?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【広島】田村スカウト部長「本当にすごい」甲子園“最速右腕”に最大級の評価 スカウト会議で高校生１９人チェック 最速１５２キロ＆高校通算２０発の二刀流も - スポーツ報知</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMic0FVX3lxTFBST3BhT0NmMjFpSzlrR0VzUFNrUGJfSWdubURyU3o0amlZbEhWX0NPbWlEMk5feERZd1p2a2ZiRzhqMUJOM2d6VVN4NmtxSlJ2YnJqemxiQW1OSHdKeXpVbUd0STVhZ0lxS25GaUc1bmFjRXM?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島・田村スカウト部長 横浜・織田に「すごい人がいらっしゃるので。球団としての評価も何も、もうトップです」スカウト会議で高校生１９人の映像確認 - デイリースポーツ</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxPMEZZdWxhaWxNWGlCdkpwQnpuM01MX1JCR1FhMFY2eU9pVUJkdmhHM2FpbjcwSngycXh4LVZsZmxBMXVTd1BKc3Fpc2dHZml1aDVCMVJNU0c3Nmd6OHZBTHNCOGxQelBnc3huTjJXUm1DTUNvNmpuMXVnX0lIT1J5SnFpUmlNemRGNVhTLS16Vm1kRlExVlHSAZsBQVVfeXFMUFdEZFZNY3J0WG9LMWlvRnAyNUcxUDVGYVFrVHQzTHNkcldxYUpYaWxTY2JwTDFld0pac09CV1dtck5xSkxLWmZhS2pxNENnWjJsTU1GT0NLR0FmOHZXXzlOMWxmbnNaeTNjZGQ4Mk5LOXUwTnhhNmt3ZUo4b3dLcW1rX1JZWC1PcUw5ekdPaVlEbWNJbWxfYWt1azA?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">元広島アンダーソンがドジャース戦に先発「カープ時代もいい投球をしてくれて」小早川毅彦氏解説 - ｄメニューニュース</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE5KekpvbHpIdnpkSm92U1ZfQ3E3ZlZCS3ZqTUtsQU5Vd21HMWdJaktHOWRFZ0RFMEdILTNYQV9weXo2aHoxbUV4RFlvam1teGNRMW5hUHdqQmZpclpnNTc2cjJiNm51dFJOM3lTU1cwWXNXZURVemhnVWVpX2lkMW8?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">大谷翔平 初回第1打席は元広島右腕から空振り三振 連敗脱出へ、8試合ぶり豪快一撃に期待（スポニチアネックス） - Yahoo!ニュース</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxOdU12U2tJWnpHczFPYXBZbDdpRjIxSXNEazdVM1M5ZVFpcjhJRG1SLWhxZkZQWVphbUNibU9DRVV0WWJtOGZXS0dHVTN6YTZLaXh0Mzcwd0V3b1dCcTVVc2kybDFHeHdfbUlxS2JfcFdaRWFkSHNQRm9KNGJmSkZ0UG1xQnJCZ1plNzY5WmQxMWhKQdIBigFBVV95cUxQRjNvR25sRWFlNTFKTW96Y0RSd2xZTWF6QURMY3dNTUNTZEdpQjd1UEVQc2FHSkk4Y3RUQnFHdjl1a2hpd2N4ZE9sUUE3UzRVcHdDRFFRT0puSlRwdWVHTlFybzhEQVJwbTJWRGl6M3NSanFOajNuTHczVDVRaXdNWEtZOXR6Mnd5eEE?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【試合結果速報】大谷翔平、元広島&オリックスの2投手に無安打　スクバルは古巣相手に6回1失点好投も9勝目ならず　ドジャースは連敗を3で止める - サンスポ</a></li>
 </ul>
 </details>
 <details><summary>💰 経済・ビジネス</summary><ul style="list-style-type: none; padding: 0;">
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6593500?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">円が下落 介入効果4週間で陰り</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6593460?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">FRBによる9月利​上げ観測高まる</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6593433?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">9月の電気ガス 全地域で値上がり</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6593423?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">社員逮捕 竹中工務店の副社長謝罪</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6593483?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">17年で社長が7人 百貨店消滅の街</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6593431?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">大阪知事 USJ拡張意向聞いていた</a></li>
 </ul>
 </details>
 <details><summary>💻 テクノロジー</summary><ul style="list-style-type: none; padding: 0;">
@@ -140,13 +140,13 @@ American, 1850–1913</span></p>
 </ul>
 </details>
 <details><summary>🚨 国内・社会</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6593495?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">北陸など警報級大雨恐れ 災害警戒</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6593492?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">中道改革連合 分裂の公算大きく</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6593365?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">首相 成長と財政規律の両立目指す</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6593414?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">今年の上半期出生数 11年ぶり増</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6593488?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">邦人大学生の露派遣を再開 外務省</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6593588?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">福井県に大雨特別警報 最大級警戒</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6593581?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">福井県に大雨特別警報 最新情報</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6593206?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">安全確保を 大雨のときのNG行動</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6593582?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">大雨で浸水リスク 車移動は危険</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6593545?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">千葉豪雨 半壊判定が大幅増見通し</a></li>
 </ul>
 </details>
 
 ---
-<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 12:24</p>
+<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 08:40</p>
