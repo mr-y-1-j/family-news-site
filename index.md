@@ -1,8 +1,8 @@
-# 🏡 Family Portal 09/11
+# 🏡 Family Portal 09/12
 
 <div style="display: flex; gap: 10px; font-weight: bold; background: #f0f0f0; padding: 10px; border-radius: 5px;">
   <span>⛅ 広島: くもり</span>
-  <span>📈 日経: 65,271円 | USD: 154.56円</span>
+  <span>📈 日経: 64,011円 | USD: 153.55円</span>
 </div>
 
 
@@ -50,15 +50,15 @@ function drawOmikuji() {
       <text x="50" y="85" font-size="10" text-anchor="middle" font-weight="bold">6</text>
       <text x="20" y="54" font-size="10" text-anchor="middle" font-weight="bold">9</text>
       
-      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(65.0 50 50)" />
-      <line x1="50" y1="50" x2="50" y2="15" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" transform="rotate(60 50 50)" />
+      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(285.0 50 50)" />
+      <line x1="50" y1="50" x2="50" y2="15" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" transform="rotate(180 50 50)" />
       <circle cx="50" cy="50" r="3" fill="#333" />
     </svg>
     
       <br><br>
       <details>
         <summary style="cursor: pointer; background: #1abc9c; color: white; padding: 8px 15px; border-radius: 20px; display: inline-block;">こたえをみる</summary>
-        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">2じ 10ふん</p>
+        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">9じ 30ふん</p>
       </details>
     </div>
     </div>
@@ -116,37 +116,37 @@ American, 1850–1913</span></p>
 
 ## 📰 詳しく見る
 <details><summary>🍁 広島のニュース</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE5fR2NRTDBqdkdLVy1rRUZCTXdfNzdSQ0hJV1M1WXdheUIzSlItUU04cF9yOXEwUnlDa1dwcnFSWFBjVlhoMExtRndza1E4MTlyOXVYVUh3ZDdqZHlEbVRfRlNjXzJpakpES2Rrb0JXZUt6eFhicVdoRVNCR1FxY0E?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">阪神-広島戦は雨天中止 午後４時半すぎの豪雨で甲子園球場のグラウンドが水たまりに 阪神は８日に続いて今季１５試合目の中止に（デイリースポーツ） - Yahoo!ニュース</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTFBGOXZoYkE1cEhEMXprZ19YUEVaZzYtREFsdUJGV2V0RzJ1S1J5OHBaMXZ1YzRlSVp2TG9qb0ctRExNUkJ3ckRTMUNmTm53VVJmU0tCa1lMeE1PT1ROTXNTOTlQQmRsMURvcXc?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">甲子園球場が水浸しに 阪神-広島戦の試合前練習で突如雨脚が強まる 広島は練習を途中で切り上げ 午後５時１５分に中止発表 - デイリースポーツ</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiekFVX3lxTE8zejNxY0Vpb3R1NTQyZl9ucmtBQzlhUUZBTlJHSnVJcFVrNG1XLWxERlZXeDdRY2s2dEhsMXIzd0tudEd6bWx1eFZlaEZqUVRnSE9fRDc1UFhadUZNMHdWQ2ctMnZPQXRBYURLZC1pTXI5T1Npd25QdmdR0gF_QVVfeXFMT1kycjA2Qzg4M3hIVzkzT3VGbllRMl9kRUxFMmZzX3dvMXV0aTRFbk85eTVjYXBaX0dIZnhPSmFQeHZQU0N0ZGFEb3ZtcjRlY2xsZ19BLUhBdktySnBXcHJRMGlmaHFvWU1XVUJTMkVOeG0yT3RlNTJIYXRXUWZZQQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島・新井監督　先発ローテ再編　１１日からのＤｅＮＡ２連戦は森下→栗林　１３日からのヤクルト３連戦は森→赤木→玉村 - ｄメニューニュース</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiVEFVX3lxTE5veS04eW9pOG15VVRUZktZTGZFTVlJazlNTXhBQ3hsNGs1RmpRX1JOUnRadm5XR2RQUU5oNDFWcENCR2lWdlNFeW9BODB0QkwtT0ktbA?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">サンフレッチェ広島戦 オフィシャル応援ツアーのご案内 - 横浜F・マリノス 公式サイト</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiV0FVX3lxTE1xVlZSVk5BQ080ZE1wQ2l6NmJyWVAwVVpudHBYdWg5T2hBeFFVZ0pxaTJoMWNKOFhZb3ZiRkVJUkJHLVZWZlotOW01dnJQQ0dkWVZTSGkycw?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">安芸太田町PRブース出店のお知らせ - サンフレッチェ広島 オフィシャルサイト</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE1CemNhbGdieHJoNFJvZVB3bzFVQWFBdS1ocU93bmJPeGcwXzZsa294UVBCQXhURk14OElSVXJRT0RVSFUxYU1iVExIdWdsYUVOb2xBRURJR2s4V2FEQ2dXZ2FaRVdPSVZSRXJ6UGVrUGRxSDlPSGhRYUhXelRQMEk?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">安仁屋氏、広島・持丸に苦言「自分で要求したなら…」（ニッポン放送） - news.yahoo.co.jp</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE5lVnZ3bVMweWdKdEhuQ3czZ0M3YmMtY1labW04WFctSDVNUkVuVmt1dzFQYWNWNWcxemdKQmh0Q3JxOWFZdkNRYUZRUFYxVGdpQVNPZFBlWGxpOXFpSjg5UnJhNU9FdW1wOUpMOdIBckFVX3lxTE5LTzNHaHowNERLQ09HRFlCVWFPVEFtWmVkN2JnNmFDei1mOGktZEFNWXc4T210d2ZIQ1VZYzdOQmZ6cjJnbDN3S1pKQmoyQmVXSEhBQ3A5X1dTMkZqUXZFd1FDVFJDbFozbTkxVnVSeThMQQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">プロバスケ選手が新人教師に！ 「広島イーグレッツ」県内初の女子チーム 清川璃子さんの初出勤に密着！！ - ｄメニューニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiTkFVX3lxTE5DLXBoZV9qT1A5WGVfX2RJaU1OWUd2UThHTGhmX192dDdxRUJqS2ZoQmpzVlU2QjZLZ0d3V2ZiUk84VGRSb0hidTFTMEtwUQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">原爆資料館の入館料 今後値上げも視野に検討 現在２００円、来館者アンケート３１％が５００円適切 広島 - fnn.jp</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE5OU0JkaEllc2RYd3hJZ1Bid19ORGxkQWV6dkNFVFBIRFNEU2lJei1uS1FxNzNBOF9WcnFOOG13TWI2RWJTQWZCa2x5MEc1Zk03TEFHWnFfN2F4Q1FmUEpWUkVpcWhLRjAzR3RyVmJHZ1RaNzZEdG1qZXpsLWhnajA?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【セ・リーグ順位表】DeNAが逆転勝利で3連勝 広島は最下位に転落（日テレNEWS NNN） - news.yahoo.co.jp</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMihAFBVV95cUxPRzA0Mmt2elJ6Z3ViQjlLV1ZBay1QYW1aUmdncm5FYUJyVi1nM3ozOHFzYkFZQU5GTHJOZDRGaEtGYVhRd2pDS3ZKWmhYaG4xRENacl9mVnBrSWM4Z2dBZW15TkFVMkNXT19tNTd2SzZoT3FFSm1tcHdUZThKWmJoYV8tZ2vSAYoBQVVfeXFMTTlBcVBLRm1vX0NsSnV3ZnNPWkgtVmpHUU9XOTJGc3NwRkVTU2Jtb0pBdDh3LUY1UDFsMTJraGtDTC1KVm43THlSZ3dOQWQzdF82YmQtMWZWWnBZVTc1YkFpYTc3ZDkzeUgtYnZNTmtJeWR3SmZuRDI0TWQ3ZlpaWGlJTTVNeFV0UUhR?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【広島】逆転負けで最下位転落…１点リードの８回に３失点　森下暢仁の７回０封＆先制打の奮闘も実らず - ｄメニューニュース</a></li>
 </ul>
 </details>
 <details><summary>💰 経済・ビジネス</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6594887?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">ニデック創業者らに株主代表訴訟</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6594874?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">あいち・三十三FG 統合合意解消</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6594841?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">中部電力が過大徴収 12億円返還へ</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6594883?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">半導体巡る日中摩擦 企業に影響は</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6594875?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">鳥貴族 均一価格410円に値上げへ</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6594960?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">日銀利上げの公算大 1.25%程度に</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6594977?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">ソニー生命新たに5千万円詐取判明</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6594968?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">九州の応援割「便乗値上げ」警戒</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6595006?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">ガソスタ 10年で1700社超が消滅</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6594995?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">業界初 迷惑客の対応費補償の保険</a></li>
 </ul>
 </details>
 <details><summary>💻 テクノロジー</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6594865?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">「グエー」呼んだ寄付 父親が感謝</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6594842?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">AirPods 5登場 ANC機能が標準化</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6594811?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">無印のiPhone18発表せず Apple</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6594797?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">折りたためる「iPhone Duo」発表</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6594835?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">全員AIの「無人部署」 NECの狙い</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6594970?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">レシートAI生成 経費不正防ぐには</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6594964?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">兵器開発にClaude利用の恐れ阻止</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6594950?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">オープンAI 開発ペース緩める検討</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6594938?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">人工超知能開発 なぜ研究者が警告</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6594942?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">政府職員らの情報 24万件漏えいか</a></li>
 </ul>
 </details>
 <details><summary>🚨 国内・社会</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6594918?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">維新入閣 馬場氏か藤田氏で調整</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6594912?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">秋雨前線 近畿-関東で激しい雨も</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6594913?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">給付制度の担当相 創設を検討</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6594858?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">北方領土の地図表記 修正申し入れ</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6594821?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">稲田氏 消費減税議論で反対した訳</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6594949?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">14日にかけ真夏日地点が増加か</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6595007?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">首相 裏金事件関与議員の入閣検討</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6594932?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">入閣枠狭き門 焦る安倍チルドレン</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6595004?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">消費減税 特例・経過措置で複雑化</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6594991?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">木原氏 岸田氏アンケ巡る発言謝罪</a></li>
 </ul>
 </details>
 
 ---
-<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 08:30</p>
+<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 08:39</p>
