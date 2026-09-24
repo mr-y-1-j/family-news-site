@@ -1,8 +1,8 @@
-# 🏡 Family Portal 09/23
+# 🏡 Family Portal 09/24
 
 <div style="display: flex; gap: 10px; font-weight: bold; background: #f0f0f0; padding: 10px; border-radius: 5px;">
   <span>⛅ 広島: 晴れ</span>
-  <span>📈 日経: 65,019円 | USD: 157.47円</span>
+  <span>📈 </span>
 </div>
 
 
@@ -50,15 +50,15 @@ function drawOmikuji() {
       <text x="50" y="85" font-size="10" text-anchor="middle" font-weight="bold">6</text>
       <text x="20" y="54" font-size="10" text-anchor="middle" font-weight="bold">9</text>
       
-      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(67.5 50 50)" />
-      <line x1="50" y1="50" x2="50" y2="15" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" transform="rotate(90 50 50)" />
+      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(155.0 50 50)" />
+      <line x1="50" y1="50" x2="50" y2="15" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" transform="rotate(60 50 50)" />
       <circle cx="50" cy="50" r="3" fill="#333" />
     </svg>
     
       <br><br>
       <details>
         <summary style="cursor: pointer; background: #1abc9c; color: white; padding: 8px 15px; border-radius: 20px; display: inline-block;">こたえをみる</summary>
-        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">2じ 15ふん</p>
+        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">5じ 10ふん</p>
       </details>
     </div>
     </div>
@@ -116,37 +116,37 @@ American, 1850–1913</span></p>
 
 ## 📰 詳しく見る
 <details><summary>🍁 広島のニュース</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE1ldjVOU3lMdGotdkxjNERpMkFqVUlJdC1FUWhmWS1kSUVuZFhiVnkwSXZNV3hPUjRyY3lWQml0SUIta3BSbHNXellTT0VyaTJKa2YzQzhiVUFlb1YyXzFLT2V4WTl2RkYwQ2syZ0RzcW1jbFhQaldFREVndXR0Y1k?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">西日本では定着も関東からは少数派!? 広島への修学旅行 「平和学習のノウハウがない」 関東の中学校教員対象に「平和学習」研修会 （RCC中国放送） - Yahoo!ニュース</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE9zNjc1RG9HQVZaNjM3Y0ZtQzVRQ2U2VTBQaTluaXdld2JNT1BDZmp6d2JsSlVvX3ZPTGtXUnp6S29kYmdLdXM3UTNNU3BlYktSS042d3NpRnc5ZktoVjZVRmVKbjdDSkdGeEdlWjVkdi10THp3Um1Wc0FuR2dOMmc?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島×ソフトバンク 2026/9/23(水) の試合速報・結果 - sp.baseball.findfriends.jp</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE1hb3JhNnpqaWV6bld2VFltUkRMamRpOUI5dDlXTng3cXIyWHA3TnJjbkUxYV9ZZG1nMDg2YzdOQWVmdTU2aXhfb3FmVlVFMGUzX2tySWVMb3lwTWFQWWdFOXhWOXlGQmR3dFhjeWVuTTJGZWVBMXc3OWlHZ19tMDg?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【広島】新井監督「託していただいた」来季続投決定に言及「自分がやるしかない…自分しかできない」激動シーズンを経て…来季５年目（スポーツ報知） - Yahoo!ニュース</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTFB5QUlleGtHTElCclc5bkxTSmUyRmlpVUlGU1VLN19WbEdNb2RlNW9YdlBCMG9wQS1nR2wtTDZpcmJTRVBRYzVHYkNnbXZwTkVoLXBZeEJ5SldPT0hZdl9B?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">プロ野球 広島 新井監督続投の方針 来季は就任5年目へ - NHKニュース</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxQWks1RC1rNVFHaVYzYVhsNkNfdHo4SUZ6ckZlbDRHU2YwdGg3MVotWTJ1WXFNSFF4dXNUVzFDandjNFpLeUlTN2JCYm9JaVhqU2pTWG1EUVBLcjdSYzFlc0Y0ZVdtaW9TY0JDSFRwSXZ0RFBGRmpsRjVpMmhHMS0xSHFKdGxocGtmWjhmTlZjckhidThsUVhobzhkdUxFSWp2UkwxZUFiRnV2R3pl0gGyAUFVX3lxTE1lS3RtQlYzdTJERENiZW5YSFIxcWd6WVdIYWg1bnJRMTR6X2tPMEppdW5XLXJJajJKS2tBNk1UMzhqMGtsMmhoS3NjS2ZfTXFGT0lJWHNvdEM4R0ZHakxQU1BzUDZpazJ0bVhUdkZPdXQzSXNkbk1oSFVxWDVhRzRTQVh1S29ia2JIWkE2U3BhYW1MRXBGRWlvM0hjdTVSay1VakdBU2hNZFBYT0djYTJtZEE?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">虎のソナタ　「明るくハツラツ、盛り上がる姿を」　広島・新井監督の選手時代を知る元虎番がエール - ｄメニューニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTFBHYnRza2FZUHhpRlpValhCT1FRRXQ5Y2hra3BzZGxVTGVBdC1sRTM0Y2pSSkp1dWVBMGx2MEktU21NTXVZOVlTTWZSSy1PeGdrV2d4NFgtMFJJRXdGQ1BtVDlERXA3LVFTbmc1aU1YWTAzVVRSTnBqM3FSY2tNTHM?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">「ぶち可愛い！」広島出身の21歳タレント美女が始球式に降臨 カープユニ姿にファン熱狂「めっちゃ似合ってる」（THE DIGEST） - news.yahoo.co.jp</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE1PM01Ic056TWlIOFFTc1NIT3M4WWFlS3BSeHhVdjIxbUxnLVdYaHlFNDBPSWxkOThfZWc4ZjlQczhZSlU3N3hRYW9zVHlkelg3WWM3LTFLd0VDaTZD?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【広島】塚本恋乃葉が始球式でワンバウンド投球「ほっとしているのと、悔しいという思い」 - 東スポWeb</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWEFVX3lxTFBJM29yS0xyVC1JU2VoT1JSU180ck5UVW1LMXU2R09RQzE5UnFkV29qOHRod0pGdnJ3WWZCY21WYjBfMEpUaHdrME9KUUVwcEpwcl9ueGY3Umw?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">白ショーパンお構いなし…21歳カープ女子が「ほんまかわいい」 豪快投球に悶絶「女神様」 - full-count.jp</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTFBWZEczcm1YNEdDVzFBY25BWjJVTE9pZDY4ZDk5Q3ZELTVIa29Ud2x0b1dQUUZkMElrVXg4QmVQdDNJWGJOS0FTdGVrUXRrdGpFLVFLdHIxNnR3UQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">「ゾンビたばこ」や3年連続Bクラス確定 広島の新井監督続投にカープファンは… - chugoku-np.co.jp</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTFBXSW1GbjhRdGJRVWJsSFA1VE92SUF1c3lTNjVZRTFaR2lkNHFmZkdtR0lPcHdheGhFN1dDZGl0WTV2cUZTRjBnMVJrLVNoYVptRzhFdFZoYWttc0JHZVhRTVRVdjJtc0ZFLUdQU2lJeUdSTE96ZDdQSWdrUzhIaVU?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島 新井監督続投 松田オーナー明言「新井しか思いつかなかった」来季５年目 若手育成の手腕評価「もっと無邪気にやってもいい」（デイリースポーツ） - news.yahoo.co.jp</a></li>
 </ul>
 </details>
 <details><summary>💰 経済・ビジネス</summary><ul style="list-style-type: none; padding: 0;">
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596323?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">台風影響 内房線の復旧に3カ月超</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596318?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">ANA機脱出 重大インシデント認定</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596316?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">ANA機が空港に緊急着陸 乗客脱出</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596308?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">金利上昇 住宅の駆け込み購入も</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596209?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">とび職に逆風 倒産過去最多ペース</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596115?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">赤潮で魚153万匹死ぬ 被害37億円</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596162?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">東南アジア食品市場 日本の勝機は</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596158?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">パラマウント WBD買収へ前進</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596120?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">修繕費計5億円超 観光施設閉園へ</a></li>
 </ul>
 </details>
 <details><summary>💻 テクノロジー</summary><ul style="list-style-type: none; padding: 0;">
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596303?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">JCOMネット接続「復旧」と発表</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596278?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">iPhone18Pro 先代と外観の違いは</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596210?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">波紋 大食い動画の収益停止相次ぐ</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596201?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">AIは「SI」に改称 米大統領宣言</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596184?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">AI搭載の人型ロボ 防衛活用研究へ</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596176?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">AIで鉄道運行支援 日立が本格展開</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596144?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">古書店に大量注文 AI学習目的か</a></li>
 </ul>
 </details>
 <details><summary>🚨 国内・社会</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596202?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">新たな台風発生へ 27日沖縄の南に</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596156?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">水害後 片付け・復旧作業の注意点</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596299?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">日米首脳会談の目的は達成? 解説</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596276?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">首相 米大統領との会談成果を強調</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596200?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">日米 経済安保で連携の方針一致</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596091?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">副首都 6道府県6政令市「意欲」</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596077?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">首相 国連で「拉致問題訴えたい」</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596219?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">高市首相が国連演説 ICCに言及</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596241?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">首相 ゼレンスキー大統領と初会談</a></li>
 </ul>
 </details>
 
 ---
-<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 08:54</p>
+<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 09:05</p>
