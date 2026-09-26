@@ -1,4 +1,4 @@
-# 🏡 Family Portal 09/26
+# 🏡 Family Portal 09/27
 
 <div style="display: flex; gap: 10px; font-weight: bold; background: #f0f0f0; padding: 10px; border-radius: 5px;">
   <span>⛅ 広島: 雨</span>
@@ -50,15 +50,15 @@ function drawOmikuji() {
       <text x="50" y="85" font-size="10" text-anchor="middle" font-weight="bold">6</text>
       <text x="20" y="54" font-size="10" text-anchor="middle" font-weight="bold">9</text>
       
-      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(335.0 50 50)" />
-      <line x1="50" y1="50" x2="50" y2="15" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" transform="rotate(60 50 50)" />
+      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(332.5 50 50)" />
+      <line x1="50" y1="50" x2="50" y2="15" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" transform="rotate(30 50 50)" />
       <circle cx="50" cy="50" r="3" fill="#333" />
     </svg>
     
       <br><br>
       <details>
         <summary style="cursor: pointer; background: #1abc9c; color: white; padding: 8px 15px; border-radius: 20px; display: inline-block;">こたえをみる</summary>
-        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">11じ 10ふん</p>
+        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">11じ 5ふん</p>
       </details>
     </div>
     </div>
@@ -116,37 +116,37 @@ American, 1850–1913</span></p>
 
 ## 📰 詳しく見る
 <details><summary>🍁 広島のニュース</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTFBxNEFwTmRnNG55bUQyUk9ES1ZFc0w1WnhoMzBid0FyMHlhX3JWZWtURE44QkhVTEJjVEVUM0VWMFg1RURLYzJ0SmFsWUR3aFA4cjMxNGM5Y1dYaUhMeW1hTGp3UUZhRVM1cGlpRF9DeXJ5eHBvSjZkV2dMclVWZXc?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">「球団から泣きつかれ、責任を…」 広島・新井監督“まさかの続投”の真相 現場を知らないオーナーの“耳を疑うような発言”とは - Yahoo!ニュース</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5LbHFzLTRQMmo0bzlORndMUVRDbWYtUDEwcnNGd0xraDVsei1vdU1qQXo4Z3RkY3A2V2hiMWxrRFlvRXgxLVZycnhHaG5GbFp2R3hXVGhYb1Nmb2R4SXVMRnNMajVCNXc?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">「水を吐かせないと」溺れた男性を連携プレーで救助！心肺停止から奇跡の回復…手当を行った6人に感謝状・広島 - TBS NEWS DIG</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE5naV9mRGxwS2NTQ2pRLTBhbVMzc2V1NzFxZFRvc1pmLUVsZFktZEU2SXozTE0xdzdXYlBLUVJWbF9vbk1zTEZ4ZU5DMU1NcnNpYXk4VV90aXIwN1F5UHN5MlphMkZ1TVJrNGdDUdIBckFVX3lxTFBCY1pPT1haME82cFhsSjRfMHZIYWRRUlQzbXpjaDlCeWpCdlUyYVRWdVQwX0ZTN1pBWU1LSkhUYzJia1FWMW54Rks4R2JoQTdFUTBKM1FGUThRNlprMmdrM3FvdnBZQlQxdG5yVk1tLXUwQQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">大型巡視船「ひろしま」広島港に初入港　建造費約166億円・全長約120m　尖閣・大規模災害対応に期待 - ｄメニューニュース</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE1uWXZxOFR5YUNiRHVrTVVoVmNsbVdCTjRkSVhNaV85XzV4NGg2Uk9HSG83YnJoZWoyd0szdDhaQkJMeU9wUkFYUmFXeExGeWNINE5YWGx5U2htUkNrUnNKTm5WdjNVbE5zX2lWampxR2pLcTJqbUpNMS1INFZ6N0k?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【速報】「ゾンビたばこ」巡りカープ・矢野選手と前川選手を書類送検（広島テレビ ニュース） - Yahoo!ニュース</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE52eEtMc0k0aF83VVVEUi1DRW1HTjRhcy1fSi1qb19YUkxLaW1ENzZtMkFWNnNwaWROa1JheWN3WDdwVGY5ZmtGUUlISWFKYWlWSk1HdldZcVBybEIwcDFUTzZwWF9RYTAwaVJSUWVmdmFZTkJmTWNfc2dkR0ZTZG8?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島・矢野の代理人弁護士 書類送検の報道にコメントを発表「違法薬物に手を出していたのではないかと疑念を持たれることは大変残念」（デイリースポーツ） - Yahoo!ニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE5EV0JSbVJSR0FJTXNBRG1HeTY0NFRobllEWnBGTU5kOUZnbl9Vd08tM0JSTWIwZWtVSk0yZkZ3SlpSSVNjV2pjUERhYnNNbDQzU1g3cjN3SnFIdXhHVGI0T3RIQXhRdzBvUzRybDV1ejlkbl9FbmJaUEhWT3JOLVE?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">プロ野球・広島カープ 矢野雅哉選手 “ゾンビたばこ“使用事件めぐり広島県警が書類送検（テレビ新広島） - Yahoo!ニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMickFVX3lxTE5FS0F5SGc4Z3h1VUhBNXRQZUVxcmhMYjFqUkd3QXhlcERzbGVPX1VSekdwUE8wUXc2SURQWlhtN3JpX1FOZXo2T01kR1hHbEkxRXYwS19nYV9FdHBLQXV2UnozMVNSYTBzUndRSWFlYnQ0QQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島カープ“ゾンビたばこ”問題 矢野雅哉選手を書類送検 - テレ朝NEWS</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiekFVX3lxTE9YVWxaUXItTlVQRV9sSG84Z0Q0c1NmZVFZMUQ2ZVNoa21kM0M0cmZWNGJ4QUVjZ0tLTlg2RVlQWU1GQkt5am16LUd0WXFKUDFiaUMtVS1QMzl4dHQ1T3h4Y1BkRmVlVWdqQjhMWW53UzQ0QzVpWDVJalpB0gF_QVVfeXFMUFN6Y2xrZTBsblNFVHFQZUhKbk5UTFlfcnRHSXhSZWxFd3pZTjZkcXJMY2ktX0dLeXdlUjd4VGRjSjF4ZWkzZ0EwRGdSU0JtVXZiMHoyeWFHV2FVWVNSbFlHMTdKWmN4dEsxdFVIQ2lqVXpNV3Vqbm1aSTUxNWF6WQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島・矢野、前川が「ゾンビたばこ」巡り書類送検　松田オーナー「非常に重く受け止めている」　弁護士通じ事実を確認 - ｄメニューニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiekFVX3lxTE43UHVCeXFfU1BrX05xRGhfNGlUaElnOENJZ1JBMFpNeG5SdHBXMjZGaFgwMkt3WXpTT1hiTk00MlBEZVYxU1Z2WV9oc3p3cnhBWGlkNDBYSTVlS2R2T21WeUM0RVZib09SbTRZZTdNd2doZS1La3U4ZGxR0gF_QVVfeXFMTm5UeHZEb0pDRkRoRUxHa1pjaHl4UzdYYjJJWW1EWHVOYzdtTmxFVnE1cmpfQ2U3V0hFT0NWT1YySEtTNUZ4U0UtRDFFX3VJaWdLdVotaUhiNWotVHNRZ3lMcEhOREhIbVdsQUxPa0RTZC02dDVzT0sxVFlDbDg4bw?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島・ドラ４工藤　２８日・ＤｅＮＡ戦でプロ初先発　最速１５９キロ右腕「今までやってきたことを１軍でもやろうと」　 - ｄメニューニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiR0FVX3lxTE81XzlWeTZJakZ2MkhadjFIV3FnOXE5YV9BaTFpNnF2bmFLaTdBY2o2bGhzMkVfY0F4NVU3c1RaMUlXTGdILXNr?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島・ドラ４工藤 ２８日・ＤｅＮＡ戦でプロ初先発 最速１５９キロ右腕「今までやってきたことを１軍でもやろうと」 - スポーツブル</a></li>
 </ul>
 </details>
 <details><summary>💰 経済・ビジネス</summary><ul style="list-style-type: none; padding: 0;">
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596619?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">コメ下落「大盛り」値下げの動き</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596639?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">10月値上げラッシュ 家計負担重く</a></li>
 <li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596569?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">外国人の起業 制度厳格化で急減</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596507?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">姫路独協大 徳洲会に経営権譲渡へ</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596547?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">ジャングリア 追加融資などを要請</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596454?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">全東信破産 カード会社が支払いへ</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596500?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">JR九州27年度にも新金融サービス</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596667?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">トキエア再延期 県からの融資返済</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596649?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">「超エルニーニョ」経済的損失は</a></li>
 </ul>
 </details>
 <details><summary>💻 テクノロジー</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596506?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">ahamo「大盛りオプション」終了へ</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596342?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">AIエージェント 豪政府サイト侵入</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596558?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">中国で「AI俳優」が急成長 影響は</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596337?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">Meta 100gの超軽量VRグラス発表</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596303?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">JCOMネット接続「復旧」と発表</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596681?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">光通信衛星を数百基整備 NEC計画</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596633?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">AI調達巡る政府決定 米高裁が支持</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596622?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">スマホ料金 低価格ブランドは攻勢</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596592?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">「外国人窃盗」の偽情報 SNS拡散</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596583?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">OpenAI意図せぬ外部接続「数十」</a></li>
 </ul>
 </details>
 <details><summary>🚨 国内・社会</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596566?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">関東 昼頃にかけ激しい雨降る所も</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596498?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">18歳未満選挙運動 一律禁止は違憲</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596548?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">墜落の無人機か 一部を海中で発見</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596487?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">台風25号 激甚災害に指定の見通し</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596552?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">泉健太氏 2人で衆院会派を結成へ</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596674?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">九州4県に「線状降水帯」直前予測</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596665?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">首相 米と電話会談で「連携確認」</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596625?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">関東 10月はじめにかけ雨多い予想</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596626?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">内閣支持は微増 改造の効果限定的</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6596590?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">「名代」茂木氏 首脳外交を補完</a></li>
 </ul>
 </details>
 
 ---
-<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 09:13</p>
+<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 08:59</p>
