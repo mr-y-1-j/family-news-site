@@ -1,8 +1,8 @@
-# 🏡 Family Portal 10/01
+# 🏡 Family Portal 10/02
 
 <div style="display: flex; gap: 10px; font-weight: bold; background: #f0f0f0; padding: 10px; border-radius: 5px;">
   <span>⛅ 広島: 晴れ</span>
-  <span>📈 日経: 67,351円 | USD: 157.85円</span>
+  <span>📈 日経: 68,510円 | USD: 158.17円</span>
 </div>
 
 
@@ -50,15 +50,15 @@ function drawOmikuji() {
       <text x="50" y="85" font-size="10" text-anchor="middle" font-weight="bold">6</text>
       <text x="20" y="54" font-size="10" text-anchor="middle" font-weight="bold">9</text>
       
-      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(212.5 50 50)" />
-      <line x1="50" y1="50" x2="50" y2="15" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" transform="rotate(30 50 50)" />
+      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(57.49999999999999 50 50)" />
+      <line x1="50" y1="50" x2="50" y2="15" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" transform="rotate(330 50 50)" />
       <circle cx="50" cy="50" r="3" fill="#333" />
     </svg>
     
       <br><br>
       <details>
         <summary style="cursor: pointer; background: #1abc9c; color: white; padding: 8px 15px; border-radius: 20px; display: inline-block;">こたえをみる</summary>
-        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">7じ 5ふん</p>
+        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">1じ 55ふん</p>
       </details>
     </div>
     </div>
@@ -116,19 +116,19 @@ American, 1850–1913</span></p>
 
 ## 📰 詳しく見る
 <details><summary>🍁 広島のニュース</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE45TFNPZk1FdkhoS1lLbzE0RWJ3WHJEekVYTmlyZC1rbmc4amx1LWFLM0JOZVZ1d2NlX21UZEJ0Z2xoQW96bjBSN3B2S2NfaDFlOThrbjJ6d0xtUQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">「ワシにはワシの人生がある」広島の有名人だったあの「広島太郎さん」 友人が捉えた10年、中区で写真展 - chugoku-np.co.jp</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMidkFVX3lxTE9laVdhZDhVVmNtREZ3UGRJTmhsTVBPWDZZUVBGcXh5NTU1WHVtMUtGY2N6cFBsX0tUYzVtMnB3aFNvZ05XRFlKNWdVNm54NkdBVGV4NXh1bS1SUEdwdHlPcHZDbHRZVmtDQ0JlMjkwMUZJQTFzNnc?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">副首都構想レースに参戦意向の横田広島県知事 慎重姿勢の松井広島市長との「温度差」 - 産経ニュース</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTFA2N1RrMDRlM215WlBQTlkxcWY0dDJYSi1adDhRbHlIcUhmZWc2WTlGTVRPVk1ISGRVdERqSjNuRnNkVU0xcnQ3Q3RZdUdzWEhIX29ReUxSM04tTDY4UmJVdDdRemlDNzJSd2d5M0pVQk40WjJ0LWo4RmNENGdUaUk?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">原爆資料館で見学中の女性を殴った疑いで、逮捕送検された女性（３３）を不起訴処分「情状全般を考慮」広島（テレビ新広島） - Yahoo!ニュース</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE80S2ZTYjZpQ01nZURrU1NpRXBEYWJfUEI1Q2FGTEZuUDZxeFgzaEh3R3RrU1AtWXZOTkRoWVI5ZHRaQWdRekJXTDRWR2ppdHJEaHBDeW5tUVVEdw?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島県警、指定暴力団共政会本部を家宅捜索 恐喝容疑の組長から30万円流れたか - chugoku-np.co.jp</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE01T0VzS01uTzhvOEMyYnlCN2xsb1dFaWVib2tvRUZJYTYxMlF6Z29yMWVaUEVzMElHTlNmMFhuTlREZDJQc3BFOHNncVZ4SDJnUTlqNFBNcDNQaGRDbzA1eE45eEZwT3F1RzQ1ZzBHRVdTSHpZT1E2ZlZMd0x1OGc?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">指定暴力団「共政会」本部を家宅捜索 「お前こっから帰らせんど」現金30万円脅し取った疑いで傘下の暴力団組長（54）を逮捕 広島（RCC中国放送） - Yahoo!ニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE95X2gxYTNlMi1LME9RTXlXYS00YmFjWGRaczFzdUUtUUp2TUt6UDR4TUMwT0Q3bi1DdjhTUURKbUpUOTNmSE55UVpPZm1zYWJscnVHcGN6SEViUWhLUEU1TXE5RE5HazVybkJPU2Z2OV8xZFRwdkprRnc0R3REZ3M?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島 小園海斗、矢野雅哉ら４選手に戦力外通告 小園は「信頼できないと言われたんで」矢野「野球を続けたい、現役としてやっていきたい」（デイリースポーツ） - news.yahoo.co.jp</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBLdE9EOVZ0X21jd0xNRXZZcFZkRjE1OE1PRVZLQ19hVTJKU0o5M040YTROWWVXTzRDcGVJYXBNN1hESDlIcThTN1BDVklwdWc3TmpjSmdWYmdXYUwwb0Y3ejJJOEcxWTA?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">プロ野球・広島が小園ら4選手に戦力外通告「ゾンビたばこ」問題波及 - 朝日新聞</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiekFVX3lxTE1laUZYN2t0OFJGR2h3alRKN2s4Mko3U1pOYlZfX1hSNUdSVnFuWHJ2R1NNbVFqbWQ0c1FNcWx2NzhYTmN6dVVycUNMRzJsMnd0X082dUJ3cklKdEJhUkdJWl9FTEhsNVowcEFRN0dmUXJaYWVMbVRDbGdn0gF_QVVfeXFMTU82QUwzV3ZqdmVYcHlDMktlWnZvZzREakJhRnZVM0J4MktBdVZhbFBuRVVZeW9DRWdOTjItZFFZMXlqb2ZhYzBGcmVuUlh5c1phT1N6V1ZoUUxwbUNMNVpuSHlNUy1ZTjI1bjJod1RDWFRsbGh0Z09IZ040VWlHMA?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島・新井監督「子を持つ親として、彼らのことを考えるとすごく苦しくなります」　小園ら４選手戦力外に「温かい目で見守ってあげてほしい」 - ｄメニューニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE4yNjJ2VVJJMngteFpOcG1JUkVvNUt4V2tmZ3Jjd1h2VTlCb3VaR2dMMHR2aXJaMmJCcml4bzhadDFvRXRiSVRsQ0FCdjRWLTFFQ1pMR2VtYWRtM2RoNHBhczFxTTVJSjh6MGM4Xw?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島新アリーナ「民間が建設し行政に寄付」軸に 年160万人想定 - 日本経済新聞</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTFBwN0tmMEFjVm80UXNVTTZDRUUwVE1leEJOQXFPWGZLbjdBUlBWUDg0NGI1em8wS2dTQjNVYTB5R2p2VkV0SlZXWl8yM3lJM1RvQXhrWDFIQmxqaWoyZk1KMzUzdjNLQXdlTERNbDhRTmp0ZXlNZkpMZlMxZ1plX1k?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">ＪＲ広島駅前に１万人規模の新アリーナ整備へ…大規模なライブなど開催可能に、２０３１年開業目指す（読売新聞オンライン） - news.yahoo.co.jp</a></li>
 </ul>
 </details>
 <details><summary>💰 経済・ビジネス</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6597141?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">大企業製造業 景況感6期連続改善</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6597129?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">ニデック極まる混乱 再生不透明</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6597077?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">ニデック25年度決算 5646億円赤字</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6597133?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">トヨタ 祝日勤務の業界慣行見直し</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6597045?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">飲食料品値上げ 10月は3153品目</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6597228?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">東海汽船に3隻の使用停止処分へ</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6597241?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">トイザらス立て直し 成否のカギは</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6597211?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">青森秋田岩手の3銀行 統合協議へ</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6597183?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">ニデック 上場維持できるかが焦点</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6597190?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">フラット35 金利3.830%で過去最高</a></li>
 </ul>
 </details>
 <details><summary>💻 テクノロジー</summary><ul style="list-style-type: none; padding: 0;">
@@ -140,13 +140,13 @@ American, 1850–1913</span></p>
 </ul>
 </details>
 <details><summary>🚨 国内・社会</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6597135?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">農相 地元自治体の予算カット発言</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6597134?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">首相の所信表明演説 原案が判明</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6597124?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">台風が関東接近へ 千葉は大雨恐れ</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6597105?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">麻生氏 土地3カ所の資産報告せず</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6597116?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">立憲が党本部フロア縮小へ 財政難</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6597225?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">台風27号 4日～小笠原近海北上か</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6597247?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">首相 減税は価格反映されると認識</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6597165?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">食料品の消費減税法案 概要判明</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6597229?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">政府 ロシアへの追加制裁を検討</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6597159?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">自民生稲・朝日氏 公選法違反疑い</a></li>
 </ul>
 </details>
 
 ---
-<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 09:53</p>
+<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 10:10</p>
