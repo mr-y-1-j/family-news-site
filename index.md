@@ -1,8 +1,8 @@
-# 🏡 Family Portal 10/29
+# 🏡 Family Portal 10/30
 
 <div style="display: flex; gap: 10px; font-weight: bold; background: #f0f0f0; padding: 10px; border-radius: 5px;">
-  <span>⛅ 広島: 晴れ</span>
-  <span>📈 日経: 64,683円 | USD: 157.87円</span>
+  <span>⛅ 広島: 雨</span>
+  <span>📈 日経: 63,034円 | USD: 157.41円</span>
 </div>
 
 
@@ -50,7 +50,7 @@ function drawOmikuji() {
       <text x="50" y="85" font-size="10" text-anchor="middle" font-weight="bold">6</text>
       <text x="20" y="54" font-size="10" text-anchor="middle" font-weight="bold">9</text>
       
-      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(210.0 50 50)" />
+      <line x1="50" y1="50" x2="50" y2="25" stroke="#e74c3c" stroke-width="4" stroke-linecap="round" transform="rotate(330.0 50 50)" />
       <line x1="50" y1="50" x2="50" y2="15" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" transform="rotate(0 50 50)" />
       <circle cx="50" cy="50" r="3" fill="#333" />
     </svg>
@@ -58,7 +58,7 @@ function drawOmikuji() {
       <br><br>
       <details>
         <summary style="cursor: pointer; background: #1abc9c; color: white; padding: 8px 15px; border-radius: 20px; display: inline-block;">こたえをみる</summary>
-        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">7じ 0ふん</p>
+        <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-top: 10px;">11じ 0ふん</p>
       </details>
     </div>
     </div>
@@ -69,37 +69,37 @@ function drawOmikuji() {
 
 ## 📰 詳しく見る
 <details><summary>🍁 広島のニュース</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMic0FVX3lxTFB1czFoaFV0TkFfYVpkY2ExZThTc2MzcDkxZFhYTlhwRWlCak9MTENVdWgyZ1FDN2dNSXd4R1RJNG9IXzU4aGYzTTdCNzEzQzJ6ZVNpekZxN25lS0VYRktfcU1MaUVBVTJTYS0yRWVSMDRpRVE?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島 契約更改がスタート ４年目右腕・益田が１００万増１１００万円で更改「そろそろ（期待に）応えられるように」 - デイリースポーツ</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMihwFBVV95cUxOaDNLYVVmZlh3VlMwZU5USmhHOTJwc1cwNzhOeFRxZ0RkczBzOFhPM0ZkaEhFdzgyTjZOVHdwclhKTGZCMWFOdkJyd0l1WEQ0c2lVWXlJdlp2N2RKUEs5bTI5MjNaY3FsT3pLRFdoNk80Zm9adnBVMjQxY1NHLUZFQm5hck9mRnM?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">里親の虐待問題 再発防止策を検証部会が提言 広島（2026年10月28日掲載）｜広テレ！NEWS NNN - 日テレNEWS NNN</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE1PSVBYX3VJeS0xX3htQm05clZsVk9RQjI4RlNqNllFZTRCcXZyU2JNV2lLVS1iMXdfSW9GS2NNM0xnWVJ3dG1idi03YnUzZWN4b1hIN0pxUkk3cExRVkFyNHNWcy1oRjd0SndLQVp1dVJuXzBZZkRWVzF1SXMtQmM?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島・森下、ロッテ・小島、オリックス・中川らが今季国内FA権を取得 10月29日にFA申請がスタート（ベースボールキング） - Yahoo!ニュース</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE1HYnI0T19rcXAwdHF4aVlEV0VqV0c0SW5NNGZ4WFFYMmdQbjRzNTBJcU9LcjN6d1VjV3J4ZUZoWnBZSUo5d19zZjNwMmFDNjd4S011Rm5Bb2NXZVZlZ21z?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">プロ野球 きょうからFA宣言期間 広島3主力選手の去就に注目 - NHKニュース</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE5ORXFqNTR6NEpLMTN0RExTYm5WbVdVYVA2MDBURDE0bG1kREtFenIyYnc1TUh4LUVGbmd5eW13SVhMT3hDQ2VvVlgxUHpTdC05ZnZBbS1ON3JWX2doMVNvd2tnRWh3eXNNazA3M0ktZnFEU1U0T3REQWx3ZWNIRzQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">今オフのFA戦線が本格化！広島の主力トリオや筒香嘉智、髙橋光成らの動向に注目【主なFA有資格選手】（高校野球ドットコム） - Yahoo!ニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE0yRzlrTTllUlhfR2hseVc5QzJPRmpjSVY4VjVvY3d5Q19vamstQWUwUU5sYWpUbDdWR3F6dWhqU3UzSFEtS2pmeXE3b2g4bGtVaUg5cmxYTnltQi1qa3hWYmVGVFlhT2VEMGN3dnpoQU9OZUg1ajM1OUNlYTJVbkE?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島・床田寛樹は“男気”残留か「残るっしょ？」FA権取得の先輩投手２人への“引き留め工作”がブーメランに（週刊女性PRIME） - Yahoo!ニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiUEFVX3lxTE1fVF9RREtTdUFTYzF3NV9HMVVaUVhXaUtGeEhkaTE4WllWVTczcHdXblFXNVRiYlpmNUxEMGwzTDVTM1hPekRabXg4dU8wSWN5?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">小川淳司氏 編成担当就任記者会見！ - 広島東洋カープ公式サイト</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMigAFBVV95cUxOTGRMMnl3aFNzaTAyaFcxRmhNekFGaFI4Tk9IUnBaM25laGRrNXByTDgybTZseVpwbWplLUVIOEROT2VkQmNyWjE0NTcxRTlUczMxdTM3aUpRRDYyWFB6aFJBYkdWNmJtcW5XaUhvemstUHNxNlV6cGZKbWtvdXhmOdIBhgFBVV95cUxNUjNRRUVMeHowSk5XTDhJZmRsbnJQcnp2SkRLMHdHcDZLb2FtNUtxNmZJX3FRNFROTmJTbEx0ZG50QXV4SGxQdHNLV2FybDUtVDdGS21za3pvcnNLMTZrZGJ4bldrZHBNV0NTdnlpRVlzSllOb3k5Y3BQd0NMNWVDZFlsY1pMUQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島市植物公園　キク展 - ｄメニューニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE45TERJMjMzeUxoVzlId0NWRy1tWTd4NDFiTnYxSDRWaVdUclVVNnZFQ0lRdzdEeGFwR1h6RzVvRFcxUnBoNEVaMWI2U2hDOFVWQzljZmRpcHYtbVBGRzd3RGVSSTc1Y0ZH?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">元プロ野球・広島投手、池谷公二郎さん死去 74歳 初優勝に貢献 - 毎日新聞</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE9EbGdNeHNkVi16QXlsUm9iZjBKTVllcjZhT3pJal8zUlUzelZhSnhXQ1M2MVlWdVB5cjNTZmd6aXpxSXR1OURRZzRjcDdsd0w4WENodHd6b1lpQ2VwMlRN?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">プロ野球 広島元投手 池谷公二郎さん死去 広島の黄金期支える - NHKニュース</a></li>
 </ul>
 </details>
 <details><summary>💰 経済・ビジネス</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6600510?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">米FRBが政策金利を据え置き</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6600452?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">プルデンシャル 新たな不正事案</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6600474?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">「千鳥饅頭」千鳥屋本家が破産へ</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6600504?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">本や雑誌発売日 大阪も1日遅れに</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6600444?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">キッチンタイマーを回収 TDR運営</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6600561?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">ANA AIRDOなど完全子会社化へ</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6600623?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">欧州中銀 2会合ぶり金利据え置き</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6600594?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">中部電 27年3月期の特損3800億円</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6600589?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">11月電気代 大手7社で過去最高値</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6600657?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">のぞみ1hで14本運行目指す JR</a></li>
 </ul>
 </details>
 <details><summary>💻 テクノロジー</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6600494?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">GMO脅迫サイト 国が遮断を要請</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6600483?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">GMO懸賞金 6hで113件の情報提供</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6600424?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">GMOへの「劇場型」攻撃 狙いは</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6600364?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">GMO攻撃 被害者は「恐怖しか」</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6600375?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">サイバー攻撃 サイト経由型が急増</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6600644?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">情報漏えい 4月以降延べ2.6億人分</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6600574?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">コミックシーモア 一部再開を発表</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6600552?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">四足歩行モビリティ 実用化の壁</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6600531?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">GMOサイバー攻撃 捜査の焦点は</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6600536?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">GMO社長「犯人特定の有力情報」</a></li>
 </ul>
 </details>
 <details><summary>🚨 国内・社会</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6600518?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">燃料油補助 予算累計10兆円超に</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6600506?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">教員「特別免許」の基準明確化へ</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6600505?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">多くで今季一冷え込み 東京10℃台</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6600480?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">中道代表 政党交付金の使途を回答</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6600466?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">武部農相 衆院選の人件費巡り疑惑</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6600646?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">全国的に大気不安定 急な雷雨注意</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6600631?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">ガソリン補助金 12月から段階縮小</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6600608?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">電気ガス代補助 12月-来年2月実施</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6600526?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">衆院比例議席減 自維国が正式合意</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6600604?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">高市首相のX投稿800件超 傾向は</a></li>
 </ul>
 </details>
 
 ---
-<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 10:21</p>
+<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 10:24</p>
