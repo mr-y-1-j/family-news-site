@@ -1,8 +1,8 @@
-# 🏡 Family Portal 11/10
+# 🏡 Family Portal 11/11
 
 <div style="display: flex; gap: 10px; font-weight: bold; background: #f0f0f0; padding: 10px; border-radius: 5px;">
   <span>⛅ 広島: 晴れ</span>
-  <span>📈 日経: 60,081円 | USD: 157.93円</span>
+  <span>📈 日経: 60,877円 | USD: 158.91円</span>
 </div>
 
 
@@ -69,37 +69,37 @@ function drawOmikuji() {
 
 ## 📰 詳しく見る
 <details><summary>🍁 広島のニュース</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE5RcVR2QU41QjdKWnNEcFMwcldmWnBGaVBxOThieFVWQ3hybkdsWkNzbTI4UUxTOElqbTlOcGlJbjNXay1NaldOS2t0d1pNZmtCN211VGFldnNSMjdsSFo1eXN5X29LekJuTHE1VnRMal9seGx2V2RaSE41dE5vYUE?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">「カープあたりなんかなって想像してるけど…」トライアウト不参加組にファン熱視線 中日3年で戦力外の25歳内野手に「二遊間守れて、右打ちの選手は貴重」（CoCoKARAnext） - Yahoo!ニュース</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMigwFBVV95cUxQT0dUemxyQUV5bHhZOE9CS1h0VXQtYktZTGhOQmpWdWVnS3kyaGN2eGlxVjkxeGMwYWJHZ1R2RkNXMUN0cHhERWxWY3BiOHhhLXM0ZzRtQk9DdlZ3M2RyWldZd1ZJdHh3U3pEc3NIcGQ5SXdub2R5R0QxMDJiNGdlSUtaRQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">ＳＴＵ４８が１日店長 ファミリーマート地域密着企画 広島（広島ホームテレビ） - ｄメニューニュース</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTFBFUlJUc2VUeXpqQ2o1MlRaZDB1VFhrUUFoNW82dGZxOUM3ak1OZWxKd1ZqVklLRlgwWGhNb0dlQThhTDFsVDdPQlVmNXBxMFVmSVRhdng0SXdhdTZqU0hjNlJ0UnN6eFg1NElqWTRrdGhWcVUxZU1PWmhYUElKZGM?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【広島】球団史上初のＦＡ補強なるか 楽天・太田光を獲得調査 広陵出身の強肩捕手 １１日の交渉解禁に備えて準備 - Yahoo!ニュース</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE55Q2UwWkdPRHdtN3FCd1Zvb254V2FHSEZMS0RlcFo3b2ZDRWJoaXV3TlJhOW5NVlZURnRuUWRqNW9FVy1UcU1oMU14TFVfcEdraExWckJ0UXdWU0pJWnd6VkN4U0VvaURQU0ZzdjBUczJJUTJ0eWtkRVc0dGl6SEE?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【広島】国内ＦＡ権行使の楽天・太田光を獲得調査…球団首脳が明言「キャリアのある捕手が必要。現場からの声もあった」ＦＡ選手獲得なら球団史上初（スポーツ報知） - Yahoo!ニュース</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE84VXl0TExZeGl4NjJnRDdwYWtMRjRfZVBWc2ZLNjZZNi1YUGQ1US1ib054NlJmSHd1REthUXQxeW5ISVVJUjFDc2U3QU9VYVJKQy1zMTRUTE5kdDFJOFhBQUFDRk5uOFAx?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島がＦＡ権行使の楽天・太田光捕手を獲得調査へ、今季１００試合に出場…「うちにフィットする」と球団首脳 - 読売新聞</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiS0FVX3lxTFBreTBUTXQwSVlPSmZVc3BlNmlUSXVmMW1FN0tIOVdvUGt3bFo2YlJpeEdRSjZUNWtCb2VXYktJYmpLQTNGR3UtSDFyOA?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島で事業承継やM&A考えるフォーラム ドラゴンフライズの社長、事例発表 - 47NEWS</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE1iLTZ4UGNZOFItYXJoRFpGel8tMnRreEkxdU1YLWZQemFING1oS2htNHVjRFRoZEF1SHJTM29Qc1h5M1hpdHVBdm84QUJWaWFXWk8ySjdkNjRuejhfSEx5bEVRQS1sVG1Ld1E?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">【広島工業大学】大学・自治体・商業施設による産学官連携 「食」から考えるSDGsイベントを開催しました - PR TIMES</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE9GejNmeUFwUm1PcUQ2VGtsWXpPRnRWVjBWV2w5ZWh6QzNsNUgzbVZYVzFaM1lGLXJ6VS1TQmhtcEpOR3gtX19iNXIwQ3BrR3VXbFY1VFlzUFMwcG9wNHRnbDRPQ01NTTM1VDNmLXpHM0ptWWh6SE1oMldXUENnY1E?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島・中村奨成は３００万円減の２７００万円更改「金額に対して、言えることはないです」（デイリースポーツ） - Yahoo!ニュース</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMickFVX3lxTFBDNFphX0ozQkJwc1haUG12clI0MDM3NHRCXzdfSFRUaklXZEF1LTdQQWhURXBZVzVjQ3pqSER5QncxOTA1aVo4UFhRU2VMVzlFLW1TcTV1UGo3QTdQd0xWTnNVZ1hYcVQteFdfOEJiYmRTQQ?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島の中村奨成は３００万円減の２７００万円で契約更改…佐藤啓介は倍増の１４００万円 - 読売新聞</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxPM2JIRl90dHhtekxyRzgxZnF1dmd3M3lxTFdOZXAtUjk3aHZDcUFjRzZPOVJSNTRCNW1rT3piOGN4QWptbnVVdUVBcXFpckpHeE1MVkd0YlhFaWsyamVha2I1ejkyc3Y3R01XanppTjNxVXQ4QjdmdmJteHZ6NmYtem5xZzRfMWhZSEM2UGlLOA?oc=5" target="_blank" style="text-decoration: none; color: #0366d6;">広島 佐藤啓介が1400万円でサイン 「想像を超える自分へ」 バックスクリーン弾量産宣言 - スポニチ Sponichi Annex</a></li>
 </ul>
 </details>
 <details><summary>💰 経済・ビジネス</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6601981?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">個人向け国債人気 発行額8兆円超</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6601998?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">ホンダ 米オハイオ州に工場新設へ</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6601959?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">麻生コンクリ JIS認証取り消し</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6601941?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">NTT 保有するNEC全株売却を発表</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6601985?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">火葬料 公営と民間で大きな差</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6602117?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">障害者雇用ビジネス 登録制を検討</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6602099?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">タマホーム社員 保険金を不正請求</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6602072?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">SBGが7680億円の赤字 中間決算</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6602124?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">トヨタ 軽トラックを米国で販売へ</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6602095?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">もう終わりやで 明石ダコ深刻不漁</a></li>
 </ul>
 </details>
 <details><summary>💻 テクノロジー</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6602006?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">ホワイトハッカー 学生なぜ目指す</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6601969?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">VRで美少女化 30代男性の苦悩</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6601958?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">IPOに向けた準備に着手 サカナAI</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6601943?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">NTTなど5社 衛星連携へ協業検討</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6601934?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">ニトリ 最大3762万件の情報流出か</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6602126?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">前澤友作氏なぜ敗訴 詐欺広告裁判</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6602082?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">スマホ遠隔操作し詐欺疑い 逮捕</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6602077?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">日商簿記など 合否や得点が流出か</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6602104?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">証明書コンビニ交付で障害か 復旧</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6602054?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">ケンタ 一部メニュー画像にAI使用</a></li>
 </ul>
 </details>
 <details><summary>🚨 国内・社会</summary><ul style="list-style-type: none; padding: 0;">
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6601996?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">石破氏ら戒告の自民 引き締め躍起</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6601954?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">石破氏 戒告処分厳粛に受け止め</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6601976?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">石破前首相ら戒告処分 参院側不満</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6601979?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">自衛官定員削減 安保3文書明記へ</a></li>
-<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6601992?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">「国内間通信」も監視対象に 検討</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6602125?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">国際情勢は歴史的変革期 政府方針</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6602093?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">日中首脳会談 実現への調整不調</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6602083?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">自民・小渕氏ら 税調副会長を辞任</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6602107?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">小泉氏 首相総裁選出馬なら支える</a></li>
+<li style="margin-bottom: 8px; border-bottom: 1px dashed #ddd; padding-bottom: 4px;">📰 <a href="https://news.yahoo.co.jp/pickup/6602067?source=rss" target="_blank" style="text-decoration: none; color: #0366d6;">原子力潜水艦 導入視野に検討へ</a></li>
 </ul>
 </details>
 
 ---
-<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 12:52</p>
+<p style="text-align: right; color: #888; font-size: 0.8em;">Updated: 10:33</p>
